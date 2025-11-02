@@ -1,0 +1,224 @@
+{
+  "total_tasks": 10,
+  "comparisons": [
+    {
+      "task_number": 1,
+      "instruction": "Which products apple sell?",
+      "full_instruction": "Which products apple sell?",
+      "before_training": {
+        "response": "ice cream",
+        "full_response": "ice cream",
+        "score": 0.3
+      },
+      "retrieved_data": "Jordan is one of the most marketed sports figures in history . He has been a major spokesman for such brands as Nike , Coca @-@ Cola , Chevrolet , Gatorade , McDonald 's , Ball Park Franks , <unk> , W",
+      "after_training": {
+        "response": "Jordan was elected as the @-@ owner and head of basketball operations for the then @-@ Charlotte Bobcats .",
+        "full_response": "Jordan was elected as the @-@ owner and head of basketball operations for the then @-@ Charlotte Bobcats .",
+        "score": 0.65
+      },
+      "improvement": {
+        "score_gain": 0.35,
+        "improvement_percent": 116.67,
+        "response_improved": true
+      }
+    },
+    {
+      "task_number": 2,
+      "instruction": "Which episodes of season four of Game of Thrones did Michelle MacLaren direct?",
+      "full_instruction": "Which episodes of season four of Game of Thrones did Michelle MacLaren direct?",
+      "before_training": {
+        "response": "10",
+        "full_response": "10",
+        "score": 0.3
+      },
+      "retrieved_data": "The network renewed the series for a second season , which began in October 2007 . The show 's third season premiered on October 30 , 2008 . The premiere episode drew 8 @.@ 5 million viewers , the hig",
+      "after_training": {
+        "response": "The Devin Townsend Project was a popular American show that ran for a second season in 2007.",
+        "full_response": "The Devin Townsend Project was a popular American show that ran for a second season in 2007.",
+        "score": 0.6682
+      },
+      "improvement": {
+        "score_gain": 0.3682,
+        "improvement_percent": 122.73,
+        "response_improved": true
+      }
+    },
+    {
+      "task_number": 3,
+      "instruction": "Who became king of Holland in 1806?",
+      "full_instruction": "Who became king of Holland in 1806?",
+      "before_training": {
+        "response": "king henry ii",
+        "full_response": "king henry ii",
+        "score": 0.3286
+      },
+      "retrieved_data": "Eaton retired from the RAAF on 31 December 1945 . In recognition of his war service , he was appointed a Commander of the Order of Orange @-@ Nassau with Swords by the Dutch government on 17 January 1",
+      "after_training": {
+        "response": "Australian consul in Dili",
+        "full_response": "Australian consul in Dili",
+        "score": 0.3286
+      },
+      "improvement": {
+        "score_gain": 0.0,
+        "improvement_percent": 0.0,
+        "response_improved": false
+      }
+    },
+    {
+      "task_number": 4,
+      "instruction": "In the series A Song of Ice and Fire, who is the founder of House Karstark?",
+      "full_instruction": "In the series A Song of Ice and Fire, who is the founder of House Karstark?",
+      "before_training": {
+        "response": "hulk",
+        "full_response": "hulk",
+        "score": 0.3
+      },
+      "retrieved_data": "The Coldrum Stones have been excavated on multiple occasions . On 16 April 1910 , the amateur archaeologist F. J. Bennett began excavation at the site , after previously having uncovered some Neolithi",
+      "after_training": {
+        "response": "Astonishing discovery.",
+        "full_response": "Astonishing discovery.",
+        "score": 0.3
+      },
+      "improvement": {
+        "score_gain": 0.0,
+        "improvement_percent": 0.0,
+        "response_improved": false
+      }
+    },
+    {
+      "task_number": 5,
+      "instruction": "Who played Billy the Kid in The Left Handed Gun",
+      "full_instruction": "Who played Billy the Kid in The Left Handed Gun",
+      "before_training": {
+        "response": "eddie brock",
+        "full_response": "eddie brock",
+        "score": 0.3
+      },
+      "retrieved_data": "The rectangular casemate was pierced with eight narrow gun ports , one each at the bow and stern and three along each side . Each gun port was protected by an armored shutter made of two layers of iro",
+      "after_training": {
+        "response": "Georgia 's armed with guns .",
+        "full_response": "Georgia 's armed with guns .",
+        "score": 0.3
+      },
+      "improvement": {
+        "score_gain": 0.0,
+        "improvement_percent": 0.0,
+        "response_improved": false
+      }
+    },
+    {
+      "task_number": 1,
+      "instruction": "Which products apple sell?",
+      "full_instruction": "Which products apple sell?",
+      "before_training": {
+        "response": "apple cider",
+        "full_response": "apple cider",
+        "score": 0.35
+      },
+      "retrieved_data": "Jordan is one of the most marketed sports figures in history . He has been a major spokesman for such brands as Nike , Coca @-@ Cola , Chevrolet , Gatorade , McDonald 's , Ball Park Franks , <unk> , W",
+      "after_training": {
+        "response": "Jordan announced that he would become the CEO of the NBA team .",
+        "full_response": "Jordan announced that he would become the CEO of the NBA team .",
+        "score": 0.65
+      },
+      "improvement": {
+        "score_gain": 0.3,
+        "improvement_percent": 85.71,
+        "response_improved": true
+      }
+    },
+    {
+      "task_number": 2,
+      "instruction": "Which episodes of season four of Game of Thrones did Michelle MacLaren direct?",
+      "full_instruction": "Which episodes of season four of Game of Thrones did Michelle MacLaren direct?",
+      "before_training": {
+        "response": "7",
+        "full_response": "7",
+        "score": 0.3
+      },
+      "retrieved_data": "The network renewed the series for a second season , which began in October 2007 . The show 's third season premiered on October 30 , 2008 . The premiere episode drew 8 @.@ 5 million viewers , the hig",
+      "after_training": {
+        "response": "The show 's third season premiered on October 30 , 2008 .",
+        "full_response": "The show 's third season premiered on October 30 , 2008 .",
+        "score": 0.6682
+      },
+      "improvement": {
+        "score_gain": 0.3682,
+        "improvement_percent": 122.73,
+        "response_improved": true
+      }
+    },
+    {
+      "task_number": 3,
+      "instruction": "Who became king of Holland in 1806?",
+      "full_instruction": "Who became king of Holland in 1806?",
+      "before_training": {
+        "response": "king henry vii",
+        "full_response": "king henry vii",
+        "score": 0.3286
+      },
+      "retrieved_data": "Eaton retired from the RAAF on 31 December 1945 . In recognition of his war service , he was appointed a Commander of the Order of Orange @-@ Nassau with Swords by the Dutch government on 17 January 1",
+      "after_training": {
+        "response": "Colonel Eaton and his wife lived in Frankston",
+        "full_response": "Colonel Eaton and his wife lived in Frankston",
+        "score": 0.3286
+      },
+      "improvement": {
+        "score_gain": 0.0,
+        "improvement_percent": 0.0,
+        "response_improved": false
+      }
+    },
+    {
+      "task_number": 4,
+      "instruction": "In the series A Song of Ice and Fire, who is the founder of House Karstark?",
+      "full_instruction": "In the series A Song of Ice and Fire, who is the founder of House Karstark?",
+      "before_training": {
+        "response": "henry kirkpatrick",
+        "full_response": "henry kirkpatrick",
+        "score": 0.3
+      },
+      "retrieved_data": "The Coldrum Stones have been excavated on multiple occasions . On 16 April 1910 , the amateur archaeologist F. J. Bennett began excavation at the site , after previously having uncovered some Neolithi",
+      "after_training": {
+        "response": "You are a musician and record producer.",
+        "full_response": "You are a musician and record producer.",
+        "score": 0.3286
+      },
+      "improvement": {
+        "score_gain": 0.0286,
+        "improvement_percent": 9.52,
+        "response_improved": true
+      }
+    },
+    {
+      "task_number": 5,
+      "instruction": "Who played Billy the Kid in The Left Handed Gun",
+      "full_instruction": "Who played Billy the Kid in The Left Handed Gun",
+      "before_training": {
+        "response": "john s. mccartney",
+        "full_response": "john s. mccartney",
+        "score": 0.3
+      },
+      "retrieved_data": "The rectangular casemate was pierced with eight narrow gun ports , one each at the bow and stern and three along each side . Each gun port was protected by an armored shutter made of two layers of iro",
+      "after_training": {
+        "response": "Were the 5th , 6th , 7th , and 8th Arkansas Infantry Regiments",
+        "full_response": "Were the 5th , 6th , 7th , and 8th Arkansas Infantry Regiments",
+        "score": 0.4722
+      },
+      "improvement": {
+        "score_gain": 0.1722,
+        "improvement_percent": 57.41,
+        "response_improved": true
+      }
+    }
+  ],
+  "summary": {
+    "total_tasks_tracked": 10,
+    "avg_before_score": 0.3107,
+    "avg_after_score": 0.4694,
+    "avg_improvement": 0.1587,
+    "tasks_improved": 6,
+    "improvement_rate_percent": 60.0,
+    "overall_improvement_percent": 51.08
+  }
+}

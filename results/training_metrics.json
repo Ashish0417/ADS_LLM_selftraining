@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": 1762064504.6593935,
+    "iteration": 1,
+    "num_tasks": 5,
+    "total_api_cost": 5,
+    "avg_reward": 0.44935064935064933,
+    "completed_tasks": 5
+  },
+  {
+    "timestamp": 1762064513.8989556,
+    "iteration": 2,
+    "num_tasks": 5,
+    "total_api_cost": 5,
+    "avg_reward": 0.48950937950937945,
+    "completed_tasks": 5
+  }
+]

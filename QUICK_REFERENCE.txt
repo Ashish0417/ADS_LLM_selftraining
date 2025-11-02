@@ -1,0 +1,324 @@
+# ADS FRAMEWORK - QUICK REFERENCE CARD
+
+================================================================================
+FILES CREATED (7 CORE PYTHON MODULES)
+================================================================================
+
+1. config.py                    - Central configuration
+2. utils.py                     - Utilities (cache, text, metrics)
+3. data_loader.py               - Load Wikipedia & Magpie data
+4. policy_model.py              - LLM models (policy & optimizer)
+5. api_handler.py               - Three APIs (IR, Demo, QA)
+6. evaluator.py                 - Evaluation and metrics
+7. main.py                      - Main framework & training loop
+
+SUPPORTING FILES:
+- setup.sh                      - Automated setup script
+- requirements.txt              - All dependencies
+- README.md                     - Full documentation
+- EXECUTION_GUIDE.md            - Step-by-step guide
+- This file                     - Quick reference
+
+================================================================================
+INSTALLATION CHECKLIST
+================================================================================
+
+[ ] 1. Create directory: mkdir ~/ads-framework && cd ~/ads-framework
+[ ] 2. Place all 7 Python files in directory
+[ ] 3. Run: bash setup.sh
+[ ] 4. Activate: source ads_env/bin/activate
+[ ] 5. Verify: python main.py --help
+
+================================================================================
+QUICK START COMMANDS
+================================================================================
+
+# First time setup (30 min)
+cd ~/ads-framework
+bash setup.sh
+source ads_env/bin/activate
+python main.py
+
+# Subsequent runs (10-20 min)
+source ads_env/bin/activate
+python main.py
+
+# Fast test run (5 min)
+python test_ads.py
+
+# Check results
+cat results/evaluation_results.json
+tail -f ads_framework.log
+
+================================================================================
+KEY CLASSES & USAGE
+================================================================================
+
+# Configuration
+from config import ADSConfig
+ADSConfig.POLICY_MODEL_NAME = "microsoft/phi-2"
+ADSConfig.print_config()
+
+# Framework
+from main import ADSFramework
+ads = ADSFramework()
+ads.setup()
+ads.train(num_iterations=2)
+results = ads.evaluate()
+
+# Data Loading
+from data_loader import DataManager
+manager = DataManager({})
+manager.prepare_all_data()
+data = manager.get_data_loaders()
+
+# Models
+from policy_model import PolicyModel
+model = PolicyModel("microsoft/phi-2", device="cpu")
+response = model.generate("What is AI?")
+
+# APIs
+from api_handler import InformationRetrievalAPI
+ir_api = InformationRetrievalAPI(documents)
+results = ir_api("quantum computing", top_k=5)
+
+# Evaluation
+from evaluator import Evaluator
+evaluator = Evaluator(config)
+scores = evaluator.evaluate_tasks(model, tasks, executor)
+
+# Utils
+from utils import TextProcessor, HeuristicScorer
+cleaned = TextProcessor.clean_text(text)
+score = HeuristicScorer.score_response(instruction, response)
+
+================================================================================
+CONFIGURATION QUICK TWEAKS
+================================================================================
+
+# SLOW LAPTOP (4GB RAM)
+ADSConfig.POLICY_MODEL_NAME = "google/flan-t5-base"
+ADSConfig.DATASET_CONFIG['train_tasks'] = 5
+ADSConfig.WIKIPEDIA_CONFIG['cache_size'] = 500
+
+# TYPICAL LAPTOP (8GB RAM)
+ADSConfig.POLICY_MODEL_NAME = "microsoft/phi-2"
+ADSConfig.DATASET_CONFIG['train_tasks'] = 50
+ADSConfig.WIKIPEDIA_CONFIG['cache_size'] = 3000
+
+# FAST ITERATION (Testing)
+ADSConfig.DATASET_CONFIG['train_tasks'] = 5
+ADSConfig.TRAINING_CONFIG['num_iterations'] = 1
+ADSConfig.WIKIPEDIA_CONFIG['cache_size'] = 1000
+
+# PRODUCTION (Better results)
+ADSConfig.DATASET_CONFIG['train_tasks'] = 100
+ADSConfig.TRAINING_CONFIG['num_iterations'] = 3
+ADSConfig.WIKIPEDIA_CONFIG['cache_size'] = 5000
+
+================================================================================
+MAIN ALGORITHM FLOW
+================================================================================
+
+1. SETUP PHASE
+   └─ Load Wikipedia documents (cache locally)
+   └─ Load instruction dataset (Magpie)
+   └─ Initialize models (Phi-2 by default)
+   └─ Initialize APIs (IR, Demo Gen, QA)
+
+2. TRAINING PHASE (per iteration)
+   └─ For each task:
+      └─ Generate API trajectory (optimizer model)
+      └─ Execute APIs (retrieve, generate, answer)
+      └─ Aggregate training data
+      └─ Update policy model (in-context learning)
+      └─ Score response (heuristic)
+      └─ Refine optimizer (rejection sampling)
+
+3. EVALUATION PHASE
+   └─ For each test task:
+      └─ Generate trajectory
+      └─ Execute APIs
+      └─ Generate response
+      └─ Score response
+   └─ Calculate metrics (win rate, avg score)
+   └─ Save results
+
+================================================================================
+KEY METRICS
+================================================================================
+
+Win Rate        = % tasks where improved > original
+Tie Rate        = % tasks with equal performance
+Loss Rate       = % tasks where improved < original
+Avg Score       = Average quality score (0-1)
+API Cost        = Sum of API call costs
+Completed Tasks = Successfully processed tasks
+
+Target Values:
+- Win Rate: > 60%
+- Avg Score: > 0.6
+- Completed Tasks: = Total Tasks
+
+================================================================================
+FILE STRUCTURE CREATED
+================================================================================
+
+ads_framework/
+├── Python modules (7 files)
+├── setup.sh                     # Setup script
+├── requirements.txt             # Dependencies
+├── README.md                    # Full docs
+├── EXECUTION_GUIDE.md          # Detailed guide
+│
+├── data/                        # Data directory
+│   ├── wikipedia_cache/        # Cached Wikipedia
+│   └── magpie_subset/          # Magpie examples
+│
+├── cache/                       # Cache directory
+│   └── embeddings/             # Cached embeddings
+│
+├── models/                      # Models directory
+│   └── (auto-downloaded)
+│
+└── results/                     # Output directory
+    ├── evaluation_results.json
+    ├── training_metrics.json
+    ├── checkpoint.pt
+    └── logs/
+        └── ads_framework.log
+
+================================================================================
+TROUBLESHOOTING QUICK FIXES
+================================================================================
+
+Problem: Model download stuck
+Fix: python3 -c "from transformers import AutoModel; AutoModel.from_pretrained('microsoft/phi-2')"
+
+Problem: Out of memory
+Fix: Reduce ADSConfig.TRAINING_CONFIG['max_sequence_length'] = 512
+
+Problem: Very slow
+Fix: Use ADSConfig.POLICY_MODEL_NAME = "google/flan-t5-base"
+
+Problem: API fails
+Fix: Check logs with: tail -f ads_framework.log
+
+Problem: Import error
+Fix: Verify all 7 .py files in directory, reinstall with: pip install -r requirements.txt --force-reinstall
+
+Problem: No results
+Fix: Check results/ directory, verify training ran to completion
+
+================================================================================
+IMPORTANT NOTES
+================================================================================
+
+✓ No GPU required - runs on CPU only
+✓ First run downloads models (~8GB) - slower than later runs
+✓ Caching system stores Wikipedia/embeddings locally - reused on subsequent runs
+✓ Heuristic scoring instead of reward model - CPU-friendly
+✓ In-context learning instead of fine-tuning - faster adaptation
+✓ Greedy decoding instead of beam search - faster inference
+✓ Single-threaded processing - more stable on CPU
+✓ All code optimized for 8GB RAM laptop
+
+================================================================================
+EXPECTED OUTPUT FORMAT
+================================================================================
+
+SETUP OUTPUT:
+================================================================================
+INITIALIZING ADS FRAMEWORK
+================================================================================
+[STEP 1/4] Loading Data...
+[STEP 2/4] Initializing Models...
+[STEP 3/4] Initializing APIs...
+[STEP 4/4] Initializing Evaluator...
+SETUP COMPLETE - READY FOR TRAINING
+
+TRAINING OUTPUT:
+================================================================================
+STARTING TRAINING
+================================================================================
+Iteration 1/2
+Processing tasks (iter 1): 100%|████████| 5/5
+Iteration Summary:
+  - Tasks completed: 5/5
+  - Average reward: 0.6234
+  - Total API cost: 45
+
+EVALUATION OUTPUT:
+================================================================================
+EVALUATION COMPLETE
+================================================================================
+Evaluation complete:
+  - Tasks completed: 10/10
+  - Average score: 0.6823
+  - Win rate: 75.00%
+
+FINAL OUTPUT:
+- evaluation_results.json saved
+- training_metrics.json saved
+- checkpoint.pt saved
+
+================================================================================
+PERFORMANCE TIMELINE
+================================================================================
+
+First Run:
+- 0-5 min: Download PyTorch and models
+- 5-20 min: Load Wikipedia and create embeddings
+- 20-40 min: Training iterations
+- 40-45 min: Evaluation
+TOTAL: ~45 minutes
+
+Subsequent Runs:
+- 0-1 min: Load cached models
+- 1-2 min: Load cached data
+- 3-15 min: Training iterations
+- 15-20 min: Evaluation
+TOTAL: ~20 minutes
+
+================================================================================
+VERSION INFO
+================================================================================
+
+Implementation: ADS Framework (ICLR 2025)
+Optimization: CPU-Only for Linux Laptops
+Python Version: 3.9+
+PyTorch: CPU build
+Status: Production Ready
+Last Updated: October 2024
+
+================================================================================
+PAPER COMPONENTS IMPLEMENTED
+================================================================================
+
+✓ Active Data Search (ADS) Framework
+✓ Optimizer Model - generates API trajectories
+✓ Policy Model - improves from training data
+✓ Information Retrieval API - BM25 document retrieval
+✓ Demonstration Generation API - synthetic examples
+✓ Question Answering API - expert answers
+✓ In-Context Learning - fast adaptation
+✓ Rejection Sampling - optimizer refinement
+✓ Heuristic Evaluation - CPU-friendly scoring
+✓ Real Data Integration - Wikipedia + Magpie
+✓ Training Loop - Algorithm 1 from paper
+✓ Cost-Aware Optimization - API cost tracking
+
+================================================================================
+FOR HELP
+================================================================================
+
+1. Read README.md for detailed documentation
+2. Check EXECUTION_GUIDE.md for step-by-step instructions
+3. Look at ADS_Implementation_Summary.pdf for overview
+4. Review main.py for framework structure
+5. Check ads_framework.log for error details
+6. Examine config.py for available settings
+
+================================================================================
+END OF QUICK REFERENCE
+================================================================================

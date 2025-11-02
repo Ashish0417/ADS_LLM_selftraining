@@ -1,0 +1,32 @@
+{
+  "tasks_completed": 3,
+  "total_tasks": 3,
+  "average_score": 0.3356,
+  "win_rate": 0.0,
+  "task_results": [
+    {
+      "task_number": 1,
+      "instruction": "What is best Playstation or Xbox",
+      "full_instruction": "What is best Playstation or Xbox",
+      "response": "Playstation or Xbox?",
+      "full_response": "Playstation or Xbox?",
+      "score": 0.3667
+    },
+    {
+      "task_number": 2,
+      "instruction": "What is a kite?",
+      "full_instruction": "What is a kite?",
+      "response": "flying bird",
+      "full_response": "flying bird",
+      "score": 0.3
+    },
+    {
+      "task_number": 3,
+      "instruction": "Please summarize what Linkedin does.",
+      "full_instruction": "Please summarize what Linkedin does.",
+      "response": "LinkedIn is a social networking site.",
+      "full_response": "LinkedIn is a social networking site.",
+      "score": 0.34
+    }
+  ]
+}
