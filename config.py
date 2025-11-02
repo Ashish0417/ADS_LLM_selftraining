@@ -51,7 +51,8 @@ class ADSConfig:
     # ==================== DATASET CONFIGURATION ====================
     # Reduced dataset sizes for CPU laptop
     DATASET_CONFIG = {
-        "total_tasks": 100,  # Total instructions (was 10,239 in paper)
+        "total_tasks": 100,
+        'wiki_docs': 0,   # Total instructions (was 10,239 in paper)
         "train_tasks": 80,   # Training tasks
         "valid_tasks": 10,   # Validation tasks
         "test_tasks": 10,    # Test tasks

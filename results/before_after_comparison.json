@@ -3,60 +3,60 @@
   "comparisons": [
     {
       "task_number": 1,
-      "instruction": "Which products apple sell?",
-      "full_instruction": "Which products apple sell?",
+      "instruction": "When did Virgin Australia start operating?",
+      "full_instruction": "When did Virgin Australia start operating?",
       "before_training": {
-        "response": "ice cream",
-        "full_response": "ice cream",
+        "response": "18 May 2006",
+        "full_response": "18 May 2006",
         "score": 0.3
       },
-      "retrieved_data": "Jordan is one of the most marketed sports figures in history . He has been a major spokesman for such brands as Nike , Coca @-@ Cola , Chevrolet , Gatorade , McDonald 's , Ball Park Franks , <unk> , W",
+      "retrieved_data": "Virgin Australia, formerly known as Virgin Blue, is an Australian airline based in Brisbane, Queensland. It is one of two active airlines (the other being Virgin Atlantic) to use the Virgin brand, as ",
       "after_training": {
-        "response": "Jordan was elected as the @-@ owner and head of basketball operations for the then @-@ Charlotte Bobcats .",
-        "full_response": "Jordan was elected as the @-@ owner and head of basketball operations for the then @-@ Charlotte Bobcats .",
-        "score": 0.65
+        "response": "June 2020.",
+        "full_response": "June 2020.",
+        "score": 0.3
       },
       "improvement": {
-        "score_gain": 0.35,
-        "improvement_percent": 116.67,
-        "response_improved": true
+        "score_gain": 0.0,
+        "improvement_percent": 0.0,
+        "response_improved": false
       }
     },
     {
       "task_number": 2,
-      "instruction": "Which episodes of season four of Game of Thrones did Michelle MacLaren direct?",
-      "full_instruction": "Which episodes of season four of Game of Thrones did Michelle MacLaren direct?",
+      "instruction": "Which is a species of fish? Tope or Rope",
+      "full_instruction": "Which is a species of fish? Tope or Rope",
       "before_training": {
-        "response": "10",
-        "full_response": "10",
+        "response": "Rope",
+        "full_response": "Rope",
+        "score": 0.3222
+      },
+      "retrieved_data": "As of September 2016, the International Union for Conservation of Nature (IUCN) lists 9131 least concern fish species. 60% of all evaluated fish species are listed as least concern. \nThe IUCN also lis",
+      "after_training": {
+        "response": "Fishes",
+        "full_response": "Fishes",
         "score": 0.3
       },
-      "retrieved_data": "The network renewed the series for a second season , which began in October 2007 . The show 's third season premiered on October 30 , 2008 . The premiere episode drew 8 @.@ 5 million viewers , the hig",
-      "after_training": {
-        "response": "The Devin Townsend Project was a popular American show that ran for a second season in 2007.",
-        "full_response": "The Devin Townsend Project was a popular American show that ran for a second season in 2007.",
-        "score": 0.6682
-      },
       "improvement": {
-        "score_gain": 0.3682,
-        "improvement_percent": 122.73,
-        "response_improved": true
+        "score_gain": -0.0222,
+        "improvement_percent": -6.9,
+        "response_improved": false
       }
     },
     {
       "task_number": 3,
-      "instruction": "Who became king of Holland in 1806?",
-      "full_instruction": "Who became king of Holland in 1806?",
+      "instruction": "Why can camels survive for long without water?",
+      "full_instruction": "Why can camels survive for long without water?",
       "before_training": {
-        "response": "king henry ii",
-        "full_response": "king henry ii",
-        "score": 0.3286
+        "response": "Because they live in habitats that have no water.",
+        "full_response": "Because they live in habitats that have no water.",
+        "score": 0.3
       },
-      "retrieved_data": "Eaton retired from the RAAF on 31 December 1945 . In recognition of his war service , he was appointed a Commander of the Order of Orange @-@ Nassau with Swords by the Dutch government on 17 January 1",
+      "retrieved_data": "A camel (from Latin: camelus and Ancient Greek: \u03ba\u03ac\u03bc\u03b7\u03bb\u03bf\u03c2 (kam\u0113los) from Ancient Semitic: g\u0101m\u0101l) is an even-toed ungulate in the genus Camelus that bears distinctive fatty deposits known as \"humps\" on i",
       "after_training": {
-        "response": "Australian consul in Dili",
-        "full_response": "Australian consul in Dili",
-        "score": 0.3286
+        "response": "mph (62 kph) in a single lap.",
+        "full_response": "mph (62 kph) in a single lap.",
+        "score": 0.3
       },
       "improvement": {
         "score_gain": 0.0,
@@ -66,17 +66,17 @@
     },
     {
       "task_number": 4,
-      "instruction": "In the series A Song of Ice and Fire, who is the founder of House Karstark?",
-      "full_instruction": "In the series A Song of Ice and Fire, who is the founder of House Karstark?",
+      "instruction": "Alice's parents have three daughters: Amy, Jessy, and what\u2019s the name of the third daughter?",
+      "full_instruction": "Alice's parents have three daughters: Amy, Jessy, and what\u2019s the name of the third daughter?",
       "before_training": {
-        "response": "hulk",
-        "full_response": "hulk",
+        "response": "cybil",
+        "full_response": "cybil",
         "score": 0.3
       },
-      "retrieved_data": "The Coldrum Stones have been excavated on multiple occasions . On 16 April 1910 , the amateur archaeologist F. J. Bennett began excavation at the site , after previously having uncovered some Neolithi",
+      "retrieved_data": "Alice is a feminine first name with roots in the French and German languages.\n\n\n== Etymology ==\nAlice is a form of the Old French name Alis / Alys (older Alais), short form of Adelais, which is derive",
       "after_training": {
-        "response": "Astonishing discovery.",
-        "full_response": "Astonishing discovery.",
+        "response": "Alis",
+        "full_response": "Alis",
         "score": 0.3
       },
       "improvement": {
@@ -87,17 +87,17 @@
     },
     {
       "task_number": 5,
-      "instruction": "Who played Billy the Kid in The Left Handed Gun",
-      "full_instruction": "Who played Billy the Kid in The Left Handed Gun",
+      "instruction": "When was Tomoaki Komorida born?",
+      "full_instruction": "When was Tomoaki Komorida born?",
       "before_training": {
-        "response": "eddie brock",
-        "full_response": "eddie brock",
+        "response": "29 May 1982",
+        "full_response": "29 May 1982",
         "score": 0.3
       },
-      "retrieved_data": "The rectangular casemate was pierced with eight narrow gun ports , one each at the bow and stern and three along each side . Each gun port was protected by an armored shutter made of two layers of iro",
+      "retrieved_data": "Tomoaki Komorida (\u5c0f\u68ee\u7530 \u53cb\u660e, Komorida Tomoaki; born July 10, 1981) is a former Japanese football player.\n\n\n== Playing career ==\nKomorida was born in Kumamoto Prefecture on July 10, 1981. After graduating",
       "after_training": {
-        "response": "Georgia 's armed with guns .",
-        "full_response": "Georgia 's armed with guns .",
+        "response": "July 10, 1981",
+        "full_response": "July 10, 1981",
         "score": 0.3
       },
       "improvement": {
@@ -108,60 +108,18 @@
     },
     {
       "task_number": 1,
-      "instruction": "Which products apple sell?",
-      "full_instruction": "Which products apple sell?",
+      "instruction": "When did Virgin Australia start operating?",
+      "full_instruction": "When did Virgin Australia start operating?",
       "before_training": {
-        "response": "apple cider",
-        "full_response": "apple cider",
-        "score": 0.35
-      },
-      "retrieved_data": "Jordan is one of the most marketed sports figures in history . He has been a major spokesman for such brands as Nike , Coca @-@ Cola , Chevrolet , Gatorade , McDonald 's , Ball Park Franks , <unk> , W",
-      "after_training": {
-        "response": "Jordan announced that he would become the CEO of the NBA team .",
-        "full_response": "Jordan announced that he would become the CEO of the NBA team .",
-        "score": 0.65
-      },
-      "improvement": {
-        "score_gain": 0.3,
-        "improvement_percent": 85.71,
-        "response_improved": true
-      }
-    },
-    {
-      "task_number": 2,
-      "instruction": "Which episodes of season four of Game of Thrones did Michelle MacLaren direct?",
-      "full_instruction": "Which episodes of season four of Game of Thrones did Michelle MacLaren direct?",
-      "before_training": {
-        "response": "7",
-        "full_response": "7",
+        "response": "19 June 2003",
+        "full_response": "19 June 2003",
         "score": 0.3
       },
-      "retrieved_data": "The network renewed the series for a second season , which began in October 2007 . The show 's third season premiered on October 30 , 2008 . The premiere episode drew 8 @.@ 5 million viewers , the hig",
+      "retrieved_data": "Virgin Australia, formerly known as Virgin Blue, is an Australian airline based in Brisbane, Queensland. It is one of two active airlines (the other being Virgin Atlantic) to use the Virgin brand, as ",
       "after_training": {
-        "response": "The show 's third season premiered on October 30 , 2008 .",
-        "full_response": "The show 's third season premiered on October 30 , 2008 .",
-        "score": 0.6682
-      },
-      "improvement": {
-        "score_gain": 0.3682,
-        "improvement_percent": 122.73,
-        "response_improved": true
-      }
-    },
-    {
-      "task_number": 3,
-      "instruction": "Who became king of Holland in 1806?",
-      "full_instruction": "Who became king of Holland in 1806?",
-      "before_training": {
-        "response": "king henry vii",
-        "full_response": "king henry vii",
-        "score": 0.3286
-      },
-      "retrieved_data": "Eaton retired from the RAAF on 31 December 1945 . In recognition of his war service , he was appointed a Commander of the Order of Orange @-@ Nassau with Swords by the Dutch government on 17 January 1",
-      "after_training": {
-        "response": "Colonel Eaton and his wife lived in Frankston",
-        "full_response": "Colonel Eaton and his wife lived in Frankston",
-        "score": 0.3286
+        "response": "January 2019.",
+        "full_response": "January 2019.",
+        "score": 0.3
       },
       "improvement": {
         "score_gain": 0.0,
@@ -170,55 +128,97 @@
       }
     },
     {
-      "task_number": 4,
-      "instruction": "In the series A Song of Ice and Fire, who is the founder of House Karstark?",
-      "full_instruction": "In the series A Song of Ice and Fire, who is the founder of House Karstark?",
+      "task_number": 2,
+      "instruction": "Which is a species of fish? Tope or Rope",
+      "full_instruction": "Which is a species of fish? Tope or Rope",
       "before_training": {
-        "response": "henry kirkpatrick",
-        "full_response": "henry kirkpatrick",
-        "score": 0.3
+        "response": "Rope",
+        "full_response": "Rope",
+        "score": 0.3222
       },
-      "retrieved_data": "The Coldrum Stones have been excavated on multiple occasions . On 16 April 1910 , the amateur archaeologist F. J. Bennett began excavation at the site , after previously having uncovered some Neolithi",
+      "retrieved_data": "As of September 2016, the International Union for Conservation of Nature (IUCN) lists 9131 least concern fish species. 60% of all evaluated fish species are listed as least concern. \nThe IUCN also lis",
       "after_training": {
-        "response": "You are a musician and record producer.",
-        "full_response": "You are a musician and record producer.",
-        "score": 0.3286
+        "response": "List of least concern fish species and subspecies",
+        "full_response": "List of least concern fish species and subspecies",
+        "score": 0.3444
       },
       "improvement": {
-        "score_gain": 0.0286,
-        "improvement_percent": 9.52,
+        "score_gain": 0.0222,
+        "improvement_percent": 6.9,
         "response_improved": true
       }
     },
     {
-      "task_number": 5,
-      "instruction": "Who played Billy the Kid in The Left Handed Gun",
-      "full_instruction": "Who played Billy the Kid in The Left Handed Gun",
+      "task_number": 3,
+      "instruction": "Why can camels survive for long without water?",
+      "full_instruction": "Why can camels survive for long without water?",
       "before_training": {
-        "response": "john s. mccartney",
-        "full_response": "john s. mccartney",
+        "response": "tetrahedron",
+        "full_response": "tetrahedron",
         "score": 0.3
       },
-      "retrieved_data": "The rectangular casemate was pierced with eight narrow gun ports , one each at the bow and stern and three along each side . Each gun port was protected by an armored shutter made of two layers of iro",
+      "retrieved_data": "A camel (from Latin: camelus and Ancient Greek: \u03ba\u03ac\u03bc\u03b7\u03bb\u03bf\u03c2 (kam\u0113los) from Ancient Semitic: g\u0101m\u0101l) is an even-toed ungulate in the genus Camelus that bears distinctive fatty deposits known as \"humps\" on i",
       "after_training": {
-        "response": "Were the 5th , 6th , 7th , and 8th Arkansas Infantry Regiments",
-        "full_response": "Were the 5th , 6th , 7th , and 8th Arkansas Infantry Regiments",
-        "score": 0.4722
+        "response": "30 mph (43 kph) in long bursts.",
+        "full_response": "30 mph (43 kph) in long bursts.",
+        "score": 0.325
       },
       "improvement": {
-        "score_gain": 0.1722,
-        "improvement_percent": 57.41,
+        "score_gain": 0.025,
+        "improvement_percent": 8.33,
         "response_improved": true
+      }
+    },
+    {
+      "task_number": 4,
+      "instruction": "Alice's parents have three daughters: Amy, Jessy, and what\u2019s the name of the third daughter?",
+      "full_instruction": "Alice's parents have three daughters: Amy, Jessy, and what\u2019s the name of the third daughter?",
+      "before_training": {
+        "response": "amy",
+        "full_response": "amy",
+        "score": 0.3
+      },
+      "retrieved_data": "Alice is a feminine first name with roots in the French and German languages.\n\n\n== Etymology ==\nAlice is a form of the Old French name Alis / Alys (older Alais), short form of Adelais, which is derive",
+      "after_training": {
+        "response": "Alis",
+        "full_response": "Alis",
+        "score": 0.3
+      },
+      "improvement": {
+        "score_gain": 0.0,
+        "improvement_percent": 0.0,
+        "response_improved": false
+      }
+    },
+    {
+      "task_number": 5,
+      "instruction": "When was Tomoaki Komorida born?",
+      "full_instruction": "When was Tomoaki Komorida born?",
+      "before_training": {
+        "response": "10 May 1983",
+        "full_response": "10 May 1983",
+        "score": 0.3
+      },
+      "retrieved_data": "Tomoaki Komorida (\u5c0f\u68ee\u7530 \u53cb\u660e, Komorida Tomoaki; born July 10, 1981) is a former Japanese football player.\n\n\n== Playing career ==\nKomorida was born in Kumamoto Prefecture on July 10, 1981. After graduating",
+      "after_training": {
+        "response": "July 10, 1981",
+        "full_response": "July 10, 1981",
+        "score": 0.3
+      },
+      "improvement": {
+        "score_gain": 0.0,
+        "improvement_percent": 0.0,
+        "response_improved": false
       }
     }
   ],
   "summary": {
     "total_tasks_tracked": 10,
-    "avg_before_score": 0.3107,
-    "avg_after_score": 0.4694,
-    "avg_improvement": 0.1587,
-    "tasks_improved": 6,
-    "improvement_rate_percent": 60.0,
-    "overall_improvement_percent": 51.08
+    "avg_before_score": 0.3044,
+    "avg_after_score": 0.3069,
+    "avg_improvement": 0.0025,
+    "tasks_improved": 2,
+    "improvement_rate_percent": 20.0,
+    "overall_improvement_percent": 0.82
   }
 }
