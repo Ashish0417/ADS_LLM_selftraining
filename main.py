@@ -1,6 +1,6 @@
-# main_INTEGRATED_FINAL.py
-# COMPLETE INTEGRATED ADS FRAMEWORK
-# With Advanced Retrieval Engine (Multi-Stage Pipeline)
+# main_WITH_ENHANCED_TRACKING.py
+# UPDATED MAIN - Uses Enhanced Response Tracking
+# Produces detailed before/after JSON like your example
 
 import logging
 import os
@@ -13,11 +13,11 @@ from pathlib import Path
 # Import components
 from config import ADSConfig
 from utils import DataCache, MetricsLogger, ProgressTracker, save_json, load_json
-from data_loader import DataManager
+from data_loader import DataManager  # ← Use Dolly loader
 from policy_model import ModelManager
-from retrieval_engine import AdvancedRetrievalEngine  # ← NEW: Advanced retrieval
+from retrieval_engine import AdvancedRetrievalEngine
 from evaluator import Evaluator
-from response_tracker import ResponseTracker
+from response_tracker import ResponseTracker  # ← Use enhanced tracker
 
 logger = logging.getLogger(__name__)
 
@@ -56,16 +56,10 @@ class APIExecutor:
             return {'collected_data': '', 'total_cost': 0, 'api_calls': []}
 
 
-class ADSFrameworkIntegrated:
+class ADSFrameworkWithEnhancedTracking:
     """
-    Active Data Search Framework - INTEGRATED with Advanced Retrieval
-    
-    Features:
-    ✅ Advanced multi-stage retrieval (Entity Linking + BM25 + Dense + Cross-Encoder)
-    ✅ On-demand Wikipedia fetching
-    ✅ 95%+ precision for entity questions
-    ✅ Memory-efficient
-    ✅ Production-ready
+    ADS Framework with Enhanced Before/After Tracking
+    Produces detailed JSON comparisons for each task
     """
     
     def __init__(self, config: ADSConfig = None):
@@ -83,7 +77,7 @@ class ADSFrameworkIntegrated:
         self.response_tracker = None
         
         logger.info("=" * 80)
-        logger.info("INITIALIZING ADS FRAMEWORK - INTEGRATED")
+        logger.info("INITIALIZING ADS FRAMEWORK - WITH ENHANCED TRACKING")
         logger.info("=" * 80)
         config.print_config()
     
@@ -106,10 +100,10 @@ class ADSFrameworkIntegrated:
         logger.info("=" * 80 + "\n")
     
     def _setup_data(self):
-        """Setup data (no pre-downloaded Wikipedia needed!)"""
+        """Setup data with Dolly tasks"""
         config_dict = {
             'dataset_config': self.config.DATASET_CONFIG,
-            'wiki_docs': 0,  # Zero - on-demand fetching only
+            'wiki_docs': 0,
             'magpie_tasks': self.config.DATASET_CONFIG.get('total_tasks', 100),
         }
         
@@ -117,7 +111,7 @@ class ADSFrameworkIntegrated:
         self.data_manager.prepare_all_data()
         self.data_loaders = self.data_manager.get_data_loaders()
         
-        logger.info("✓ Data loaded (Wikipedia: ON-DEMAND)")
+        logger.info("✓ Data loaded (Dolly tasks)")
     
     def _setup_models(self):
         """Setup LLM models"""
@@ -136,15 +130,12 @@ class ADSFrameworkIntegrated:
     
     def _setup_retrieval_engine(self):
         """Setup Advanced Retrieval Engine"""
-        # Initialize with all stages enabled
         self.retrieval_engine = AdvancedRetrievalEngine(
-            use_cross_encoder=True,  # Enable BERT re-ranking
-            use_dense=True           # Enable semantic ranking
+            use_cross_encoder=True,
+            use_dense=True
         )
         
-        # Create executor
         self.api_executor = APIExecutor(self.retrieval_engine)
-        
         logger.info("✓ Advanced Retrieval Engine initialized")
     
     def _setup_evaluator(self):
@@ -153,18 +144,18 @@ class ADSFrameworkIntegrated:
         logger.info("✓ Evaluator initialized")
     
     def train(self, num_iterations: int = None):
-        """Main training loop with Advanced Retrieval"""
+        """Main training loop with detailed tracking"""
         if num_iterations is None:
             num_iterations = self.config.TRAINING_CONFIG['num_iterations']
         
         logger.info("\n" + "=" * 80)
-        logger.info("STARTING TRAINING - ADVANCED RETRIEVAL ENGINE")
+        logger.info("STARTING TRAINING - WITH ENHANCED TRACKING")
         logger.info("=" * 80 + "\n")
         
         # Initialize trackers
         log_file = os.path.join(self.config.RESULTS_DIR, "training_metrics.json")
         self.metrics_logger = MetricsLogger(log_file)
-        self.response_tracker = ResponseTracker()
+        self.response_tracker = ResponseTracker()  # ← Enhanced tracker
         
         train_tasks = self.data_loaders['train'][:5]  # Use subset
         
@@ -186,6 +177,11 @@ class ADSFrameworkIntegrated:
             for task_idx, task in enumerate(train_tasks):
                 try:
                     instruction = task.get('instruction', '')
+                    context = task.get('context', '')
+                    
+                    # Combine instruction and context
+                    full_instruction = f"{instruction}\n{context}" if context else instruction
+                    
                     logger.info(f"\n  Task {task_idx + 1}/{len(train_tasks)}: {instruction[:50]}...")
                     
                     # ============ CAPTURE BEFORE TRAINING ============
@@ -205,7 +201,6 @@ class ADSFrameworkIntegrated:
                     logger.info(f"  │ Query: {instruction[:70]}...")
                     
                     try:
-                        # Execute advanced retrieval
                         api_results = self.api_executor.execute_trajectory(
                             trajectory=None,
                             instruction=instruction
@@ -214,7 +209,6 @@ class ADSFrameworkIntegrated:
                         logger.error(f"Retrieval error: {e}")
                         api_results = {'collected_data': ''}
                     
-                    # Print retrieved data
                     collected_data = api_results.get('collected_data', '')
                     
                     logger.info(f"  │")
@@ -222,7 +216,6 @@ class ADSFrameworkIntegrated:
                     logger.info(f"  │ {'-' * 74}")
                     
                     if collected_data:
-                        # Show first 500 chars
                         display_text = collected_data[:500]
                         if len(collected_data) > 500:
                             display_text += "..."
@@ -232,10 +225,9 @@ class ADSFrameworkIntegrated:
                                 wrapped_line = line[:72] if len(line) <= 72 else line[:69] + "..."
                                 logger.info(f"  │ {wrapped_line}")
                     else:
-                        logger.info(f"  │ [No data retrieved - using baseline]")
+                        logger.info(f"  │ [No data retrieved]")
                     
                     logger.info(f"  │ {'-' * 74}")
-                    logger.info("  │")
                     logger.info("  │ [Updating policy with in-context learning...]")
                     logger.info("  └─" + "─" * 76 + "┘\n")
                     
@@ -255,17 +247,16 @@ class ADSFrameworkIntegrated:
                         improvement_percent = (improvement / max(before_score, 0.01)) * 100
                         
                         improvement_symbol = "⬆️" if improvement > 0 else "⬇️" if improvement < 0 else "→"
-                        logger.info(f"  │ {improvement_symbol} Improvement: {improvement:+.4f} ({improvement_percent:+.1f}%)")
+                        logger.info(f"  │ {improvement_symbol} Improvement: {improvement:+.4f} ({improvement_percent:+.2f}%)")
                         logger.info(f"  └─")
                     else:
-                        # Use baseline
                         after_response = before_response
                         after_score = before_score
                         logger.info(f"  ┌─ [AFTER Training - Baseline]")
                         logger.info(f"  │ (No retrieved data)")
                         logger.info(f"  └─")
                     
-                    # Track comparison
+                    # ============ TRACK COMPARISON (Enhanced format) ============
                     self.response_tracker.add_comparison(
                         task_number=task_idx + 1,
                         instruction=instruction,
@@ -273,7 +264,10 @@ class ADSFrameworkIntegrated:
                         before_score=before_score,
                         after_response=after_response,
                         after_score=after_score,
-                        retrieved_data=collected_data
+                        retrieved_data=collected_data,
+                        full_instruction=full_instruction,
+                        full_before_response=before_response,
+                        full_after_response=after_response
                     )
                     
                     iteration_metrics['total_api_cost'] += api_results.get('total_cost', 0)
@@ -299,7 +293,7 @@ class ADSFrameworkIntegrated:
             logger.info(f"    - Average reward: {iteration_metrics['avg_reward']:.4f}")
             logger.info(f"    - Total API cost: {iteration_metrics['total_api_cost']}")
         
-        # Save results
+        # Save results with enhanced format
         self.metrics_logger.save()
         self.response_tracker.save()
         self.response_tracker.print_summary()
@@ -352,7 +346,6 @@ class ADSFrameworkIntegrated:
             checkpoint = {
                 'model_name': self.policy_model.model_name,
                 'model_state': self.policy_model.model.state_dict() if hasattr(self.policy_model.model, 'state_dict') else None,
-                'iteration': getattr(self, 'current_iteration', 0),
             }
             
             torch.save(checkpoint, path)
@@ -363,7 +356,7 @@ class ADSFrameworkIntegrated:
     def run_full_pipeline(self):
         """Run complete pipeline"""
         logger.info("\n" + "=" * 80)
-        logger.info("RUNNING FULL ADS PIPELINE - INTEGRATED")
+        logger.info("RUNNING FULL ADS PIPELINE - WITH ENHANCED TRACKING")
         logger.info("=" * 80 + "\n")
         
         self.setup()
@@ -380,13 +373,12 @@ class ADSFrameworkIntegrated:
 
 def main():
     """Main entry point"""
-    ads = ADSFrameworkIntegrated(ADSConfig)
+    ads = ADSFrameworkWithEnhancedTracking(ADSConfig)
     results = ads.run_full_pipeline()
     return results
 
 
 if __name__ == "__main__":
-    import sys
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -401,7 +393,7 @@ if __name__ == "__main__":
     try:
         results = main()
         logger.info("SUCCESS: ADS Framework execution completed")
-        logger.info(f"Results saved to results/")
+        logger.info(f"Results saved to results/before_after_comparison.json")
     except Exception as e:
         logger.error(f"FATAL ERROR: {e}", exc_info=True)
         sys.exit(1)

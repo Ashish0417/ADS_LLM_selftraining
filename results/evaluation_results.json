@@ -1,32 +1,16 @@
 {
-  "tasks_completed": 3,
-  "total_tasks": 3,
-  "average_score": 0.3083,
+  "tasks_completed": 1,
+  "total_tasks": 1,
+  "average_score": 0.3,
   "win_rate": 0.0,
   "task_results": [
     {
       "task_number": 1,
-      "instruction": "Identify which instrument is string or percussion: Samphor, Viola toeria",
-      "full_instruction": "Identify which instrument is string or percussion: Samphor, Viola toeria",
-      "response": "Samphor",
-      "full_response": "Samphor",
+      "instruction": "Which country joined the European Union most recently as of 2025?",
+      "full_instruction": "Which country joined the European Union most recently as of 2025?",
+      "response": "ukraine",
+      "full_response": "ukraine",
       "score": 0.3
-    },
-    {
-      "task_number": 2,
-      "instruction": "If we were playing a game where we had to identify things that can be found inside a house, which of",
-      "full_instruction": "If we were playing a game where we had to identify things that can be found inside a house, which of these would we call out: car, chair, table, park, cloud, microwave.",
-      "response": "table",
-      "full_response": "table",
-      "score": 0.3
-    },
-    {
-      "task_number": 3,
-      "instruction": "Classify the following as either dark-colored beers or light colored beers: porter, pilsner, stout, ",
-      "full_instruction": "Classify the following as either dark-colored beers or light colored beers: porter, pilsner, stout, amber, lager",
-      "response": "light colored",
-      "full_response": "light colored",
-      "score": 0.325
     }
   ]
 }
