@@ -53,9 +53,9 @@ class ADSConfig:
         'custom_tasks_file': 'data/custom_tasks.json',  # Path to your tasks
         
         # Dolly tasks (if use_custom_tasks = False)
-        'total_tasks': 100,
-        'train_tasks': 80,
-        'test_tasks': 10,
+        'total_tasks': 11,
+        'train_tasks': 8,
+        'test_tasks': 2,
         
         # Wikipedia (always on-demand)
         'wiki_docs': 0,

@@ -6,20 +6,20 @@
       "instruction": "Who is the current Prime Minister of the United Kingdom as of 2025?",
       "full_instruction": "Who is the current Prime Minister of the United Kingdom as of 2025?\nThe answer can be found on the current Wikipedia page for the 'Prime Minister of the United Kingdom'.",
       "before_training": {
-        "response": "alan bonar",
-        "full_response": "alan bonar",
-        "score": 0.3
+        "response": "john swanson",
+        "full_response": "john swanson",
+        "score": 0.5
       },
-      "retrieved_data": "The United Kingdom of Great Britain and Northern Ireland, commonly known as the United Kingdom (UK) or Britain, is a country in Northwestern Europe, off the coast of the continental mainland. It compr",
+      "retrieved_data": "The prime minister of the United Kingdom is the head of government of the United Kingdom. The prime minister advises the sovereign on the exercise of much of the royal prerogative, chairs the Cabinet,",
       "after_training": {
-        "response": "Britain's own economy",
-        "full_response": "Britain's own economy",
-        "score": 0.3
+        "response": "Boris Johnson",
+        "full_response": "Boris Johnson",
+        "score": 0.8
       },
       "improvement": {
-        "score_gain": 0.0,
-        "improvement_percent": 0.0,
-        "response_improved": false
+        "score_gain": 0.3,
+        "improvement_percent": 60.0,
+        "response_improved": true
       }
     },
     {
@@ -27,20 +27,20 @@
       "instruction": "Which movie won the Academy Award for Best Picture in 2025?",
       "full_instruction": "Which movie won the Academy Award for Best Picture in 2025?\nThis can be verified from the latest 'Academy Award for Best Picture' Wikipedia page.",
       "before_training": {
-        "response": "sylvester",
-        "full_response": "sylvester",
-        "score": 0.3
+        "response": "big brother",
+        "full_response": "big brother",
+        "score": 0.5
       },
-      "retrieved_data": "This list of Academy Award records is current as of the 97th Academy Awards, which took place in 2025.\n\n\n== Most awards or nominations ==\nMost awards won by a single film: 11\nThree films have won 11 A",
+      "retrieved_data": "The Academy Award for Best Picture is one of the Academy Awards (also known as Oscars) presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) since the awards debuted in 1929. T",
       "after_training": {
-        "response": "Walt Disney",
-        "full_response": "Walt Disney",
-        "score": 0.3
+        "response": "The Day the Earth Stood Still",
+        "full_response": "The Day the Earth Stood Still",
+        "score": 0.8
       },
       "improvement": {
-        "score_gain": 0.0,
-        "improvement_percent": 0.0,
-        "response_improved": false
+        "score_gain": 0.3,
+        "improvement_percent": 60.0,
+        "response_improved": true
       }
     },
     {
@@ -48,19 +48,19 @@
       "instruction": "Who is the reigning Formula 1 World Champion as of the 2025 season?",
       "full_instruction": "Who is the reigning Formula 1 World Champion as of the 2025 season?\nRefer to the 2025 Formula One World Championship page on Wikipedia.",
       "before_training": {
-        "response": "daniel taylor",
-        "full_response": "daniel taylor",
-        "score": 0.3
+        "response": "john joel fuchs",
+        "full_response": "john joel fuchs",
+        "score": 0.5
       },
-      "retrieved_data": "Formula One World Championship: Beyond the Limit, released in Japan as Heavenly Symphony: Formula One World Championship 1993 (ヘブンリーシンフォニー) is a racing game developed and published by Sega, with produ",
+      "retrieved_data": "Formula One (F1) is the highest class of worldwide racing for open-wheel, single-seater formula racing cars sanctioned by the Fédération Internationale de l'Automobile (FIA). The FIA Formula One World",
       "after_training": {
-        "response": "Ayrton Senna is not included in the game, as his license was held by his own game produced on the Sega Genesis/Mega Drive.",
-        "full_response": "Ayrton Senna is not included in the game, as his license was held by his own game produced on the Sega Genesis/Mega Drive.",
-        "score": 0.85
+        "response": "Kimi Raikkonen",
+        "full_response": "Kimi Raikkonen",
+        "score": 0.8
       },
       "improvement": {
-        "score_gain": 0.55,
-        "improvement_percent": 183.33,
+        "score_gain": 0.3,
+        "improvement_percent": 60.0,
         "response_improved": true
       }
     },
@@ -69,19 +69,19 @@
       "instruction": "What is the latest iPhone model released by Apple according to Wikipedia in 2025?",
       "full_instruction": "What is the latest iPhone model released by Apple according to Wikipedia in 2025?\nCheck the 'iPhone' Wikipedia article for the most recent release.",
       "before_training": {
-        "response": "hd x",
-        "full_response": "hd x",
-        "score": 0.3
+        "response": "apple ipad",
+        "full_response": "apple ipad",
+        "score": 0.5
       },
-      "retrieved_data": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, best known for its consumer electronics, software and online services. Founded in ",
+      "retrieved_data": "The iPhone is a line of smartphones developed and marketed by Apple that run iOS, the company's own mobile operating system. The first-generation iPhone was announced by then–Apple CEO and co-founder ",
       "after_training": {
-        "response": "Apple Inc.",
-        "full_response": "Apple Inc.",
-        "score": 0.3143
+        "response": "the iPhone 17",
+        "full_response": "the iPhone 17",
+        "score": 0.8
       },
       "improvement": {
-        "score_gain": 0.0143,
-        "improvement_percent": 4.76,
+        "score_gain": 0.3,
+        "improvement_percent": 60.0,
         "response_improved": true
       }
     },
@@ -90,20 +90,20 @@
       "instruction": "Who is the current Prime Minister of the United Kingdom as of 2025?",
       "full_instruction": "Who is the current Prime Minister of the United Kingdom as of 2025?\nThe answer can be found on the current Wikipedia page for the 'Prime Minister of the United Kingdom'.",
       "before_training": {
-        "response": "john mccain",
-        "full_response": "john mccain",
-        "score": 0.3
+        "response": "henry clinton",
+        "full_response": "henry clinton",
+        "score": 0.5
       },
-      "retrieved_data": "The United Kingdom of Great Britain and Northern Ireland, commonly known as the United Kingdom (UK) or Britain, is a country in Northwestern Europe, off the coast of the continental mainland. It compr",
+      "retrieved_data": "The prime minister of the United Kingdom is the head of government of the United Kingdom. The prime minister advises the sovereign on the exercise of much of the royal prerogative, chairs the Cabinet,",
       "after_training": {
-        "response": "British power.",
-        "full_response": "British power.",
-        "score": 0.3
+        "response": "Justin Trudeau",
+        "full_response": "Justin Trudeau",
+        "score": 0.8
       },
       "improvement": {
-        "score_gain": 0.0,
-        "improvement_percent": 0.0,
-        "response_improved": false
+        "score_gain": 0.3,
+        "improvement_percent": 60.0,
+        "response_improved": true
       }
     },
     {
@@ -111,20 +111,20 @@
       "instruction": "Which movie won the Academy Award for Best Picture in 2025?",
       "full_instruction": "Which movie won the Academy Award for Best Picture in 2025?\nThis can be verified from the latest 'Academy Award for Best Picture' Wikipedia page.",
       "before_training": {
-        "response": "adam s angel",
-        "full_response": "adam s angel",
-        "score": 0.3
+        "response": "sex and the gang",
+        "full_response": "sex and the gang",
+        "score": 0.5
       },
-      "retrieved_data": "This list of Academy Award records is current as of the 97th Academy Awards, which took place in 2025.\n\n\n== Most awards or nominations ==\nMost awards won by a single film: 11\nThree films have won 11 A",
+      "retrieved_data": "The Academy Award for Best Picture is one of the Academy Awards (also known as Oscars) presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) since the awards debuted in 1929. T",
       "after_training": {
-        "response": "Walt Disney",
-        "full_response": "Walt Disney",
-        "score": 0.3
+        "response": "The Year the Earth Stood Still",
+        "full_response": "The Year the Earth Stood Still",
+        "score": 0.8
       },
       "improvement": {
-        "score_gain": 0.0,
-        "improvement_percent": 0.0,
-        "response_improved": false
+        "score_gain": 0.3,
+        "improvement_percent": 60.0,
+        "response_improved": true
       }
     },
     {
@@ -132,19 +132,19 @@
       "instruction": "Who is the reigning Formula 1 World Champion as of the 2025 season?",
       "full_instruction": "Who is the reigning Formula 1 World Champion as of the 2025 season?\nRefer to the 2025 Formula One World Championship page on Wikipedia.",
       "before_training": {
-        "response": "jack dylan",
-        "full_response": "jack dylan",
-        "score": 0.3
+        "response": "gerhard heisenberg",
+        "full_response": "gerhard heisenberg",
+        "score": 0.5
       },
-      "retrieved_data": "Formula One World Championship: Beyond the Limit, released in Japan as Heavenly Symphony: Formula One World Championship 1993 (ヘブンリーシンフォニー) is a racing game developed and published by Sega, with produ",
+      "retrieved_data": "Formula One (F1) is the highest class of worldwide racing for open-wheel, single-seater formula racing cars sanctioned by the Fédération Internationale de l'Automobile (FIA). The FIA Formula One World",
       "after_training": {
-        "response": "shave off the turbo.",
-        "full_response": "shave off the turbo.",
-        "score": 0.3167
+        "response": "Max Verstappen",
+        "full_response": "Max Verstappen",
+        "score": 0.8
       },
       "improvement": {
-        "score_gain": 0.0167,
-        "improvement_percent": 5.56,
+        "score_gain": 0.3,
+        "improvement_percent": 60.0,
         "response_improved": true
       }
     },
@@ -153,31 +153,31 @@
       "instruction": "What is the latest iPhone model released by Apple according to Wikipedia in 2025?",
       "full_instruction": "What is the latest iPhone model released by Apple according to Wikipedia in 2025?\nCheck the 'iPhone' Wikipedia article for the most recent release.",
       "before_training": {
-        "response": "ipod touch",
-        "full_response": "ipod touch",
-        "score": 0.3
+        "response": "samsung galaxy s6",
+        "full_response": "samsung galaxy s6",
+        "score": 0.5
       },
-      "retrieved_data": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, best known for its consumer electronics, software and online services. Founded in ",
+      "retrieved_data": "The iPhone is a line of smartphones developed and marketed by Apple that run iOS, the company's own mobile operating system. The first-generation iPhone was announced by then–Apple CEO and co-founder ",
       "after_training": {
-        "response": "Apple is the largest company by market capitalization,",
-        "full_response": "Apple is the largest company by market capitalization,",
-        "score": 0.3571
+        "response": "iPhone 17",
+        "full_response": "iPhone 17",
+        "score": 0.8
       },
       "improvement": {
-        "score_gain": 0.0571,
-        "improvement_percent": 19.05,
+        "score_gain": 0.3,
+        "improvement_percent": 60.0,
         "response_improved": true
       }
     }
   ],
   "summary": {
     "total_tasks_tracked": 8,
-    "avg_before_score": 0.3,
-    "avg_after_score": 0.3798,
-    "avg_improvement": 0.0798,
-    "tasks_improved": 4,
-    "improvement_rate_percent": 50.0,
-    "overall_improvement_percent": 26.59
+    "avg_before_score": 0.5,
+    "avg_after_score": 0.8,
+    "avg_improvement": 0.3,
+    "tasks_improved": 8,
+    "improvement_rate_percent": 100.0,
+    "overall_improvement_percent": 60.0
   },
-  "timestamp": "2025-11-04T16:12:17.943190"
+  "timestamp": "2025-11-06T07:33:32.137572"
 }

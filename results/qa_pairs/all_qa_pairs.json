@@ -1,0 +1,74 @@
+{
+  "total_tasks": 4,
+  "tasks": [
+    {
+      "task_number": 1,
+      "task_name": "current_affairs",
+      "generated_at": "2025-11-06 07:33:18.731683",
+      "instruction": "Who is the current Prime Minister of the United Kingdom as of 2025?",
+      "retrieved_data": "The prime minister of the United Kingdom is the head of government of the United Kingdom. The prime minister advises the sovereign on the exercise of much of the royal prerogative, chairs the Cabinet, and selects its ministers. Modern prime ministers hold office by virtue of their ability to command the confidence of the House of Commons, so they are invariably members of Parliament.\nThe office of prime minister is not established by any statute or constitutional document, but exists only by lon",
+      "demonstrations": [],
+      "qa_pairs": [
+        {
+          "question": "What does the prime minister do?",
+          "answer": "He is a member of the cabinet.",
+          "source": "generated"
+        }
+      ],
+      "num_demonstrations": 2,
+      "num_qa_pairs": 1
+    },
+    {
+      "task_number": 2,
+      "task_name": "entertainment",
+      "generated_at": "2025-11-06 07:33:22.782716",
+      "instruction": "Which movie won the Academy Award for Best Picture in 2025?",
+      "retrieved_data": "The Academy Award for Best Picture is one of the Academy Awards (also known as Oscars) presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) since the awards debuted in 1929. This award goes to the producers of the film and is the only category in which every member of the Academy is eligible to submit a nomination and vote on the final ballot. The Best Picture category is traditionally the final award of the night and is widely considered the most prestigious honor of th",
+      "demonstrations": [],
+      "qa_pairs": [
+        {
+          "question": "What award does the Academy award for Best Picture get?",
+          "answer": "Best Picture",
+          "source": "generated"
+        }
+      ],
+      "num_demonstrations": 2,
+      "num_qa_pairs": 1
+    },
+    {
+      "task_number": 3,
+      "task_name": "sports",
+      "generated_at": "2025-11-06 07:33:27.504515",
+      "instruction": "Who is the reigning Formula 1 World Champion as of the 2025 season?",
+      "retrieved_data": "Formula One (F1) is the highest class of worldwide racing for open-wheel, single-seater formula racing cars sanctioned by the Fédération Internationale de l'Automobile (FIA). The FIA Formula One World Championship has been one of the world's premier forms of motorsport since its inaugural running in 1950 and is often considered to be the pinnacle of motorsport. The word formula in the name refers to the set of rules all participant cars must follow. A Formula One season consists of a series of r",
+      "demonstrations": [],
+      "qa_pairs": [
+        {
+          "question": "What is the name of the race that takes place in the FIA Formula One World Championship?",
+          "answer": "Formula 1 World Championship",
+          "source": "generated"
+        }
+      ],
+      "num_demonstrations": 2,
+      "num_qa_pairs": 1
+    },
+    {
+      "task_number": 4,
+      "task_name": "technology",
+      "generated_at": "2025-11-06 07:33:31.550302",
+      "instruction": "What is the latest iPhone model released by Apple according to Wikipedia in 2025?",
+      "retrieved_data": "The iPhone is a line of smartphones developed and marketed by Apple that run iOS, the company's own mobile operating system. The first-generation iPhone was announced by then–Apple CEO and co-founder Steve Jobs on January 9, 2007, at Macworld 2007, and launched later that year. Since then, Apple has annually released new iPhone models and iOS versions; the latest models being the iPhone 17, the higher-end iPhone 17 Pro and 17 Pro Max, and the thinner iPhone Air. As of July 2025, more than 3 bill",
+      "demonstrations": [],
+      "qa_pairs": [
+        {
+          "question": "What year was the first-generation iPhone released?",
+          "answer": "2007",
+          "source": "generated"
+        }
+      ],
+      "num_demonstrations": 2,
+      "num_qa_pairs": 1
+    }
+  ],
+  "generated_at": "2025-11-06 07:33:32.136715"
+}

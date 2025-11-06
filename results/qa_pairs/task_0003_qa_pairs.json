@@ -1,0 +1,17 @@
+{
+  "task_number": 3,
+  "task_name": "sports",
+  "generated_at": "2025-11-06 07:33:27.504515",
+  "instruction": "Who is the reigning Formula 1 World Champion as of the 2025 season?",
+  "retrieved_data": "Formula One (F1) is the highest class of worldwide racing for open-wheel, single-seater formula racing cars sanctioned by the Fédération Internationale de l'Automobile (FIA). The FIA Formula One World Championship has been one of the world's premier forms of motorsport since its inaugural running in 1950 and is often considered to be the pinnacle of motorsport. The word formula in the name refers to the set of rules all participant cars must follow. A Formula One season consists of a series of r",
+  "demonstrations": [],
+  "qa_pairs": [
+    {
+      "question": "What is the name of the race that takes place in the FIA Formula One World Championship?",
+      "answer": "Formula 1 World Championship",
+      "source": "generated"
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}
