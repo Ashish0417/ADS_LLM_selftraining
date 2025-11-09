@@ -1,15 +1,26 @@
 {
   "task_number": 4,
-  "task_name": "technology",
-  "generated_at": "2025-11-06 07:33:31.550302",
-  "instruction": "What is the latest iPhone model released by Apple according to Wikipedia in 2025?",
-  "retrieved_data": "The iPhone is a line of smartphones developed and marketed by Apple that run iOS, the company's own mobile operating system. The first-generation iPhone was announced by then–Apple CEO and co-founder Steve Jobs on January 9, 2007, at Macworld 2007, and launched later that year. Since then, Apple has annually released new iPhone models and iOS versions; the latest models being the iPhone 17, the higher-end iPhone 17 Pro and 17 Pro Max, and the thinner iPhone Air. As of July 2025, more than 3 bill",
-  "demonstrations": [],
+  "task_name": "astronomy",
+  "instruction": "Which planet is known as the Red Planet?",
+  "retrieved_data": "=== Rogue planet ===\nA rogue planet, also termed a free-floating planet (FFP) or an isolated planetary-mass object (iPMO), is an interstellar object of planetary mass which is not gravitationally bound to any star or brown dwarf.\nRogue planets may originate from planetary systems in which they are formed and later ejected, or they can also form on their own, outside a planetary system. The Milky Way alone may have billions to trillions of rogue planets, a range the upcoming Nancy Grace Roman Space Telescope is expected to refine. The odds of a rogue planet entering the solar system, much less posing a direct threat to life on Earth are slim to none with the odds being about one in one trillion within the next 1,000 years.\nSome planetary-mass objects may have formed in a similar way to stars, and the International Astronomical Union has proposed that such objects be called sub-brown dwarfs. A possible example is Cha 110913−773444, which may either have been ejected and become a rogue pl",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which planet is known as the Red Planet?",
+      "response": "=== Rogue planet ===\nA rogue planet, also termed a free-floating planet (FFP) or an isolated planetary-mass object (iPMO), is an interstellar object of planetary mass which is not gravitationally bound to any star or bro...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which planet is known as the Red Planet?",
+      "response": "=== Rogue planet ===\nA rogue planet, also termed a free-floating planet (FFP) or an isolated planetary-mass object (iPMO), is an interstellar object of planetary mass which is not gravitationally bound to any star or bro...",
+      "type": "demonstration"
+    }
+  ],
   "qa_pairs": [
     {
-      "question": "What year was the first-generation iPhone released?",
-      "answer": "2007",
-      "source": "generated"
+      "question": "What key fact is stated in the context about 'Which planet is known as the Red Planet?'?",
+      "answer": "=== Rogue planet ===\nA rogue planet, also termed a free-floating planet (FFP) or an isolated planetary-mass object (iPMO), is an interstellar object of planetary mass which is not...",
+      "source": "fallback",
+      "valid": true
     }
   ],
   "num_demonstrations": 2,

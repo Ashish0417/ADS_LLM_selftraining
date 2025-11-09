@@ -1,15 +1,26 @@
 {
   "task_number": 2,
-  "task_name": "entertainment",
-  "generated_at": "2025-11-06 07:33:22.782716",
-  "instruction": "Which movie won the Academy Award for Best Picture in 2025?",
-  "retrieved_data": "The Academy Award for Best Picture is one of the Academy Awards (also known as Oscars) presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) since the awards debuted in 1929. This award goes to the producers of the film and is the only category in which every member of the Academy is eligible to submit a nomination and vote on the final ballot. The Best Picture category is traditionally the final award of the night and is widely considered the most prestigious honor of th",
-  "demonstrations": [],
+  "task_name": "literature",
+  "instruction": "Who wrote the play 'Romeo and Juliet'?",
+  "retrieved_data": "=== Tromeo and Juliet ===\nTromeo and Juliet is a 1996 American independent transgressive romantic black comedy film and a loose adaptation of the play Romeo and Juliet by William Shakespeare from Troma Entertainment. The film was directed by Lloyd Kaufman from a screenplay he co-wrote with James Gunn, who also served as associate director.\nThe film is a loose adaptation of the play, as it includes the extreme amounts of sexuality and violence characteristic of Troma, as well as a revised ending. The film's title is a blend of \"Troma\" and \"Romeo and Juliet\".\n\n\n== Plot ==\n\nSet in modern-day Manhattan, the film begins with the narrator (Lemmy of Motörhead) introducing two families: the rich Capulets and the poor Ques.\nAt the center of these families are Tromeo Que and Juliet Capulet. Tromeo lives in squalor with his poor, alcoholic father Monty and works at a tattoo parlor with his cousin Benny and friend Murray. Juliet is sequestered in her family's mansion, watched over by her abusive f",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote the play 'Romeo and Juliet'?",
+      "response": "=== Tromeo and Juliet ===\nTromeo and Juliet is a 1996 American independent transgressive romantic black comedy film and a loose adaptation of the play Romeo and Juliet by William Shakespeare from Troma Entertainment. The...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote the play 'Romeo and Juliet'?",
+      "response": "=== Tromeo and Juliet ===\nTromeo and Juliet is a 1996 American independent transgressive romantic black comedy film and a loose adaptation of the play Romeo and Juliet by William Shakespeare from Troma Entertainment. The...",
+      "type": "demonstration"
+    }
+  ],
   "qa_pairs": [
     {
-      "question": "What award does the Academy award for Best Picture get?",
-      "answer": "Best Picture",
-      "source": "generated"
+      "question": "Who wrote the play 'Romeo and Juliet'?",
+      "answer": "William Shakespeare from Troma Entertainment",
+      "source": "extractive",
+      "valid": true
     }
   ],
   "num_demonstrations": 2,

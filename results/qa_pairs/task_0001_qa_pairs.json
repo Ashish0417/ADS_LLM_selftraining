@@ -1,15 +1,26 @@
 {
   "task_number": 1,
-  "task_name": "current_affairs",
-  "generated_at": "2025-11-06 07:33:18.731683",
-  "instruction": "Who is the current Prime Minister of the United Kingdom as of 2025?",
-  "retrieved_data": "The prime minister of the United Kingdom is the head of government of the United Kingdom. The prime minister advises the sovereign on the exercise of much of the royal prerogative, chairs the Cabinet, and selects its ministers. Modern prime ministers hold office by virtue of their ability to command the confidence of the House of Commons, so they are invariably members of Parliament.\nThe office of prime minister is not established by any statute or constitutional document, but exists only by lon",
-  "demonstrations": [],
+  "task_name": "geography",
+  "instruction": "What is the capital of France?",
+  "retrieved_data": "=== France ===\nFrance, officially the French Republic, is a country primarily located in Western Europe. Its overseas regions and territories include French Guiana in South America, Saint Pierre and Miquelon in the North Atlantic, the French West Indies, and many islands in Oceania and the Indian Ocean, giving it the largest discontiguous exclusive economic zone in the world. Metropolitan France shares borders with Belgium and Luxembourg to the north; Germany to the northeast; Switzerland to the east; Italy and Monaco to the southeast; Andorra and Spain to the south; and a maritime border with the United Kingdom to the northwest. Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea. Its 18 integral regions—five of which are overseas—span a combined area of 632,702 km2 (244,288 sq mi) and have an estimated total population of over 68.6 million as of January 2025. France is a semi-presidential republic.",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the capital of France?",
+      "response": "=== France ===\nFrance, officially the French Republic, is a country primarily located in Western Europe. Its overseas regions and territories include French Guiana in South America, Saint Pierre and Miquelon in the North...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the capital of France?",
+      "response": "=== France ===\nFrance, officially the French Republic, is a country primarily located in Western Europe. Its overseas regions and territories include French Guiana in South America, Saint Pierre and Miquelon in the North...",
+      "type": "demonstration"
+    }
+  ],
   "qa_pairs": [
     {
-      "question": "What does the prime minister do?",
-      "answer": "He is a member of the cabinet.",
-      "source": "generated"
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "source": "extractive",
+      "valid": true
     }
   ],
   "num_demonstrations": 2,

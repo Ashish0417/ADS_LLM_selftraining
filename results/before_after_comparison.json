@@ -1,183 +1,99 @@
 {
-  "total_tasks": 8,
+  "total_tasks": 4,
   "comparisons": [
     {
       "task_number": 1,
-      "instruction": "Who is the current Prime Minister of the United Kingdom as of 2025?",
-      "full_instruction": "Who is the current Prime Minister of the United Kingdom as of 2025?\nThe answer can be found on the current Wikipedia page for the 'Prime Minister of the United Kingdom'.",
+      "instruction": "What is the capital of France?",
+      "full_instruction": "What is the capital of France?",
       "before_training": {
-        "response": "john swanson",
-        "full_response": "john swanson",
-        "score": 0.5
+        "response": "london",
+        "full_response": "london",
+        "score": 0.4
       },
-      "retrieved_data": "The prime minister of the United Kingdom is the head of government of the United Kingdom. The prime minister advises the sovereign on the exercise of much of the royal prerogative, chairs the Cabinet,",
+      "retrieved_data": "=== France ===\nFrance, officially the French Republic, is a country primarily located in Western Europe. Its overseas regions and territories include French Guiana in South America, Saint Pierre and Miquelon in the North Atlantic, the French West Indies, and many islands in Oceania and the Indian Ocean, giving it the largest discontiguous exclusive economic zone in the world. Metropolitan France shares borders with Belgium and Luxembourg to the north; Germany to the northeast; Switzerland to the east; Italy and Monaco to the southeast; Andorra and Spain to the south; and a maritime border with the United Kingdom to the northwest. Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea. Its 18 integral regions—five of which are overseas—span a combined area of 632,702 km2 (244,288 sq mi) and have an estimated total population of over 68.6 million as of January 2025. France is a semi-presidential republic. Its capital, largest city and main cultural and economic centre is Paris.\nMetropolitan France was settled during the Iron Age by Celtic tribes known as Gauls before Rome annexed the area in 51 BC, leading to a distinct Gallo-Roman culture. In the Early Middle Ages, the Franks formed the kingdom of Francia, which became the heartland of the Carolingian Empire. The Treaty of Verdun of 843 partitioned the empire, with West Francia evolving into the Kingdom of France. In the High Middle Ages, France was a powerful but decentralised feudal kingdom, but from the mid-14th to the mid-15th centuries, France was plunged into a dynastic conflict with England known as the Hundred Years' War. In the 16th century French culture flourished during the French Renaissance, and a French colonial empire emerged. Internally, France was dominated by the conflict with the House of Habsburg and the French Wars of Religion between Catholics and Huguenots. France was successful in the Thirty Years' War and further increased its influence during the reign of Louis XIV.\nThe French Revolution of 1789 overthrew the Ancien Régime and produced the Declaration of the Rights of Man, which expresses the nation's ideals to this day. France reached its political and military zenith in the early 19th century under Napoleon Bonaparte, subjugating part of continental Europe and establishing the First French Empire. Its collapse initiated a period of relative decline in which France endured the Bourbon Restoration until the founding of the French Second Republic which was succeeded by the Second French Empire upon Napoleon III's takeover. His empire collapsed during the Franco-Prussian War in 1870. This led to the establishment of the French Third Republic, with a period of economic prosperity and cultural and scientific flourishing known as the Belle Époque. France was one of the major participants of World War I, from which it emerged victorious at great human and economic cost. It was among the Allies of World War II, but it surrendered and was occupied in 1940. Following its liberation in 1944, the short-lived Fourth Republic was established and later dissolved in the course of the defeat in the Algerian War. The current Fifth Republic was formed in 1958 by Charles de Gaulle. Algeria and most French colonies became independent in the 1960s, with the majority retaining close economic and military ties with France.\nFrance retains its centuries-long status as a global centre of art, science, and philosophy. It hosts the fourth-largest number of UNESCO World Heritage Sites and is the world's leading tourist destination, having received 100 million foreign visitors in 2023. A developed country, France has a high nominal per capita income globally, and its economy ranks among the largest in the world by both nominal GDP and PPP-adjusted GDP. It is a great power, being one of the five permanent members of the United Nations Security Council and an official nuclear-weapon state. The country is part of multiple international organisations and forums.\n\n\n== Etymology ==\n\nOriginally applied to the whole Frankish Empire, the name France comes from the Latin Francia, or 'realm of the Franks'. The name of the Franks is related to the English word frank ('free'): the latter stems from the Old French franc ('free, noble, sincere'), and ultimately from the Medieval Latin word francus ('free, exempt from service; a freeman, a Frank'), a generalisation of the tribal name that emerged as a Late Latin borrowing of the reconstructed Frankish endonym *Frank. It has been suggested that the meaning 'free' was adopted because after the conquest of Gaul, only Franks were free of taxation, or more generally because they had the status of freemen in contrast to servants or slaves. The etymology of *Frank is uncertain. It is traditionally derived from the Proto-Germanic word *frankōn, which translates as 'javelin' or 'lance' (the throwing axe of the Franks was known as the francisca), although these weapons may have been named because of their use by the Franks, not the other way around.\nIn English, 'France' is pronounced  FRANSS in American English and  FRAHNSS or  FRANSS in British English. The pronunciation with  is mostly confined to accents with the trap–bath split such as Received Pronunciation, though it can be also heard in some other dialects such as Cardiff English.\n\n\n== History ==\n\n\n=== Prehistory ===\n\nThe oldest traces of archaic humans in what is now France date from approximately 1.8 million years ago. Neanderthals occupied the region into the Upper Paleolithic era but were slowly replaced by Homo sapiens around 35,000 BC. This period witnessed the emergence of cave painting in the Dordogne and Pyrenees, including at Lascaux, dated to c. 18,000 BC. At the end of the Last Glacial Period (10,000 BC), the climate became milder; from approximately 7,000 BC, this part of Western Europe entered the Neolithic era, and its inhabitants became sedentary.\nAfter demographic and agricultural development between the 4th and 3rd millennia BC, metallurgy appeared, initially working gold, copper and bronze, then later iron. France has numerous megalithic sites from the Neolithic, including the Carnac stones site (approximately 3,300 BC).\n\n\n=== Antiquity (6th century BC – 5th century AD) ===\nIn 600 BC, Ionian Greeks from Phocaea founded the colony of Massalia (present-day Marseille). Celtic tribes penetrated parts of eastern and northern France, spreading through the rest of the country between the 5th and 3rd century BC. Around 390 BC, the Gallic chieftain Brennus and his troops made their way to Roman Italy, defeated the Romans in the Battle of the Allia, and besieged and ransomed Rome. This left Rome weakened, and the Gauls continued to harass the region until 345 BC when they entered into a peace treaty. But the Romans and the Gauls remained adversaries for centuries.\n\nAround 125 BC, the south of Gaul was conquered by the Romans, who called this region Provincia Nostra (\"Our Province\"), which evolved into Provence in French. Julius Caesar conquered the remainder of Gaul and overcame a revolt by Gallic chieftain Vercingetorix in 52 BC. Gaul was divided by Augustus into provinces, and many cities were founded during the Gallo-Roman period, including Lugdunum (present-day Lyon), the capital of the Gauls. In 250–290 AD, Roman Gaul suffered a crisis with its fortified borders attacked by barbarians. The situation improved in the first half of the 4th century, a period of revival and prosperity. In 312, Emperor Constantine I converted to Christianity. Christians, who had been persecuted, increased. But from the 5th century, the barbarian invasions resumed. Teutonic tribes invaded the region, the Visigoths settling in the southwest, the Burgundians along the Rhine Valley, and the Franks in the north.\n\n\n=== Early Middle Ages (5th–10th century) ===\nIn late antiquity, Gaul was divided into Germanic kingdoms and a remaining Gallo-Roman territory. Celtic Brito",
       "after_training": {
-        "response": "Boris Johnson",
-        "full_response": "Boris Johnson",
-        "score": 0.8
+        "response": "Paris",
+        "full_response": "Paris",
+        "score": 0.7999999999999999
       },
       "improvement": {
-        "score_gain": 0.3,
-        "improvement_percent": 60.0,
+        "score_gain": 0.4,
+        "improvement_percent": 100.0,
         "response_improved": true
       }
     },
     {
       "task_number": 2,
-      "instruction": "Which movie won the Academy Award for Best Picture in 2025?",
-      "full_instruction": "Which movie won the Academy Award for Best Picture in 2025?\nThis can be verified from the latest 'Academy Award for Best Picture' Wikipedia page.",
+      "instruction": "Who wrote the play 'Romeo and Juliet'?",
+      "full_instruction": "Who wrote the play 'Romeo and Juliet'?",
       "before_training": {
-        "response": "big brother",
-        "full_response": "big brother",
+        "response": "charles dickens",
+        "full_response": "charles dickens",
         "score": 0.5
       },
-      "retrieved_data": "The Academy Award for Best Picture is one of the Academy Awards (also known as Oscars) presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) since the awards debuted in 1929. T",
+      "retrieved_data": "=== Tromeo and Juliet ===\nTromeo and Juliet is a 1996 American independent transgressive romantic black comedy film and a loose adaptation of the play Romeo and Juliet by William Shakespeare from Troma Entertainment. The film was directed by Lloyd Kaufman from a screenplay he co-wrote with James Gunn, who also served as associate director.\nThe film is a loose adaptation of the play, as it includes the extreme amounts of sexuality and violence characteristic of Troma, as well as a revised ending. The film's title is a blend of \"Troma\" and \"Romeo and Juliet\".\n\n\n== Plot ==\n\nSet in modern-day Manhattan, the film begins with the narrator (Lemmy of Motörhead) introducing two families: the rich Capulets and the poor Ques.\nAt the center of these families are Tromeo Que and Juliet Capulet. Tromeo lives in squalor with his poor, alcoholic father Monty and works at a tattoo parlor with his cousin Benny and friend Murray. Juliet is sequestered in her family's mansion, watched over by her abusive father Cappy, passive mother Ingrid, and overprotective cousin Tyrone, all the while being sexually satisfied by family servant Ness (Debbie Rochon).\nBoth Tromeo and Juliet are trapped in cases of unrequited love: Tromeo lusts for the big-bosomed, promiscuous Rosie; Juliet is subjected into marrying wealthy meat tycoon London Arbuckle by her father who hopes of completing his mafia family tree.\nIn the meantime, an intense duel between Murray and Sammy Capulet catches the attention of Detective Ernie Scalus, who gathers the heads of the two families together and declares that they will be held personally accountable for any further breaches of the peace. Almost immediately afterward, Monty and Cappy start threatening each other with weapons. Sammy, on the other hand, gets caught in the window of Monty's speeding car, where he is thrown head-first into a fire hydrant and gradually dies.\nOn the insistence of Murray and Benny, Tromeo attends the Capulets' masquerade ball in the hopes of meeting Rosie, only to find another man performing cunnilingus on her. Tromeo staggers around the party in disillusion until he locks eyes with Juliet. The two instantly fall for each other and share a dance until an angry Tyrone chases him out of the house.\nTromeo and Juliet continue to be enamored by one another from afar. Cappy, disgusted at his daughter's active libido, forcefully imprisons her in a plastic cage as punishment. Eventually, Tromeo sneaks into the house of Capulet and the two meet once again. After proclaiming their love for each other both verbally and physically, they agree to be married. Juliet breaks her engagement with Arbuckle and, with the help of Father Lawrence, the two are married in secrecy the next day.\nTyrone, upon discovering Juliet's secret affair, gathers his gang together to find Tromeo in his family's parlor and accuse him of bridenapping. Now a kinsman to the Capulets, Tromeo reassures Tyrone that Juliet doesn't want Arbuckle as her husband anymore hence announcing a truce to both families. However, Tyrone refuses to believe him. Eventually, Murray stands by Tromeo's side to try and defend his honor but is fatally wounded by Tyrone's club as an example for anyone, besides Arbuckle, who dares to seduce Juliet. Tromeo, enraged by his friend's death, pursues Tyrone and slays him (through a series of car crashes that dismember him). As punishment for the murder of Tyrone in addition to ruining Arbuckle's wedding with Juliet, Detective Scalus evicts the Ques from Manhattan to ensure that his sacrifice won't be in vain on behalf of the Capulet family while Cappy savagely beats Juliet into reconciling with Arbuckle after learning from the late Tyrone that Juliet has already become Tromeo's wife, threatening to disown her if she doesn't. With the help of Cappy, Arbuckle accepts her re-proposal and the wedding date is set.\nEventually, Juliet goes into hiding with Father Lawrence, whom she recruited along with Tromeo, who was recently evicted from his home by Scalus along with the rest of his family. Together, the three devise a plan to clear the Que family name and end the Capulet/Que feud for good, enlisting the help of Fu Chang, the apothecary, who sells Juliet a special potion which will aid her predicament.\nOn the day of her wedding, Juliet drinks the apothecary's potion, transforming her into a hideous cow monster (complete with a three-foot penis). The mere sight of her causes Arbuckle to leap out of Juliet's window in fright, committing suicide in the process. Enraged over the loss of his would-be son-in-law and meat inheritance, Cappy deems Juliet a disgrace to the Capulet family and sentences her to death, but Tromeo arrives just in time to chase Cappy out of her room before he can rape her to death and bring Juliet's appearance back to normal by a single kiss. Meanwhile, Cappy was forced to retreat into the parlor to get his crossbow, and then returns to Juliet's room, ready to execute the newlyweds. Eventually, Juliet performs one last act of defiance against her father by electrocuting him to death with a computer monitor. After the Capulets' residence is successfully overtaken, Detective Scalus becomes impressed by Tromeo and Juliet's teamwork of ending Cappy's criminal empire, pardoning Tromeo of murder while ordering for Cappy's corpse to be transported by an ambulance to the morgue for cremation.\nWith Cappy's criminal empire finally defeated, Tromeo and Juliet embrace victoriously until they are stopped short by Ingrid and Monty, who reveals to them the real reason behind the Capulet/Que feud: Long ago, Cappy and Monty were the owners of the successful Silky Films pornographic production company. Ingrid, married to Monty at the time, struck up an affair with Cappy, eventually birthing a son which Monty raised as his own. Faced with a divorce from Ingrid and the threat of having his son taken away from him, Monty was forced to sign over all the rights of Silky Films to the Capulets in exchange for his son. After the initial shock at the revelation that they are siblings, Tromeo and Juliet brush it off as they are determined not to let their whole ordeal be for naught; they passionately embrace and drive off into the sunset.\nThe film picks up six years later in Tromaville, New Jersey, where Tromeo and Juliet, now married, have become suburban yuppies with a house and (birth defected/deformed) children of their own.\nThe film ends with the narrator's brief poem for the lovers: \"And all of our hearts free to let all things base go/As taught by Juliet and her Tromeo\". A brief shot of William Shakespeare laughing uproariously is shown before the end credits.\n\n\n== Cast ==\n\nLloyd Kaufman, Merle Allin and Ami James have non-speaking cameos in the film. A scene featuring Ron Jeremy as a homeless man was filmed but ultimately deleted from the final cut of the movie.\n\n\n== Production ==\nThe first draft of Tromeo & Juliet surfaced in 1992, written by Kaufman and Troma employees Andy Deemer and Phil Rivo, written entirely in Shakespearean verse and supposedly featuring The Toxic Avenger as a side character. The feedback from other Troma employees and Michael Herz was unanimously negative, so the idea was scrapped.\nIn 1995, another shot was taken at the concept, this time by newbie screenwriter James Gunn. Gunn completely rewrote the script, again in Shakespearean verse, making it darker and far more obscene; the original version had Juliet as a stripper and Tromeo as a crack dealer. Another revision, with additional material by Kaufman, was crafted into what the film eventually became: the verse was trimmed down and more comical elements were added.\nTromeo and Juliet was shot in the summer of 1995 for $350,000, one of the most expensive films in Troma history.\nDirector Lloyd Kaufman said that, in preparation for their sex scene, he gave Will Keenan and Jane Jensen time during pre-production to block the scene themselves. \"I wanted them to develop a very intense relationship and indeed the",
       "after_training": {
-        "response": "The Day the Earth Stood Still",
-        "full_response": "The Day the Earth Stood Still",
-        "score": 0.8
+        "response": "William Shakespeare",
+        "full_response": "William Shakespeare",
+        "score": 0.9
       },
       "improvement": {
-        "score_gain": 0.3,
-        "improvement_percent": 60.0,
+        "score_gain": 0.4,
+        "improvement_percent": 80.0,
         "response_improved": true
       }
     },
     {
       "task_number": 3,
-      "instruction": "Who is the reigning Formula 1 World Champion as of the 2025 season?",
-      "full_instruction": "Who is the reigning Formula 1 World Champion as of the 2025 season?\nRefer to the 2025 Formula One World Championship page on Wikipedia.",
+      "instruction": "What is the chemical symbol for water?",
+      "full_instruction": "What is the chemical symbol for water?",
       "before_training": {
-        "response": "john joel fuchs",
-        "full_response": "john joel fuchs",
-        "score": 0.5
+        "response": "a",
+        "full_response": "a",
+        "score": 0.4
       },
-      "retrieved_data": "Formula One (F1) is the highest class of worldwide racing for open-wheel, single-seater formula racing cars sanctioned by the Fédération Internationale de l'Automobile (FIA). The FIA Formula One World",
+      "retrieved_data": "=== Water ===\nWater is an inorganic compound with the chemical formula H2O. It is a transparent, tasteless, odorless, and nearly colorless chemical substance. It is the main constituent of Earth's hydrosphere and the fluids of all known living organisms, in which it acts as a solvent. Water, being a polar molecule, undergoes strong intermolecular hydrogen bonding which is a large contributor to its physical and chemical properties. It is vital for all known forms of life, despite not providing food energy or being an organic micronutrient. Due to its presence in all organisms, its chemical stability, its worldwide abundance, and its strong polarity relative to its small molecular size, water is often referred to as the \"universal solvent\".\nBecause Earth's environment is relatively close to water's triple point, water exists on Earth as a solid, a liquid, and a gas. It forms precipitation in the form of rain and aerosols in the form of fog. Clouds consist of suspended droplets of water and ice, its solid state. When finely divided, crystalline ice may precipitate in the form of snow. The gaseous state of water is steam or water vapor.\nWater covers about 71.0% of the Earth's surface, with seas and oceans making up most of the water volume (about 96.5%). Small portions of water occur as groundwater (1.7%), in the glaciers and the ice caps of Antarctica and Greenland (1.7%), and in the air as vapor, clouds (consisting of ice and liquid water suspended in air), and precipitation (0.001%). Water moves continually through the water cycle of evaporation, transpiration (evapotranspiration), condensation, precipitation, and runoff, usually reaching the sea.\nWater plays an important role in the world economy. Approximately 70% of the fresh water used by humans goes to agriculture. Fishing in salt and fresh water bodies has been, and continues to be, a major source of food for many parts of the world, providing 6.5% of global protein. Much of the long-distance trade of commodities (such as oil, natural gas, and manufactured products) is transported by boats through seas, rivers, lakes, and canals. Large quantities of water, ice, and steam are used for cooling and heating in industry and homes. Water is an excellent solvent for a wide variety of substances, both mineral and organic; as such, it is widely used in industrial processes and in cooking and washing. Water, ice, and snow are also central to many sports and other forms of entertainment, such as swimming, pleasure boating, boat racing, surfing, sport fishing, diving, ice skating, snowboarding, and skiing.\n\n\n== Etymology ==\nThe word water comes from Old English wæter, from Proto-Germanic *watar (source also of Old Saxon watar, Old Frisian wetir, Dutch water, Old High German wazzar, German Wasser, vatn, Gothic 𐍅𐌰𐍄𐍉 (wato)), from Proto-Indo-European *wod-or, suffixed form of root *wed- ('water'; 'wet'). Also cognate, through the Indo-European root, with Greek ύδωρ (ýdor; from Ancient Greek ὕδωρ (hýdōr), whence English 'hydro-'), Russian вода́ (vodá), Irish uisce, and Albanian ujë.\n\n\n== History ==\n\n\n=== On Earth ===\n\n\n== Properties ==\n\nWater (H2O) is a polar inorganic compound. At room temperature it is a tasteless and odorless liquid, nearly colorless with a hint of blue. The simplest hydrogen chalcogenide, it is by far the most studied chemical compound and is sometimes described as the \"universal solvent\" for its ability to dissolve more substances than any other liquid, though it is poor at dissolving nonpolar substances. This allows it to be the \"solvent of life\": indeed, water as found in nature almost always includes various dissolved substances, and special steps are required to obtain chemically pure water. Water is the only common substance to exist as a solid, liquid, and gas in normal terrestrial conditions.\n\n\n=== States ===\n\nAlong with oxidane, water is one of the two official names for the chemical compound H2O; it is also the liquid phase of H2O. The other two common states of matter of water are the solid phase, ice, and the gaseous phase, water vapor or steam. The addition or removal of heat can cause phase transitions: freezing (water to ice), melting (ice to water), vaporization (water to vapor), condensation (vapor to water), sublimation (ice to vapor) and deposition (vapor to ice).\n\n\n==== Density ====\n\nWater is one of only a few common naturally occurring substances which, for some temperature ranges, become less dense as they cool, and the only known naturally occurring substance which does so while liquid. In addition it is unusual as it becomes significantly less dense as it freezes, though it is not unique in that respect.\n\nAt 1 atm pressure, it reaches its maximum density of 999.972 kg/m3 (62.4262 lb/cu ft) at 3.98 °C (39.16 °F).\nBelow that temperature, but above the freezing point of 0 °C (32 °F), it expands becoming less dense until it reaches freezing point, reaching a density in its liquid phase of 999.8 kg/m3 (62.4155 lb/cu ft).\nOnce it freezes and becomes ice, it expands by about 9%, with a density of 917 kg/m3 (57.25 lb/cu ft). This expansion can exert enormous pressure, bursting pipes and cracking rocks. As a solid, it displays the usual behavior of contracting and becoming more dense as it cools. These unusual thermal properties have important consequences for life on earth.\nIn a lake or ocean, water at 4 °C (39 °F) sinks to the bottom, and ice forms on the surface, floating on the liquid water. This ice insulates the water below, preventing it from freezing solid. Without this protection, most aquatic organisms residing in lakes would perish during the winter. In addition, this anomalous behavior is an important part of the thermohaline circulation which distributes heat around the planet's oceans.\n\n\n==== Magnetism ====\nWater is a diamagnetic material. Though interaction is weak, with superconducting magnets it can attain a notable interaction.\n\n\n==== Phase transitions ====\nAt a pressure of one atmosphere (atm), ice melts or water freezes (solidifies) at 0 °C (32 °F) and water boils or vapor condenses at 100 °C (212 °F). However, even below the boiling point, water can change to vapor at its surface by evaporation (vaporization throughout the liquid is known as boiling). Sublimation and deposition also occur on surfaces. For example, frost is deposited on cold surfaces while snowflakes form by deposition on an aerosol particle or ice nucleus. In the process of freeze-drying, a food is frozen and then stored at low pressure so the ice on its surface sublimates.\nThe melting and boiling points depend on pressure. A good approximation for the rate of change of the melting temperature with pressure is given by the Clausius–Clapeyron relation:\n\n  \n    \n      \n        \n          \n            \n              d\n              T\n            \n            \n              d\n              P\n            \n          \n        \n        =\n        \n          \n            \n              T\n              \n                (\n                \n                  \n                    v\n                    \n                      L\n                    \n                  \n                  −\n                  \n                    v\n                    \n                      S\n                    \n                  \n                \n                )\n              \n            \n            \n              L\n              \n                f\n              \n            \n          \n        \n      \n    \n    {\\displaystyle {\\frac {dT}{dP}}={\\frac {T\\left(v_{\\text{L}}-v_{\\text{S}}\\right)}{L_{\\text{f}}}}}\n  \n\nwhere \n  \n    \n      \n        \n          v\n          \n            L\n          \n        \n      \n    \n    {\\displaystyle v_{\\text{L}}}\n  \n and \n  \n    \n      \n        \n          v\n          \n            S\n          \n        \n      \n    \n    {\\displaystyle v_{\\text{S}}}\n  \n are the molar volumes of the liquid and solid phases, and \n  \n    \n      \n        \n          L\n          \n            f\n          \n        \n      \n    \n    {",
       "after_training": {
-        "response": "Kimi Raikkonen",
-        "full_response": "Kimi Raikkonen",
-        "score": 0.8
+        "response": "H2O",
+        "full_response": "H2O",
+        "score": 0.7999999999999999
       },
       "improvement": {
-        "score_gain": 0.3,
-        "improvement_percent": 60.0,
+        "score_gain": 0.4,
+        "improvement_percent": 100.0,
         "response_improved": true
       }
     },
     {
       "task_number": 4,
-      "instruction": "What is the latest iPhone model released by Apple according to Wikipedia in 2025?",
-      "full_instruction": "What is the latest iPhone model released by Apple according to Wikipedia in 2025?\nCheck the 'iPhone' Wikipedia article for the most recent release.",
+      "instruction": "Which planet is known as the Red Planet?",
+      "full_instruction": "Which planet is known as the Red Planet?",
       "before_training": {
-        "response": "apple ipad",
-        "full_response": "apple ipad",
-        "score": 0.5
+        "response": "uranus",
+        "full_response": "uranus",
+        "score": 0.4
       },
-      "retrieved_data": "The iPhone is a line of smartphones developed and marketed by Apple that run iOS, the company's own mobile operating system. The first-generation iPhone was announced by then–Apple CEO and co-founder ",
+      "retrieved_data": "=== Rogue planet ===\nA rogue planet, also termed a free-floating planet (FFP) or an isolated planetary-mass object (iPMO), is an interstellar object of planetary mass which is not gravitationally bound to any star or brown dwarf.\nRogue planets may originate from planetary systems in which they are formed and later ejected, or they can also form on their own, outside a planetary system. The Milky Way alone may have billions to trillions of rogue planets, a range the upcoming Nancy Grace Roman Space Telescope is expected to refine. The odds of a rogue planet entering the solar system, much less posing a direct threat to life on Earth are slim to none with the odds being about one in one trillion within the next 1,000 years.\nSome planetary-mass objects may have formed in a similar way to stars, and the International Astronomical Union has proposed that such objects be called sub-brown dwarfs. A possible example is Cha 110913−773444, which may either have been ejected and become a rogue planet or formed on its own to become a sub-brown dwarf.\n\n\n== Terminology ==\nThe two first discovery papers use the names isolated planetary-mass objects (iPMO) and free-floating planets (FFP). Most astronomical papers use one of these terms. The term rogue planet is more often used for microlensing studies, which also often uses the term FFP. A press release intended for the public might use an alternative name. The discovery of at least 70 FFPs in 2021, for example, used the terms rogue planet, starless planet, wandering planet and free-floating planet in different press releases.\n\n\n== Discovery ==\nIsolated planetary-mass objects (iPMO) were first discovered in 2000 by the UK team Lucas & Roche with UKIRT in the Orion Nebula. In the same year the Spanish team Zapatero Osorio et al. discovered iPMOs with Keck spectroscopy in the σ Orionis cluster. The spectroscopy of the objects in the Orion Nebula was published in 2001. Both European teams are now recognized for their quasi-simultaneous discoveries. In 1999 the Japanese team Oasa et al. discovered objects in Chamaeleon I that were spectroscopically confirmed years later in 2004 by the US team Luhman et al.\n\n\n== Observation ==\n\nThere are two techniques to discover free-floating planets: direct imaging and microlensing.\n\n\n=== Microlensing ===\nAstrophysicist Takahiro Sumi of Osaka University in Japan and colleagues, who form the Microlensing Observations in Astrophysics and the Optical Gravitational Lensing Experiment collaborations, published their study of microlensing in 2011. They observed 50 million stars in the Milky Way by using the 1.8-metre (5 ft 11 in) MOA-II telescope at New Zealand's Mount John Observatory and the 1.3-metre (4 ft 3 in) University of Warsaw telescope at Chile's Las Campanas Observatory. They found 474 incidents of microlensing, ten of which were brief enough to be planets of around Jupiter's size with no associated star in the immediate vicinity. The researchers estimated from their observations that there are nearly two Jupiter-mass rogue planets for every star in the Milky Way. One study suggested a much larger number, up to 100,000 times more rogue planets than stars in the Milky Way, though this study encompassed hypothetical objects much smaller than Jupiter. A 2017 study by Przemek Mróz of Warsaw University Observatory and colleagues, with six times larger statistics than the 2011 study, indicates an upper limit on Jupiter-mass free-floating or wide-orbit planets of 0.25 planets per main-sequence star in the Milky Way.\nIn September 2020, astronomers using microlensing techniques reported the detection, for the first time, of an Earth-mass rogue planet (named OGLE-2016-BLG-1928) unbound to any star and free floating in the Milky Way galaxy.\n\n\n=== Direct imaging ===\n\nMicrolensing planets can only be studied by the microlensing event, which makes the characterization of the planet difficult. Astronomers therefore turn to isolated planetary-mass objects (iPMO) that were found via the direct imaging method. To determine a mass of a brown dwarf or iPMO one needs for example the luminosity and the age of an object. Determining the age of a low-mass object has proven to be difficult. It is no surprise that the vast majority of iPMOs are found inside young nearby star-forming regions of which astronomers know their age. These objects are younger than 200 Myrs, are massive (>5 MJ) and belong to the L- and T-dwarfs. There is however a small growing sample of cold and old Y-dwarfs that have estimated masses of 8-20 MJ. Nearby rogue planet candidates of spectral type Y include WISE 0855−0714 at a distance of 7.27±0.13 light-years. If this sample of Y-dwarfs can be characterized with more accurate measurements or if a way to better characterize their ages can be found, the number of old and cold iPMOs will likely increase significantly.\nThe first iPMOs were discovered in the early 2000s via direct imaging inside young star-forming regions. These iPMOs found via direct imaging formed probably like stars (sometimes called sub-brown dwarf). There might be iPMOs that form like a planet, which are then ejected. These objects will however be kinematically different from their natal star-forming region, should not be surrounded by a circumstellar disk and have high metallicity. None of the iPMOs found inside young star-forming regions show a high velocity compared to their star-forming region. For old iPMOs the cold WISE J0830+2837 shows a Vtan of about 100 km/s, which is high, but still consistent with formation in our galaxy. For WISE 1534–1043 one alternative scenario explains this object as an ejected exoplanet due to its high Vtan of about 200 km/s, but its color suggests it is an old metal-poor brown dwarf. Most astronomers studying massive iPMOs believe that they represent the low-mass end of the star-formation process.\nAstronomers have used the Herschel Space Observatory and the Very Large Telescope to observe a very young free-floating planetary-mass object, OTS 44, and demonstrate that the processes characterizing the canonical star-like mode of formation apply to isolated objects down to a few Jupiter masses. Herschel far-infrared observations have shown that OTS 44 is surrounded by a disk of at least 10 Earth masses and thus could eventually form a large satellite system. Spectroscopic observations of OTS 44 with the SINFONI spectrograph at the Very Large Telescope have revealed that the disk is actively accreting matter, similar to the disks of young stars.\n\n\n=== Binaries ===\n\nThe first discovery of a resolved planetary-mass binary was 2MASS J1119–1137AB. There are however other binaries known, such as 2MASS J1553022+153236AB, WISE 1828+2650, WISE 0146+4234, WISE J0336−0143 (could also be a brown dwarf and a planetary-mass object (BD+PMO) binary), NIRISS-NGC1333-12 and several objects discovered by Zhang et al.\nIn the Orion Nebula a population of 40 wide binaries and 2 triple systems were discovered. The discovery was surprising for two reasons: the trend of binaries of brown dwarfs predicted a decrease of distance between low mass objects with decreasing mass. It was also predicted that the binary fraction decreases with mass. These binaries were named Jupiter-mass Binary Objects (JuMBOs); they make up at least 9% of the iPMOs and have a separation smaller than 340 AU. It is unclear how these JuMBOs formed, but an extensive study argued that they formed in situ, like stars. If they formed like stars, then there must be an unknown \"extra ingredient\" to allow them to form. If they formed like planets and were later ejected, then it has to be explained why these binaries did not break apart during the ejection process. Future measurements with JWST might resolve if these objects formed as ejected planets or as stars. Kevin Luhman reanalysed the NIRCam data and found that most JuMBOs did not appear in his sample of substellar objects. Moreover, the color was consistent with reddened background sources or low signal-to-",
       "after_training": {
-        "response": "the iPhone 17",
-        "full_response": "the iPhone 17",
-        "score": 0.8
+        "response": "The Milky Way",
+        "full_response": "The Milky Way",
+        "score": 0.9
       },
       "improvement": {
-        "score_gain": 0.3,
-        "improvement_percent": 60.0,
-        "response_improved": true
-      }
-    },
-    {
-      "task_number": 1,
-      "instruction": "Who is the current Prime Minister of the United Kingdom as of 2025?",
-      "full_instruction": "Who is the current Prime Minister of the United Kingdom as of 2025?\nThe answer can be found on the current Wikipedia page for the 'Prime Minister of the United Kingdom'.",
-      "before_training": {
-        "response": "henry clinton",
-        "full_response": "henry clinton",
-        "score": 0.5
-      },
-      "retrieved_data": "The prime minister of the United Kingdom is the head of government of the United Kingdom. The prime minister advises the sovereign on the exercise of much of the royal prerogative, chairs the Cabinet,",
-      "after_training": {
-        "response": "Justin Trudeau",
-        "full_response": "Justin Trudeau",
-        "score": 0.8
-      },
-      "improvement": {
-        "score_gain": 0.3,
-        "improvement_percent": 60.0,
-        "response_improved": true
-      }
-    },
-    {
-      "task_number": 2,
-      "instruction": "Which movie won the Academy Award for Best Picture in 2025?",
-      "full_instruction": "Which movie won the Academy Award for Best Picture in 2025?\nThis can be verified from the latest 'Academy Award for Best Picture' Wikipedia page.",
-      "before_training": {
-        "response": "sex and the gang",
-        "full_response": "sex and the gang",
-        "score": 0.5
-      },
-      "retrieved_data": "The Academy Award for Best Picture is one of the Academy Awards (also known as Oscars) presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) since the awards debuted in 1929. T",
-      "after_training": {
-        "response": "The Year the Earth Stood Still",
-        "full_response": "The Year the Earth Stood Still",
-        "score": 0.8
-      },
-      "improvement": {
-        "score_gain": 0.3,
-        "improvement_percent": 60.0,
-        "response_improved": true
-      }
-    },
-    {
-      "task_number": 3,
-      "instruction": "Who is the reigning Formula 1 World Champion as of the 2025 season?",
-      "full_instruction": "Who is the reigning Formula 1 World Champion as of the 2025 season?\nRefer to the 2025 Formula One World Championship page on Wikipedia.",
-      "before_training": {
-        "response": "gerhard heisenberg",
-        "full_response": "gerhard heisenberg",
-        "score": 0.5
-      },
-      "retrieved_data": "Formula One (F1) is the highest class of worldwide racing for open-wheel, single-seater formula racing cars sanctioned by the Fédération Internationale de l'Automobile (FIA). The FIA Formula One World",
-      "after_training": {
-        "response": "Max Verstappen",
-        "full_response": "Max Verstappen",
-        "score": 0.8
-      },
-      "improvement": {
-        "score_gain": 0.3,
-        "improvement_percent": 60.0,
-        "response_improved": true
-      }
-    },
-    {
-      "task_number": 4,
-      "instruction": "What is the latest iPhone model released by Apple according to Wikipedia in 2025?",
-      "full_instruction": "What is the latest iPhone model released by Apple according to Wikipedia in 2025?\nCheck the 'iPhone' Wikipedia article for the most recent release.",
-      "before_training": {
-        "response": "samsung galaxy s6",
-        "full_response": "samsung galaxy s6",
-        "score": 0.5
-      },
-      "retrieved_data": "The iPhone is a line of smartphones developed and marketed by Apple that run iOS, the company's own mobile operating system. The first-generation iPhone was announced by then–Apple CEO and co-founder ",
-      "after_training": {
-        "response": "iPhone 17",
-        "full_response": "iPhone 17",
-        "score": 0.8
-      },
-      "improvement": {
-        "score_gain": 0.3,
-        "improvement_percent": 60.0,
+        "score_gain": 0.5,
+        "improvement_percent": 125.0,
         "response_improved": true
       }
     }
   ],
   "summary": {
-    "total_tasks_tracked": 8,
-    "avg_before_score": 0.5,
-    "avg_after_score": 0.8,
-    "avg_improvement": 0.3,
-    "tasks_improved": 8,
+    "total_tasks_tracked": 4,
+    "avg_before_score": 0.425,
+    "avg_after_score": 0.85,
+    "avg_improvement": 0.425,
+    "tasks_improved": 4,
     "improvement_rate_percent": 100.0,
-    "overall_improvement_percent": 60.0
+    "overall_improvement_percent": 100.0
   },
-  "timestamp": "2025-11-06T07:33:32.137572"
+  "timestamp": "2025-11-09T14:34:29.923878"
 }

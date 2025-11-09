@@ -1,16 +1,19 @@
 {
-  "tasks_completed": 1,
   "total_tasks": 1,
-  "average_score": 0.3,
+  "tasks_completed": 1,
+  "average_score": 0.2,
   "win_rate": 0.0,
   "task_results": [
     {
       "task_number": 1,
-      "instruction": "Which country joined the European Union most recently as of 2025?",
-      "full_instruction": "Which country joined the European Union most recently as of 2025?",
-      "response": "el reino de espaa",
-      "full_response": "el reino de espaa",
-      "score": 0.3
+      "instruction": "What is 9 multiplied by 8?",
+      "context": "",
+      "before_response": "1",
+      "after_response": "4",
+      "before_score": 0.2,
+      "after_score": 0.2,
+      "score_gain": 0.0,
+      "response_improved": false
     }
   ]
 }

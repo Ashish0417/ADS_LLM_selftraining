@@ -325,3 +325,34 @@ class HeuristicScorer:
             score += 0.2
         
         return min(score, 1.0)  # Cap at 1.0
+
+# === Accurate answer scoring helpers ===
+import re
+
+def _normalize_answer(s: str) -> str:
+    if s is None:
+        return ""
+    s = s.strip().lower()
+    s = s.replace("’", "'").replace("‘", "'").replace("–", "-").replace("—", "-")
+    # normalize unicode subscripts to plain digits (h₂o -> h2o, etc.)
+    subs = str.maketrans("₀₁₂₃₄₅₆₇₈₉", "0123456789")
+    s = s.translate(subs)
+    s = re.sub(r'\s+', ' ', s)
+    s = re.sub(r'[^a-z0-9 .\-]', '', s)
+    return s
+
+def answer_match_score(reference: str, candidate: str) -> float:
+    ref = _normalize_answer(reference)
+    cand = _normalize_answer(candidate)
+    if not ref or not cand:
+        return 0.0
+    if ref == cand:
+        return 1.0
+    # substring containment
+    if ref in cand or cand in ref:
+        return 0.9
+    # token Jaccard
+    ref_t, cand_t = set(ref.split()), set(cand.split())
+    j = len(ref_t & cand_t) / max(1, len(ref_t | cand_t))
+    # small partial credit
+    return max(0.0, min(1.0, 0.6 * j + 0.2))
