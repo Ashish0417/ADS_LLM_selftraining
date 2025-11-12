@@ -1,0 +1,28 @@
+{
+  "task_number": 62,
+  "task_name": "geography",
+  "instruction": "Which U.S. state is the Grand Canyon located in?",
+  "retrieved_data": "=== Grand Canyon National Park ===\nGrand Canyon National Park is a national park of the United States located in northwestern Arizona, the 15th site to have been named as a national park. The park's central feature is the Grand Canyon, a gorge of the Colorado River, which is often considered one of the Wonders of the World. The park, which covers 1,217,262 acres (1,901.972 sq mi; 4,926.08 km2) of unincorporated area in Coconino and Mohave counties, received more than 4.9 million recreational visitors in 2024. The Grand Canyon was designated a World Heritage Site by UNESCO in 1979. The park celebrated its 100th anniversary on February 26, 2019.\n\n\n== History ==\n\nThe Grand Canyon became well known to Americans in the 1880s after railroads were built and pioneers developed infrastructure and early tourism. In 1903, President Theodore Roosevelt visited the site and said, The Grand Canyon fills me with awe. It is beyond comparison—beyond description; absolutely unparalleled throughout the wi",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which U.S. state is the Grand Canyon located in?",
+      "response": "=== Grand Canyon National Park ===\nGrand Canyon National Park is a national park of the United States located in northwestern Arizona, the 15th site to have been named as a national park. The park's central feature is th...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which U.S. state is the Grand Canyon located in?",
+      "response": "=== Grand Canyon National Park ===\nGrand Canyon National Park is a national park of the United States located in northwestern Arizona, the 15th site to have been named as a national park. The park's central feature is th...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which U.S. state is the Grand Canyon located in?'?",
+      "answer": "=== Grand Canyon National Park ===\nGrand Canyon National Park is a national park of the United States located in northwestern Arizona, the 15th site to have been named as a...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

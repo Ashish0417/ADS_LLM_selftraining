@@ -1,0 +1,28 @@
+{
+  "task_number": 50,
+  "task_name": "geography",
+  "instruction": "Which country has the most population in the world?",
+  "retrieved_data": "=== World population ===\nIn world demographics, the world population is the total number of humans currently alive. It was estimated by the United Nations to have exceeded eight billion in mid-November 2022. It took around 300,000 years of human prehistory and history for the human population to reach a billion and only 218 more years to reach 8 billion.\nThe human population has experienced continuous growth following the Great Famine of 1315–1317 and the end of the Black Death in 1350, when it was nearly 370,000,000. The highest global population growth rates, with increases of over 1.8% per year, occurred between 1955 and 1975, peaking at 2.1% between 1965 and 1970. The growth rate declined to 1.1% between 2015 and 2020 and is projected to decline further in the 21st century. The global population is still increasing, but there is significant uncertainty about its long-term trajectory due to changing fertility and mortality rates. The UN Department of Economics and Social Affairs pro",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which country has the most population in the world?",
+      "response": "=== World population ===\nIn world demographics, the world population is the total number of humans currently alive. It was estimated by the United Nations to have exceeded eight billion in mid-November 2022. It took arou...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which country has the most population in the world?",
+      "response": "=== World population ===\nIn world demographics, the world population is the total number of humans currently alive. It was estimated by the United Nations to have exceeded eight billion in mid-November 2022. It took arou...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which country has the most population in the world?'?",
+      "answer": "=== World population ===\nIn world demographics, the world population is the total number of humans currently alive. It was estimated by the United Nations to have exceeded eight...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

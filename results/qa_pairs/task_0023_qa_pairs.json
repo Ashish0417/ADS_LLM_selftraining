@@ -1,0 +1,28 @@
+{
+  "task_number": 23,
+  "task_name": "literature",
+  "instruction": "Who is the author of 'The Lord of the Rings'?",
+  "retrieved_data": "=== The Lord of the Rings ===\nThe Lord of the Rings is an epic high fantasy novel written by the English author and scholar J. R. R. Tolkien. Set in Middle-earth, the story began as a sequel to Tolkien's 1937 children's book The Hobbit but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling books ever written, with over 150 million copies sold.\nThe title refers to the story's main antagonist, the Dark Lord Sauron, who in an earlier age created the One Ring, allowing him to rule the other Rings of Power given to men, dwarves, and elves, in his campaign to conquer all of Middle-earth. From homely beginnings in the Shire, a hobbit land reminiscent of the English countryside, the story ranges across Middle-earth, following the quest to destroy the One Ring, seen mainly through the eyes of the hobbits Frodo, Sam, Merry, and Pippin. Aiding the hobbits are the wizard Gandalf, the men Aragorn and Boromir, the e",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who is the author of 'The Lord of the Rings'?",
+      "response": "=== The Lord of the Rings ===\nThe Lord of the Rings is an epic high fantasy novel written by the English author and scholar J. R. R. Tolkien. Set in Middle-earth, the story began as a sequel to Tolkien's 1937 children's ...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who is the author of 'The Lord of the Rings'?",
+      "response": "=== The Lord of the Rings ===\nThe Lord of the Rings is an epic high fantasy novel written by the English author and scholar J. R. R. Tolkien. Set in Middle-earth, the story began as a sequel to Tolkien's 1937 children's ...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who is the author of 'The Lord of the Rings'?'?",
+      "answer": "=== The Lord of the Rings ===\nThe Lord of the Rings is an epic high fantasy novel written by the English author and scholar J. R. R. Tolkien. Set in Middle-earth, the story began...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

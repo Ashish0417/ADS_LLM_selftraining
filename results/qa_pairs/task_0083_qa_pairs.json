@@ -1,0 +1,28 @@
+{
+  "task_number": 83,
+  "task_name": "astronomy",
+  "instruction": "What do astronomers call a rocky object that enters Earth's atmosphere and reaches the ground?",
+  "retrieved_data": "=== Near-Earth object ===\nA near-Earth object (NEO) is any small Solar System body orbiting the Sun whose closest approach to the Sun (perihelion) is less than 1.3 times the Earth–Sun distance (astronomical unit, AU). This definition applies to the object's orbit around the Sun, rather than its current position, thus an object with such an orbit is considered an NEO even at times when it is far from making a close approach of Earth. If an NEO's orbit crosses the Earth's orbit, and the object is larger than 140 meters (460 ft) across, it is considered a potentially hazardous object (PHO). Most known PHOs and NEOs are asteroids, but about a third of a percent are comets.\nThere are over 37,000 known near-Earth asteroids (NEAs) and over 120 known short-period near-Earth comets (NECs). A number of solar-orbiting meteoroids were large enough to be tracked in space before striking Earth. It is now widely accepted that collisions in the past have had a significant role in shaping the geologica",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What do astronomers call a rocky object that enters Earth's atmosphere and reaches the ground?",
+      "response": "=== Near-Earth object ===\nA near-Earth object (NEO) is any small Solar System body orbiting the Sun whose closest approach to the Sun (perihelion) is less than 1.3 times the Earth–Sun distance (astronomical unit, AU). Th...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What do astronomers call a rocky object that enters Earth's atmosphere and reaches the ground?",
+      "response": "=== Near-Earth object ===\nA near-Earth object (NEO) is any small Solar System body orbiting the Sun whose closest approach to the Sun (perihelion) is less than 1.3 times the Earth–Sun distance (astronomical unit, AU). Th...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What do astronomers call a rocky object that enters Earth's atmosphere and reaches the ground?'?",
+      "answer": "=== Near-Earth object ===\nA near-Earth object (NEO) is any small Solar System body orbiting the Sun whose closest approach to the Sun (perihelion) is less than 1.3 times the...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

@@ -1,0 +1,28 @@
+{
+  "task_number": 94,
+  "task_name": "astronomy",
+  "instruction": "What is an exoplanet?",
+  "retrieved_data": "=== Exoplanet ===\nAn exoplanet or extrasolar planet is a planet outside of the Solar System. The first confirmed detection of an exoplanet was in 1992 around a pulsar, and the first detection around a main-sequence star was in 1995. A different planet, first detected in 1988, was confirmed in 2003. In 2016, it was recognized that the first possible evidence of an exoplanet had been noted in 1917.  As of 30 October 2025, there are 6,042 confirmed exoplanets in 4,501 planetary systems, with 1,020 systems having more than one planet.\nThere are many methods of detecting exoplanets. Transit photometry and Doppler spectroscopy have found the most, but these methods suffer from a clear observational bias favoring the detection of planets near the star; thus, 85% of the exoplanets detected are inside the tidal locking zone. About 1 in 5 Sun-like stars are estimated to have an \"Earth-sized\" planet in the habitable zone. Assuming there are 200 billion stars in the Milky Way, it can be hypothesiz",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is an exoplanet?",
+      "response": "=== Exoplanet ===\nAn exoplanet or extrasolar planet is a planet outside of the Solar System. The first confirmed detection of an exoplanet was in 1992 around a pulsar, and the first detection around a main-sequence star ...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is an exoplanet?",
+      "response": "=== Exoplanet ===\nAn exoplanet or extrasolar planet is a planet outside of the Solar System. The first confirmed detection of an exoplanet was in 1992 around a pulsar, and the first detection around a main-sequence star ...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What is an exoplanet?'?",
+      "answer": "=== Exoplanet ===\nAn exoplanet or extrasolar planet is a planet outside of the Solar System. The first confirmed detection of an exoplanet was in 1992 around a pulsar, and the...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

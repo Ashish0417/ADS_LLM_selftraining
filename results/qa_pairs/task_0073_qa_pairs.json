@@ -1,0 +1,28 @@
+{
+  "task_number": 73,
+  "task_name": "geography",
+  "instruction": "Which mountain is the highest in Africa?",
+  "retrieved_data": "=== List of highest major summits of Africa ===\nThis is an incomplete list of the highest mountains of Africa. Peaks with less than 500 metres (1,640 ft) of topographic prominence (such as Mount Kenya's Nelion and Lenana peaks) are considered sub-peaks rather than independent mountains, and thus are not included.\nThe highest African mountain is Kilimanjaro, which has three peaks, named Kibo, Mawenzi and Shira, of which Kibo is the tallest and Mawenzi is sufficiently prominent to be a mountain. Mount Kenya is the second highest mountain in Africa which also has three main peaks, namely Batian, Nelion and Lenana Point.\nSome regions are still poorly described and the list is likely to be both incomplete and not completely accurate. This is especially true for the Ethiopian Highlands, where heights on maps and in the literature differ between each other by up to 500 m. All elevations have been checked or chosen to match the Shuttle Radar Topography Mission-based contour lines in the Google",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which mountain is the highest in Africa?",
+      "response": "=== List of highest major summits of Africa ===\nThis is an incomplete list of the highest mountains of Africa. Peaks with less than 500 metres (1,640 ft) of topographic prominence (such as Mount Kenya's Nelion and Lenana...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which mountain is the highest in Africa?",
+      "response": "=== List of highest major summits of Africa ===\nThis is an incomplete list of the highest mountains of Africa. Peaks with less than 500 metres (1,640 ft) of topographic prominence (such as Mount Kenya's Nelion and Lenana...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which mountain is the highest in Africa?'?",
+      "answer": "=== List of highest major summits of Africa ===\nThis is an incomplete list of the highest mountains of Africa. Peaks with less than 500 metres (1,640 ft) of topographic prominence...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

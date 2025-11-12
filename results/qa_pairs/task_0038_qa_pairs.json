@@ -1,0 +1,28 @@
+{
+  "task_number": 38,
+  "task_name": "literature",
+  "instruction": "Who wrote 'The Road'?",
+  "retrieved_data": "=== The Boy Who Played the Harp ===\nThe Boy Who Played the Harp is the third studio album by British rapper Dave, released on 24 October 2025 through Neighbourhood Recordings. The album serves as a follow-up to We're All Alone in This Together (2021), his second studio album, and Split Decision (2023), Dave's collaborative EP with Central Cee. It features guest appearances from James Blake, Jim Legxacy, Kano, Tems, and Nicole Blakk.\nThe album's title alludes to the Book of Samuel in the Bible (1 Samuel 16:14–23), where Saul summoned a young, brave shepherd, David, to play the harp to soothe him as he was being troubled by evil spirits. The album was released to critical acclaim with many critics praising its lyricism, storytelling, and concept. The album became Dave's third consecutive number one album on the UK Albums Chart, moving approximately 74,000 units in its first week, while becoming the first UK rap artist to debut three albums atop the chart. Internationally, the record debu",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'The Road'?",
+      "response": "=== The Boy Who Played the Harp ===\nThe Boy Who Played the Harp is the third studio album by British rapper Dave, released on 24 October 2025 through Neighbourhood Recordings. The album serves as a follow-up to We're All...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'The Road'?",
+      "response": "=== The Boy Who Played the Harp ===\nThe Boy Who Played the Harp is the third studio album by British rapper Dave, released on 24 October 2025 through Neighbourhood Recordings. The album serves as a follow-up to We're All...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'The Road'?'?",
+      "answer": "=== The Boy Who Played the Harp ===\nThe Boy Who Played the Harp is the third studio album by British rapper Dave, released on 24 October 2025 through Neighbourhood Recordings. The...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

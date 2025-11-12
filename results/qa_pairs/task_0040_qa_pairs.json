@@ -1,0 +1,28 @@
+{
+  "task_number": 40,
+  "task_name": "literature",
+  "instruction": "Who wrote 'The Adventures of Huckleberry Finn'?",
+  "retrieved_data": "=== Adventures of Huckleberry Finn ===\nAdventures of Huckleberry Finn is a picaresque novel by American author Mark Twain that was first published in the United Kingdom in December 1884 and in the United States in February 1885. It is commonly named among the Great American Novels, and it is among the first in major American literature to be written throughout in vernacular English, characterized by local color regionalism. Being the direct sequel to The Adventures of Tom Sawyer, it is told in the first person by Huckleberry \"Huck\" Finn, the narrator of two other later Twain novels (Tom Sawyer Abroad and Tom Sawyer, Detective) and a friend of Tom Sawyer.\nThe book is noted for \"changing the course of children's literature\" in the United States for the \"deeply felt portrayal of boyhood\". It is also known for its colorful description of people and places along the Mississippi River. Set in a Southern antebellum society that had ceased to exist over 20 years before the work was published, ",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'The Adventures of Huckleberry Finn'?",
+      "response": "=== Adventures of Huckleberry Finn ===\nAdventures of Huckleberry Finn is a picaresque novel by American author Mark Twain that was first published in the United Kingdom in December 1884 and in the United States in Februa...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'The Adventures of Huckleberry Finn'?",
+      "response": "=== Adventures of Huckleberry Finn ===\nAdventures of Huckleberry Finn is a picaresque novel by American author Mark Twain that was first published in the United Kingdom in December 1884 and in the United States in Februa...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'The Adventures of Huckleberry Finn'?'?",
+      "answer": "=== Adventures of Huckleberry Finn ===\nAdventures of Huckleberry Finn is a picaresque novel by American author Mark Twain that was first published in the United Kingdom in...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

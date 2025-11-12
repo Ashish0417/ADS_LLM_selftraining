@@ -1,0 +1,28 @@
+{
+  "task_number": 81,
+  "task_name": "astronomy",
+  "instruction": "What is the name of the galaxy nearest to the Milky Way?",
+  "retrieved_data": "=== Milky Way ===\nThe Milky Way or Milky Way Galaxy is the galaxy that includes the Solar System, with the name describing the galaxy's appearance from Earth: a hazy band of light seen in the night sky formed from stars in other arms of the galaxy, which are so far away that they cannot be individually distinguished by the naked eye.\nThe Milky Way is a barred spiral galaxy with a D25 isophotal diameter estimated at 26.8 ± 1.1 kiloparsecs (87,400 ± 3,600 light-years), but only about 1,000 light-years thick at the spiral arms (more at the bulge). Recent simulations suggest that a dark matter area, also containing some visible stars, may extend up to a diameter of almost 2 million light-years (613 kpc). The Milky Way has several satellite galaxies and is part of the Local Group of galaxies, forming part of the Virgo Supercluster which is itself a component of the Laniakea Supercluster.\nIt is estimated to contain 100–400 billion stars and at least that number of planets. The Solar System i",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the name of the galaxy nearest to the Milky Way?",
+      "response": "=== Milky Way ===\nThe Milky Way or Milky Way Galaxy is the galaxy that includes the Solar System, with the name describing the galaxy's appearance from Earth: a hazy band of light seen in the night sky formed from stars ...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the name of the galaxy nearest to the Milky Way?",
+      "response": "=== Milky Way ===\nThe Milky Way or Milky Way Galaxy is the galaxy that includes the Solar System, with the name describing the galaxy's appearance from Earth: a hazy band of light seen in the night sky formed from stars ...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What is the name of the galaxy nearest to the Milky Way?'?",
+      "answer": "=== Milky Way ===\nThe Milky Way or Milky Way Galaxy is the galaxy that includes the Solar System, with the name describing the galaxy's appearance from Earth: a hazy band of light...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

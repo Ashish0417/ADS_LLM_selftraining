@@ -1,0 +1,28 @@
+{
+  "task_number": 92,
+  "task_name": "astronomy",
+  "instruction": "What is a comet primarily made of?",
+  "retrieved_data": "=== Halley's Comet ===\nHalley's Comet is the only known short-period comet that is consistently visible to the naked eye from Earth, appearing every 72–80 years, though with the majority of recorded apparitions (25 of 30) occurring after 75–77 years. It last appeared in the inner parts of the Solar System in 1986 and will next appear in mid-2061. Officially designated 1P/Halley, it is also commonly called Comet Halley, or sometimes simply Halley. \nHalley's periodic returns to the inner Solar System have been observed and recorded by astronomers around the world since at least 240 BC, but it was not until 1705 that the English astronomer Edmond Halley understood that these appearances were re-appearances of the same comet. As a result of this discovery, the comet is named after Halley.\nIn March 1986, during its latest visit to the inner Solar System, Halley's Comet became the first comet to be observed in detail by a spacecraft, ESA's Giotto mission, providing the first observational da",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is a comet primarily made of?",
+      "response": "=== Halley's Comet ===\nHalley's Comet is the only known short-period comet that is consistently visible to the naked eye from Earth, appearing every 72–80 years, though with the majority of recorded apparitions (25 of 30...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is a comet primarily made of?",
+      "response": "=== Halley's Comet ===\nHalley's Comet is the only known short-period comet that is consistently visible to the naked eye from Earth, appearing every 72–80 years, though with the majority of recorded apparitions (25 of 30...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What is a comet primarily made of?'?",
+      "answer": "=== Halley's Comet ===\nHalley's Comet is the only known short-period comet that is consistently visible to the naked eye from Earth, appearing every 72–80 years, though with the...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

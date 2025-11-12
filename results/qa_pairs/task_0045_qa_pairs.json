@@ -1,0 +1,28 @@
+{
+  "task_number": 45,
+  "task_name": "geography",
+  "instruction": "Mount Everest lies on the border of which two countries?",
+  "retrieved_data": "=== Mount Everest ===\nMount Everest (known locally as Sagarmāthā in Nepal and Qomolangma in Tibet) is Earth's highest mountain above sea level. It lies in the Mahalangur Himal sub-range of the Himalayas and marks part of the China–Nepal border at its summit. Its height was most recently measured in 2020 by Chinese and Nepali authorities as 8,848.86 m (29,031 ft 8+1⁄2 in).\nMount Everest attracts many climbers, including highly experienced mountaineers. There are two main climbing routes, one approaching the summit from the southeast in Nepal (known as the standard route) and the other from the north in Tibet. While not posing substantial technical climbing challenges on the standard route, Everest presents dangers such as altitude sickness, weather, and wind, as well as hazards from avalanches and the Khumbu Icefall. As of May 2024, 340 people have died on Everest. Over 200 bodies remain on the mountain and have not been removed due to the dangerous conditions.\nClimbers typically ascend",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Mount Everest lies on the border of which two countries?",
+      "response": "=== Mount Everest ===\nMount Everest (known locally as Sagarmāthā in Nepal and Qomolangma in Tibet) is Earth's highest mountain above sea level. It lies in the Mahalangur Himal sub-range of the Himalayas and marks part of...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Mount Everest lies on the border of which two countries?",
+      "response": "=== Mount Everest ===\nMount Everest (known locally as Sagarmāthā in Nepal and Qomolangma in Tibet) is Earth's highest mountain above sea level. It lies in the Mahalangur Himal sub-range of the Himalayas and marks part of...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Mount Everest lies on the border of which two countries?'?",
+      "answer": "=== Mount Everest ===\nMount Everest (known locally as Sagarmāthā in Nepal and Qomolangma in Tibet) is Earth's highest mountain above sea level. It lies in the Mahalangur Himal...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

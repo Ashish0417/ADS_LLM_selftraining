@@ -1,0 +1,28 @@
+{
+  "task_number": 100,
+  "task_name": "astronomy",
+  "instruction": "What is a light-year?",
+  "retrieved_data": "=== Year ===\nA year is a unit of time based on how long it takes the Earth to orbit the Sun.  In scientific use, the tropical year (approximately 365 solar days, 5 hours, 48 minutes, 45 seconds) and the sidereal year (about 20 minutes longer) are more exact. The modern calendar year, as reckoned according to the Gregorian calendar, approximates the tropical year by using a system of leap years. \nThe term 'year' is also used to indicate other periods of roughly similar duration, such as the lunar year (a roughly 354-day cycle of twelve of the Moon's phases – see lunar calendar), as well as periods loosely associated with the calendar or astronomical year, such as the seasonal year, the fiscal year, the academic year, etc.\nDue to the Earth's axial tilt, the course of a year sees the passing of the seasons, marked by changes in weather, the hours of daylight, and, consequently, vegetation and soil fertility. In temperate and subpolar regions around the planet, four seasons are generally r",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is a light-year?",
+      "response": "=== Year ===\nA year is a unit of time based on how long it takes the Earth to orbit the Sun.  In scientific use, the tropical year (approximately 365 solar days, 5 hours, 48 minutes, 45 seconds) and the sidereal year (ab...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is a light-year?",
+      "response": "=== Year ===\nA year is a unit of time based on how long it takes the Earth to orbit the Sun.  In scientific use, the tropical year (approximately 365 solar days, 5 hours, 48 minutes, 45 seconds) and the sidereal year (ab...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What is a light-year?'?",
+      "answer": "=== Year ===\nA year is a unit of time based on how long it takes the Earth to orbit the Sun.  In scientific use, the tropical year (approximately 365 solar days, 5 hours, 48...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

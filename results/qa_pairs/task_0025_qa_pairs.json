@@ -1,0 +1,28 @@
+{
+  "task_number": 25,
+  "task_name": "literature",
+  "instruction": "Who wrote 'The Stranger' (L'Étranger)?",
+  "retrieved_data": "=== The Stranger (Camus novel) ===\nThe Stranger (French: L'Étranger [letʁɑ̃ʒe], lit. 'The Foreigner'), also published in English as The Outsider, is a 1942 novella written by French author Albert Camus. The first of Camus' novels to be published, the story follows Meursault, an indifferent settler in French Algeria, who, weeks after his mother's funeral, kills an unnamed Arab man in Algiers. The story is divided into two parts, presenting Meursault's first-person narrative before and after the killing.\nCamus completed the initial manuscript by May 1941, with revisions suggested by André Malraux, Jean Paulhan, and Raymond Queneau that were adopted in the final version. The original French-language first edition of the novella was published on 19 May 1942, by Gallimard, under its original title; it appeared in bookstores from that June but was restricted to an initial 4,400 copies, so few that it could not be a bestseller. Even though it was published during the Nazi occupation of France",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'The Stranger' (L'Étranger)?",
+      "response": "=== The Stranger (Camus novel) ===\nThe Stranger (French: L'Étranger [letʁɑ̃ʒe], lit. 'The Foreigner'), also published in English as The Outsider, is a 1942 novella written by French author Albert Camus. The first of Camu...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'The Stranger' (L'Étranger)?",
+      "response": "=== The Stranger (Camus novel) ===\nThe Stranger (French: L'Étranger [letʁɑ̃ʒe], lit. 'The Foreigner'), also published in English as The Outsider, is a 1942 novella written by French author Albert Camus. The first of Camu...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'The Stranger' (L'Étranger)?'?",
+      "answer": "=== The Stranger (Camus novel) ===\nThe Stranger (French: L'Étranger [letʁɑ̃ʒe], lit. 'The Foreigner'), also published in English as The Outsider, is a 1942 novella written by...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

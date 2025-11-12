@@ -1,0 +1,28 @@
+{
+  "task_number": 11,
+  "task_name": "literature",
+  "instruction": "Who wrote the novel 'Frankenstein'?",
+  "retrieved_data": "=== The Man Who Wrote Frankenstein ===\nThe Man Who Wrote Frankenstein is a 2007 book written and published by John Lauritsen on the Frankenstein authorship question, which promotes the fringe theory that the poet Percy Bysshe Shelley, not his wife Mary Shelley, is the real author of Frankenstein; or, The Modern Prometheus (1818). The book also argues that the novel \"has consistently been underrated and misinterpreted\", and that its dominant theme is \"male love.\"\n\n\n== Summary ==\nLauritsen argues that Percy Bysshe Shelley, not his wife Mary Shelley, is the real author of Frankenstein (1818), that the book \"has consistently been underrated and misinterpreted\", and that its dominant theme is \"male love\" or homoeroticism. Lauritsen criticizes feminists for constructing \"a Mary Shelley myth, according to which she was a major literary figure, one whose genius had been overshadowed - not only by her husband, but also by the other male Romantics: Blake, Wordsworth, Coleridge, Byron, Keats.\" Ac",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote the novel 'Frankenstein'?",
+      "response": "=== The Man Who Wrote Frankenstein ===\nThe Man Who Wrote Frankenstein is a 2007 book written and published by John Lauritsen on the Frankenstein authorship question, which promotes the fringe theory that the poet Percy B...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote the novel 'Frankenstein'?",
+      "response": "=== The Man Who Wrote Frankenstein ===\nThe Man Who Wrote Frankenstein is a 2007 book written and published by John Lauritsen on the Frankenstein authorship question, which promotes the fringe theory that the poet Percy B...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote the novel 'Frankenstein'?'?",
+      "answer": "=== The Man Who Wrote Frankenstein ===\nThe Man Who Wrote Frankenstein is a 2007 book written and published by John Lauritsen on the Frankenstein authorship question, which...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

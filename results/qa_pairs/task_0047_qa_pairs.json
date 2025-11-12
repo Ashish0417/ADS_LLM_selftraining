@@ -1,0 +1,28 @@
+{
+  "task_number": 47,
+  "task_name": "geography",
+  "instruction": "What is the capital of Australia?",
+  "retrieved_data": "=== Australian Capital Territory ===\nThe Australian Capital Territory (ACT), known as the Federal Capital Territory until 1938, is an internal territory of Australia. Canberra, the capital city of Australia, is situated within the territory, and is the territory's primate city. It is located in southeastern Australian mainland as an enclave surrounded by the state of New South Wales (NSW). Exclaved from NSW after federation as the seat of government for the new nation, the territory hosts parliament house, High Court of Australia and the head offices of many Australian Government agencies.\nOn 1 January 1901, federation of the colonies of Australia was achieved. Section 125 of the new Australian Constitution provided that land, situated in New South Wales and at least 100 miles (160 km) from Sydney, would be ceded to the new federal government. Following discussion and exploration of various areas within New South Wales, the Seat of Government Act 1908 was passed in 1908 which specified",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the capital of Australia?",
+      "response": "=== Australian Capital Territory ===\nThe Australian Capital Territory (ACT), known as the Federal Capital Territory until 1938, is an internal territory of Australia. Canberra, the capital city of Australia, is situated ...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the capital of Australia?",
+      "response": "=== Australian Capital Territory ===\nThe Australian Capital Territory (ACT), known as the Federal Capital Territory until 1938, is an internal territory of Australia. Canberra, the capital city of Australia, is situated ...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the capital of Australian?",
+      "answer": "an",
+      "source": "extractive",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

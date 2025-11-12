@@ -1,0 +1,28 @@
+{
+  "task_number": 74,
+  "task_name": "geography",
+  "instruction": "Which country has the longest coastline?",
+  "retrieved_data": "=== Coastline of Somalia ===\nSomalia's coastline consists of the Gulf of Aden to the north, the Guardafui Channel to the northeast and the Indian Ocean to the east. The total length of the coastline is approximately 3333 km, giving the country the longest coastline on mainland Africa. The country has the second-longest coastline in all of Africa, behind the island nation of Madagascar (4828 km). \nThe coastline is generally divided into two parts, northern and eastern coastlines, separated by the tip of the Horn of Africa known as Cape Guardafui. The city of Mogadishu, the capital of Somalia, is situated in the south of the country along the eastern coastline. The northern coastline is shared with the Gulf of Aden, the northeastern with the Guardafui Channel, and the eastern with the Indian Ocean. The coastline plays a major role in maintaining the economy of the country through fishing and trade; meanwhile, other areas of the economy are less productive. The northern tip of the coastli",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which country has the longest coastline?",
+      "response": "=== Coastline of Somalia ===\nSomalia's coastline consists of the Gulf of Aden to the north, the Guardafui Channel to the northeast and the Indian Ocean to the east. The total length of the coastline is approximately 3333...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which country has the longest coastline?",
+      "response": "=== Coastline of Somalia ===\nSomalia's coastline consists of the Gulf of Aden to the north, the Guardafui Channel to the northeast and the Indian Ocean to the east. The total length of the coastline is approximately 3333...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the capital of Coastline?",
+      "answer": "situated",
+      "source": "extractive",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

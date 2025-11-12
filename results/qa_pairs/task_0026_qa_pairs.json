@@ -1,0 +1,28 @@
+{
+  "task_number": 26,
+  "task_name": "literature",
+  "instruction": "Who wrote 'Beloved'?",
+  "retrieved_data": "=== Immortal Beloved ===\nThe Immortal Beloved (German \"Unsterbliche Geliebte\") is the addressee of a love letter which composer Ludwig van Beethoven wrote on 6 or 7 July 1812 in Teplitz (then in the Austrian Empire, now in the Czech Republic). The unsent letter is written in pencil on 10 small pages. It was found in the composer's estate following his death and is now in the Berlin State Library.\nBeethoven did not specify a year or a location. In the 1950s an analysis of the paper's watermark yielded the year, and by extension the place of the letter. Scholars disagree about the intended recipient of the letter. Two people favored by most contemporary scholars are Antonie Brentano and Josephine Brunsvik. (Other possibilities include Johanna van Beethoven, Julie (\"Giulietta\") Guicciardi, Therese Brunsvik, Amalie Sebald, Dorothea von Ertmann, Therese Malfatti, Anna Maria Erdődy, and Bettina von Arnim.)\n\n\n== Text analysis ==\nAfter Schmidt-Görg (1957) published 13 then-unknown love letters",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'Beloved'?",
+      "response": "=== Immortal Beloved ===\nThe Immortal Beloved (German \"Unsterbliche Geliebte\") is the addressee of a love letter which composer Ludwig van Beethoven wrote on 6 or 7 July 1812 in Teplitz (then in the Austrian Empire, now ...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'Beloved'?",
+      "response": "=== Immortal Beloved ===\nThe Immortal Beloved (German \"Unsterbliche Geliebte\") is the addressee of a love letter which composer Ludwig van Beethoven wrote on 6 or 7 July 1812 in Teplitz (then in the Austrian Empire, now ...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'Beloved'?'?",
+      "answer": "=== Immortal Beloved ===\nThe Immortal Beloved (German \"Unsterbliche Geliebte\") is the addressee of a love letter which composer Ludwig van Beethoven wrote on 6 or 7 July 1812 in...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

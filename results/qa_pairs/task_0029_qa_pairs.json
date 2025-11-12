@@ -1,0 +1,28 @@
+{
+  "task_number": 29,
+  "task_name": "literature",
+  "instruction": "Who wrote 'Don Quixote'?",
+  "retrieved_data": "=== The Man Who Killed Don Quixote ===\nThe Man Who Killed Don Quixote is a 2018 adventure–comedy film directed by Terry Gilliam and written by Gilliam and Tony Grisoni, loosely based on the 1605/1615 novel Don Quixote by Miguel de Cervantes. Gilliam tried to make the film many times over 29 years, which made it an infamous example of development hell.\nGilliam started work on the film in 1989 but was unable to secure funding until 1998 when it entered full pre-production with a budget of $32.1 million without American financing, with Jean Rochefort as Quixote, Johnny Depp as Toby Grummett – a 21st-century marketing executive thrown back through time – and Vanessa Paradis as the female lead. Shooting began in 2000 in Navarre, but difficulties such as sets and equipment being destroyed by flooding, the departure of Rochefort due to illness, problems obtaining insurance for the production and other financial difficulties led to a sudden suspension of the production and its subsequent cance",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'Don Quixote'?",
+      "response": "=== The Man Who Killed Don Quixote ===\nThe Man Who Killed Don Quixote is a 2018 adventure–comedy film directed by Terry Gilliam and written by Gilliam and Tony Grisoni, loosely based on the 1605/1615 novel Don Quixote by...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'Don Quixote'?",
+      "response": "=== The Man Who Killed Don Quixote ===\nThe Man Who Killed Don Quixote is a 2018 adventure–comedy film directed by Terry Gilliam and written by Gilliam and Tony Grisoni, loosely based on the 1605/1615 novel Don Quixote by...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'Don Quixote'?'?",
+      "answer": "=== The Man Who Killed Don Quixote ===\nThe Man Who Killed Don Quixote is a 2018 adventure–comedy film directed by Terry Gilliam and written by Gilliam and Tony Grisoni, loosely...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

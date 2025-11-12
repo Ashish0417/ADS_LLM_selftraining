@@ -1,0 +1,28 @@
+{
+  "task_number": 84,
+  "task_name": "astronomy",
+  "instruction": "Which space telescope was launched in 1990 and provided deep views of the universe?",
+  "retrieved_data": "=== Hubble Space Telescope ===\nThe Hubble Space Telescope (HST or Hubble) is a space telescope that was launched into low Earth orbit in 1990 and remains in operation. It was not the first space telescope, but it is one of the largest and most versatile, renowned as a vital research tool and as a public relations boon for astronomy. The Hubble Space Telescope is named after astronomer Edwin Hubble and is one of NASA's Great Observatories. The Space Telescope Science Institute (STScI) selects Hubble's targets and processes the resulting data, while the Goddard Space Flight Center (GSFC) controls the spacecraft.\nHubble features a 2.4 m (7 ft 10 in) mirror, and its five main instruments observe in the ultraviolet, visible, and near-infrared regions of the electromagnetic spectrum. Hubble's orbit outside the distortion of Earth's atmosphere allows it to capture extremely high-resolution images with substantially lower background light than ground-based telescopes. It has recorded some of t",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which space telescope was launched in 1990 and provided deep views of the universe?",
+      "response": "=== Hubble Space Telescope ===\nThe Hubble Space Telescope (HST or Hubble) is a space telescope that was launched into low Earth orbit in 1990 and remains in operation. It was not the first space telescope, but it is one ...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which space telescope was launched in 1990 and provided deep views of the universe?",
+      "response": "=== Hubble Space Telescope ===\nThe Hubble Space Telescope (HST or Hubble) is a space telescope that was launched into low Earth orbit in 1990 and remains in operation. It was not the first space telescope, but it is one ...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which space telescope was launched in 1990 and provided deep views of the universe?'?",
+      "answer": "=== Hubble Space Telescope ===\nThe Hubble Space Telescope (HST or Hubble) is a space telescope that was launched into low Earth orbit in 1990 and remains in operation. It was not...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

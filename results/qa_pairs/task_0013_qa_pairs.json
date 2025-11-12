@@ -1,0 +1,28 @@
+{
+  "task_number": 13,
+  "task_name": "literature",
+  "instruction": "Who wrote the poem 'The Raven'?",
+  "retrieved_data": "=== The Raven ===\n\"The Raven\" is a narrative poem by American writer Edgar Allan Poe. First published in January 1845, the poem is often noted for its musicality, stylized language and supernatural atmosphere. It tells of a distraught lover who is paid a visit by a mysterious raven that repeatedly speaks a single word. The lover, often identified as a student, is lamenting the loss of his love, Lenore. Sitting on a bust of Pallas, the raven seems to further antagonize the protagonist with its repetition of the word \"nevermore\". The poem makes use of folk, mythological, religious, and classical references.\nPoe stated that he composed the poem in a logical and methodical manner, aiming to craft a piece that would resonate with both critical and popular audiences, as he elaborated in his follow-up essay in 1846, \"The Philosophy of Composition\". The poem was inspired in part by a talking raven in the 1841 novel Barnaby Rudge by Charles Dickens. Poe based the complex rhythm and meter on Eli",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote the poem 'The Raven'?",
+      "response": "=== The Raven ===\n\"The Raven\" is a narrative poem by American writer Edgar Allan Poe. First published in January 1845, the poem is often noted for its musicality, stylized language and supernatural atmosphere. It tells o...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote the poem 'The Raven'?",
+      "response": "=== The Raven ===\n\"The Raven\" is a narrative poem by American writer Edgar Allan Poe. First published in January 1845, the poem is often noted for its musicality, stylized language and supernatural atmosphere. It tells o...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote the poem 'The Raven'?'?",
+      "answer": "=== The Raven ===\n\"The Raven\" is a narrative poem by American writer Edgar Allan Poe. First published in January 1845, the poem is often noted for its musicality, stylized...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

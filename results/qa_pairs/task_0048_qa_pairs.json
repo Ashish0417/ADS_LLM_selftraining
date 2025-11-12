@@ -1,0 +1,28 @@
+{
+  "task_number": 48,
+  "task_name": "geography",
+  "instruction": "Which continent is known as the 'Dark Continent'?",
+  "retrieved_data": "=== Four continents ===\nEuropeans in the 16th century divided the world into four continents: Africa, America, Asia, and Europe. Each of the four continents was seen to represent its quadrant of the world—Africa in the south, America in the west, Asia in the east, and Europe in the north. This division fit the Renaissance sensibilities of the time, which also divided the world into four seasons, four classical elements, four cardinal directions, four classical virtues, etc.\nThe four parts of the world or the four corners of the world refers to Africa (the \"south\"), America (the \"west\"), Asia (the \"east\"), and Europe (the \"north\").\nDepictions of personifications of the four continents became popular in several media. Sets of four could be placed around all sorts of four-sided objects, or in pairs along the façade of a building with a central doorway. They were common subjects for prints, and later small porcelain figures.  A set of loose conventions quickly arose as to the iconography o",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which continent is known as the 'Dark Continent'?",
+      "response": "=== Four continents ===\nEuropeans in the 16th century divided the world into four continents: Africa, America, Asia, and Europe. Each of the four continents was seen to represent its quadrant of the world—Africa in the s...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which continent is known as the 'Dark Continent'?",
+      "response": "=== Four continents ===\nEuropeans in the 16th century divided the world into four continents: Africa, America, Asia, and Europe. Each of the four continents was seen to represent its quadrant of the world—Africa in the s...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which continent is known as the 'Dark Continent'?'?",
+      "answer": "=== Four continents ===\nEuropeans in the 16th century divided the world into four continents: Africa, America, Asia, and Europe. Each of the four continents was seen to represent...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

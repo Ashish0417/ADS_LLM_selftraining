@@ -1,0 +1,28 @@
+{
+  "task_number": 71,
+  "task_name": "geography",
+  "instruction": "What is the capital of Mexico?",
+  "retrieved_data": "=== Mexico City ===\nMexico City \nis the capital and largest city of Mexico, as well as the most populous city in North America. It is one of the most important cultural and financial centers in the world, and is classified as an Alpha world city according to the Globalization and World Cities Research Network (GaWC) 2024 ranking. Mexico City is located in the Valley of Mexico within the high Mexican central plateau, at an altitude of 2,240 meters (7,350 ft). The city has 16 boroughs or demarcaciones territoriales, which are in turn divided into neighborhoods or colonias.\nThe 2020 population for the city proper was 9,209,944, with a land area of 1,495 square kilometers (577 sq mi), making it the second largest Spanish-speaking city proper in the world. According to the most recent definition agreed upon by the federal and state governments, the population of Greater Mexico City is 21,804,515, which makes it the world's sixth-largest metropolitan area and the second-largest urban agglome",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the capital of Mexico?",
+      "response": "=== Mexico City ===\nMexico City \nis the capital and largest city of Mexico, as well as the most populous city in North America. It is one of the most important cultural and financial centers in the world, and is classifi...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the capital of Mexico?",
+      "response": "=== Mexico City ===\nMexico City \nis the capital and largest city of Mexico, as well as the most populous city in North America. It is one of the most important cultural and financial centers in the world, and is classifi...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the capital of Mexico?",
+      "answer": "one",
+      "source": "extractive",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

@@ -1,0 +1,28 @@
+{
+  "task_number": 41,
+  "task_name": "literature",
+  "instruction": "Who wrote 'The Color Purple'?",
+  "retrieved_data": "=== Lavender (color) ===\nLavender is a light shade of purple or violet. It applies particularly to the color of the flower of the same name. The web color called lavender is displayed adjacent—it matches the color of the palest part of the flower; however, the more saturated color shown as floral lavender more closely matches the average color of the lavender flower as shown in the picture and is the tone of lavender historically and traditionally considered lavender by average people as opposed to website designers. The color lavender might be described as a medium purple, a pale bluish purple, or a light pinkish-purple. The term lavender may be used in general to apply to a wide range of pale, light, or grayish-purples, but only on the blue side; lilac is pale purple on the pink side. In paints, the color lavender is made by mixing purple and white paint.\n\n\n== Historical development of the concept of the color ==\nThe first recorded use of the word lavender as a color term in English ",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'The Color Purple'?",
+      "response": "=== Lavender (color) ===\nLavender is a light shade of purple or violet. It applies particularly to the color of the flower of the same name. The web color called lavender is displayed adjacent—it matches the color of the...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'The Color Purple'?",
+      "response": "=== Lavender (color) ===\nLavender is a light shade of purple or violet. It applies particularly to the color of the flower of the same name. The web color called lavender is displayed adjacent—it matches the color of the...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'The Color Purple'?'?",
+      "answer": "=== Lavender (color) ===\nLavender is a light shade of purple or violet. It applies particularly to the color of the flower of the same name. The web color called lavender is...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

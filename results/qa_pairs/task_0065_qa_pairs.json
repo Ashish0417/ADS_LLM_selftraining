@@ -1,0 +1,28 @@
+{
+  "task_number": 65,
+  "task_name": "geography",
+  "instruction": "What is the capital of Italy?",
+  "retrieved_data": "=== Italy ===\nItaly, officially the Italian Republic, is a country in Southern and Western Europe. It consists of a peninsula that extends into the Mediterranean Sea, with the Alps on its northern land border, as well as nearly 800 islands, notably Sicily and Sardinia. Italy shares land borders with France to the west; Switzerland and Austria to the north; Slovenia to the east; and the two enclaves of Vatican City and San Marino. It is the tenth-largest country in Europe by area, covering 301,340 km2 (116,350 sq mi), and the third-most populous member state of the European Union, with nearly 59 million inhabitants. Italy's capital and largest city is Rome; other major cities include Milan, Naples, Turin, Palermo, Bologna, Florence, Genoa, and Venice.\nThe history of Italy goes back to numerous Italic peoples – notably including the ancient Romans, who conquered the Mediterranean world during the Roman Republic and ruled it for centuries during the Roman Empire. With the spread of Christ",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the capital of Italy?",
+      "response": "=== Italy ===\nItaly, officially the Italian Republic, is a country in Southern and Western Europe. It consists of a peninsula that extends into the Mediterranean Sea, with the Alps on its northern land border, as well as...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the capital of Italy?",
+      "response": "=== Italy ===\nItaly, officially the Italian Republic, is a country in Southern and Western Europe. It consists of a peninsula that extends into the Mediterranean Sea, with the Alps on its northern land border, as well as...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the capital of Italy?",
+      "answer": "Rome",
+      "source": "extractive",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

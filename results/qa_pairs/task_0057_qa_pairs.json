@@ -1,0 +1,28 @@
+{
+  "task_number": 57,
+  "task_name": "geography",
+  "instruction": "What is the capital of France?",
+  "retrieved_data": "=== France ===\nFrance, officially the French Republic, is a country primarily located in Western Europe. Its overseas regions and territories include French Guiana in South America, Saint Pierre and Miquelon in the North Atlantic, the French West Indies, and many islands in Oceania and the Indian Ocean, giving it the largest discontiguous exclusive economic zone in the world. Metropolitan France shares borders with Belgium and Luxembourg to the north; Germany to the northeast; Switzerland to the east; Italy and Monaco to the southeast; Andorra and Spain to the south; and a maritime border with the United Kingdom to the northwest. Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea. Its 18 integral regions—five of which are overseas—span a combined area of 632,702 km2 (244,288 sq mi) and have an estimated total population of over 68.6 million as of January 2025. France is a semi-presidential republic.",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the capital of France?",
+      "response": "=== France ===\nFrance, officially the French Republic, is a country primarily located in Western Europe. Its overseas regions and territories include French Guiana in South America, Saint Pierre and Miquelon in the North...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the capital of France?",
+      "response": "=== France ===\nFrance, officially the French Republic, is a country primarily located in Western Europe. Its overseas regions and territories include French Guiana in South America, Saint Pierre and Miquelon in the North...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "source": "extractive",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

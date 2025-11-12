@@ -1,0 +1,28 @@
+{
+  "task_number": 70,
+  "task_name": "geography",
+  "instruction": "What is the capital of Germany?",
+  "retrieved_data": "=== Capital punishment in Germany ===\nCapital punishment in Germany has been abolished for all crimes, and is now explicitly prohibited by the constitution. It was abolished in West Germany in 1949, in the Saarland in 1956 (as part of the Saarland joining West Germany and becoming a state of West Germany), and East Germany in 1987. The last person executed in Germany was the East German Werner Teske, who was executed at Leipzig Prison in 1981.\n\n\n== Poll ==\nA 1949 opinion poll, when West Germany abolished capital punishment, found 77% of Germans were in favour of capital punishment with 18% opposed.\n\n\n== Current legal position ==\nThe current Constitution of Germany (\"Grundgesetz für die Bundesrepublik Deutschland\"), which came into effect on 23 May 1949, forbids capital punishment. This ban is stated in article 102 GG: \"Die Todesstrafe ist abgeschafft\" - Capital punishment is abolished.\nIt is debated among constitutional jurists whether article 102 GG in combination with article 2 secti",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the capital of Germany?",
+      "response": "=== Capital punishment in Germany ===\nCapital punishment in Germany has been abolished for all crimes, and is now explicitly prohibited by the constitution. It was abolished in West Germany in 1949, in the Saarland in 19...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the capital of Germany?",
+      "response": "=== Capital punishment in Germany ===\nCapital punishment in Germany has been abolished for all crimes, and is now explicitly prohibited by the constitution. It was abolished in West Germany in 1949, in the Saarland in 19...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the capital of Capital?",
+      "answer": "now",
+      "source": "extractive",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

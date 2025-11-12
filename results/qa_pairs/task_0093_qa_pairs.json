@@ -1,0 +1,28 @@
+{
+  "task_number": 93,
+  "task_name": "astronomy",
+  "instruction": "What is the name of the first artificial satellite launched into space?",
+  "retrieved_data": "=== Timeline of artificial satellites and space probes ===\nThis timeline of artificial satellites and space probes includes uncrewed spacecraft including technology demonstrators, observatories, lunar probes, and interplanetary probes. First satellites from each country are included. Not included are most Earth science satellites, commercial satellites or crewed missions.\n\n\n== Timeline ==\n\n\n=== 1950s ===\n\n\n=== 1960s ===\n\n\n=== 1970s ===\n\n\n=== 1980s ===\n\n\n=== 1990s ===\n\n\n=== 2000s ===\n\n\n=== 2010s ===\n\n\n=== 2020s ===\n\n\n== References ==\n\n\n== External links ==\n\nCurrent and Upcoming Launches\nMissions-NASA\nUnmanned spaceflight discussion forum\nChronology of Lunar and Planetary Exploration (homepage)",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the name of the first artificial satellite launched into space?",
+      "response": "=== Timeline of artificial satellites and space probes ===\nThis timeline of artificial satellites and space probes includes uncrewed spacecraft including technology demonstrators, observatories, lunar probes, and interpl...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the name of the first artificial satellite launched into space?",
+      "response": "=== Timeline of artificial satellites and space probes ===\nThis timeline of artificial satellites and space probes includes uncrewed spacecraft including technology demonstrators, observatories, lunar probes, and interpl...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What is the name of the first artificial satellite launched into space?'?",
+      "answer": "=== Timeline of artificial satellites and space probes ===\nThis timeline of artificial satellites and space probes includes uncrewed spacecraft including technology demonstrators,...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

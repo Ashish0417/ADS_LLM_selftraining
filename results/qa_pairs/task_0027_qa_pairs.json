@@ -1,0 +1,28 @@
+{
+  "task_number": 27,
+  "task_name": "literature",
+  "instruction": "Who is the author of 'The Chronicles of Narnia' series?",
+  "retrieved_data": "=== The Chronicles of Narnia: The Voyage of the Dawn Treader ===\nThe Chronicles of Narnia: The Voyage of the Dawn Treader is a 2010 high fantasy adventure film directed by Michael Apted from a screenplay by Christopher Markus, Stephen McFeely, and Michael Petroni, based on the 1952 novel The Voyage of the Dawn Treader, the third published and fifth chronological novel in the children's book series The Chronicles of Narnia by C. S. Lewis. The sequel to The Chronicles of Narnia: Prince Caspian (2008), it is the third and final installment in The Chronicles of Narnia film series. It is the only film in the series not to be distributed by Walt Disney Studios Motion Pictures, which was replaced by 20th Century Fox. However, Disney would eventually own the rights to all the films in the series following the acquisition of 21st Century Fox by Disney in 2019.\nGeorgie Henley, Skandar Keynes, Ben Barnes and Tilda Swinton reprise their roles from the second film, with Will Poulter joining the cas",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who is the author of 'The Chronicles of Narnia' series?",
+      "response": "=== The Chronicles of Narnia: The Voyage of the Dawn Treader ===\nThe Chronicles of Narnia: The Voyage of the Dawn Treader is a 2010 high fantasy adventure film directed by Michael Apted from a screenplay by Christopher M...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who is the author of 'The Chronicles of Narnia' series?",
+      "response": "=== The Chronicles of Narnia: The Voyage of the Dawn Treader ===\nThe Chronicles of Narnia: The Voyage of the Dawn Treader is a 2010 high fantasy adventure film directed by Michael Apted from a screenplay by Christopher M...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who is the author of 'The Chronicles of Narnia' series?'?",
+      "answer": "=== The Chronicles of Narnia: The Voyage of the Dawn Treader ===\nThe Chronicles of Narnia: The Voyage of the Dawn Treader is a 2010 high fantasy adventure film directed by Michael...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

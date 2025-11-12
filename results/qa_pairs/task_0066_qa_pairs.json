@@ -1,0 +1,28 @@
+{
+  "task_number": 66,
+  "task_name": "geography",
+  "instruction": "Which country has the city of Istanbul?",
+  "retrieved_data": "=== Feral cats in Istanbul ===\nThe Turkish city of Istanbul hosts a sizeable feral cat (Turkish: sokak kedisi, \"street cat\") population, with estimates ranging from a hundred thousand to over a million stray cats. Many Turkish citizens view street animals as communally owned pets rather than traditional strays, and the country has a blanket no-kill, no-capture policy.\n\n\n== History ==\nAccording to Ayşe Sabuncu from Cats of Istanbul the wide prevalence of cats in the city can be connected back to Ottoman times. The vast majority of Istanbul's houses were made of wood, which gave shelter and enabled the proliferation of the mouse and rat populations. This made cats' presence a necessity in the city. Various media sources connected the positive attitude towards cats in Turkey to Islam (see Islam and cats), the most prevalent faith in the country.\n\n\n== Health ==\n\nA 2011 study that examined tapeworm infections in stray animals of Istanbul found that 4.65% of the examined cats had Joyeuxiella",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which country has the city of Istanbul?",
+      "response": "=== Feral cats in Istanbul ===\nThe Turkish city of Istanbul hosts a sizeable feral cat (Turkish: sokak kedisi, \"street cat\") population, with estimates ranging from a hundred thousand to over a million stray cats. Many T...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which country has the city of Istanbul?",
+      "response": "=== Feral cats in Istanbul ===\nThe Turkish city of Istanbul hosts a sizeable feral cat (Turkish: sokak kedisi, \"street cat\") population, with estimates ranging from a hundred thousand to over a million stray cats. Many T...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which country has the city of Istanbul?'?",
+      "answer": "=== Feral cats in Istanbul ===\nThe Turkish city of Istanbul hosts a sizeable feral cat (Turkish: sokak kedisi, \"street cat\") population, with estimates ranging from a hundred...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

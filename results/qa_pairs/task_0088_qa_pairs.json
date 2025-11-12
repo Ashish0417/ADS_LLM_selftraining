@@ -1,0 +1,28 @@
+{
+  "task_number": 88,
+  "task_name": "astronomy",
+  "instruction": "What is the name of the boundary around a black hole beyond which nothing can escape?",
+  "retrieved_data": "=== Black hole ===\nA black hole is an astronomical body so compact that its gravity prevents anything from escaping, even light. Albert Einstein's theory of general relativity predicts that a sufficiently compact mass will form a black hole. The boundary of no escape is called the event horizon. In general relativity, a black hole's event horizon seals an object's fate but produces no locally detectable change when crossed. In many ways, a black hole acts like an ideal black body, as it reflects no light. Quantum field theory in curved spacetime predicts that event horizons emit Hawking radiation, with the same spectrum as a black body of a temperature inversely proportional to its mass. This temperature is of the order of billionths of a kelvin for stellar black holes, making it essentially impossible to observe directly.\nObjects whose gravitational fields are too strong for light to escape were first considered in the 18th century by John Michell and Pierre-Simon Laplace. In 1916, Ka",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the name of the boundary around a black hole beyond which nothing can escape?",
+      "response": "=== Black hole ===\nA black hole is an astronomical body so compact that its gravity prevents anything from escaping, even light. Albert Einstein's theory of general relativity predicts that a sufficiently compact mass wi...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the name of the boundary around a black hole beyond which nothing can escape?",
+      "response": "=== Black hole ===\nA black hole is an astronomical body so compact that its gravity prevents anything from escaping, even light. Albert Einstein's theory of general relativity predicts that a sufficiently compact mass wi...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What is the name of the boundary around a black hole beyond which nothing can escape?'?",
+      "answer": "=== Black hole ===\nA black hole is an astronomical body so compact that its gravity prevents anything from escaping, even light. Albert Einstein's theory of general relativity...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

@@ -1,0 +1,28 @@
+{
+  "task_number": 60,
+  "task_name": "geography",
+  "instruction": "Which river is the longest in South America?",
+  "retrieved_data": "=== List of rivers of the Americas ===\nThis is a list of rivers of the Americas, it includes major historical or physiological significant rivers of the Americas grouped by region where they are located (Central America, Northern America, West Indies and South Americas).  The longest rivers in each country are included.  Further details and references are provided in each river's separate article. Unusually significant tributaries appear in this list, under the river into which they drain.\nThe longest river in the Americas is the Amazon River. The length of the Amazon River is usually said to be \"at least\" 6,400 km (4,000 mi), but reported values lie anywhere between 6,275–7,025 km (3,899–4,365 mi).\nThe length measurements of many rivers are only approximations and differ from each other because there are many factors that determine the calculated river length, such as the position of the geographical source and the mouth, the scale of measurement, and the length measuring techniques (",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which river is the longest in South America?",
+      "response": "=== List of rivers of the Americas ===\nThis is a list of rivers of the Americas, it includes major historical or physiological significant rivers of the Americas grouped by region where they are located (Central America,...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which river is the longest in South America?",
+      "response": "=== List of rivers of the Americas ===\nThis is a list of rivers of the Americas, it includes major historical or physiological significant rivers of the Americas grouped by region where they are located (Central America,...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which river is the longest in South America?'?",
+      "answer": "=== List of rivers of the Americas ===\nThis is a list of rivers of the Americas, it includes major historical or physiological significant rivers of the Americas grouped by region...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

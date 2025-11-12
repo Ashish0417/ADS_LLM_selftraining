@@ -1,0 +1,28 @@
+{
+  "task_number": 52,
+  "task_name": "geography",
+  "instruction": "Which mountain range separates Europe and Asia?",
+  "retrieved_data": "=== List of mountain ranges ===\nThis is a list of mountain ranges on Earth and a few other astronomical bodies. First, the highest and longest mountain ranges on Earth are listed, followed by more comprehensive alphabetical lists organized by continent. Ranges in the oceans and on other celestial bodies are listed afterwards.\n\n\n== Mountain ranges on Earth ==\n\n\n=== By height ===\n\n* Part of the Hindu Kush-Himalayas region\nAll of the Asian ranges above have been formed in part over the past 35 to 55 million years by the collision between the Indian Plate and Eurasian Plate. The Indian Plate is still particularly mobile and these mountain ranges continue to rise in elevation every year and this page may need to be updated in a few years; of these the Himalayas are rising most quickly; the Kashmir and Pamirs region to the north of the Indian subcontinent is the point of confluence of these mountains which encircle the Tibetan Plateau.\n\n\n=== By prominence ===\n\n\n=== Mountain ranges by length ",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which mountain range separates Europe and Asia?",
+      "response": "=== List of mountain ranges ===\nThis is a list of mountain ranges on Earth and a few other astronomical bodies. First, the highest and longest mountain ranges on Earth are listed, followed by more comprehensive alphabeti...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which mountain range separates Europe and Asia?",
+      "response": "=== List of mountain ranges ===\nThis is a list of mountain ranges on Earth and a few other astronomical bodies. First, the highest and longest mountain ranges on Earth are listed, followed by more comprehensive alphabeti...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which mountain range separates Europe and Asia?'?",
+      "answer": "=== List of mountain ranges ===\nThis is a list of mountain ranges on Earth and a few other astronomical bodies. First, the highest and longest mountain ranges on Earth are listed,...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

@@ -1,0 +1,28 @@
+{
+  "task_number": 16,
+  "task_name": "literature",
+  "instruction": "Who wrote 'Moby-Dick'?",
+  "retrieved_data": "=== Moby Dick—Rehearsed ===\nMoby Dick (sometimes referred to as Moby Dick—Rehearsed) is a two-act drama written by Orson Welles. The play was staged June 16–July 9, 1955, at the Duke of York's Theatre in London, in a production directed by Welles. The original cast included Welles, Christopher Lee, Kenneth Williams, Joan Plowright, Patrick McGoohan, Gordon Jackson, Peter Sallis, and Wensley Pithey. The play was published by Samuel French in 1965.\nWelles used minimal stage design. The stage was bare, the actors appeared in contemporary street clothes, and the props were minimal. For example, brooms were used for oars, and a stick was used for a telescope. The actors provided the action, and the audience's imagination provided the ocean, costumes, and the whale.\nWelles filmed approximately 75 minutes of the production, with the original cast, at the Hackney Empire and Scala Theatres in London. He hoped to sell the film to Omnibus, the United States television series which had presented h",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'Moby-Dick'?",
+      "response": "=== Moby Dick—Rehearsed ===\nMoby Dick (sometimes referred to as Moby Dick—Rehearsed) is a two-act drama written by Orson Welles. The play was staged June 16–July 9, 1955, at the Duke of York's Theatre in London, in a pro...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'Moby-Dick'?",
+      "response": "=== Moby Dick—Rehearsed ===\nMoby Dick (sometimes referred to as Moby Dick—Rehearsed) is a two-act drama written by Orson Welles. The play was staged June 16–July 9, 1955, at the Duke of York's Theatre in London, in a pro...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'Moby-Dick'?'?",
+      "answer": "=== Moby Dick—Rehearsed ===\nMoby Dick (sometimes referred to as Moby Dick—Rehearsed) is a two-act drama written by Orson Welles. The play was staged June 16–July 9, 1955, at the...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

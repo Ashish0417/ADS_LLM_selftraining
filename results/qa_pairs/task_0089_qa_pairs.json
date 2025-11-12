@@ -1,0 +1,28 @@
+{
+  "task_number": 89,
+  "task_name": "astronomy",
+  "instruction": "What is the name of Earth's natural satellite?",
+  "retrieved_data": "=== Natural satellite ===\nA natural satellite is, in the most common usage, an astronomical body that orbits a planet, dwarf planet, or small Solar System body (or sometimes another natural satellite). Natural satellites are colloquially referred to as moons, a derivation from the Moon of Earth.\nIn the Solar System, there are six planetary satellite systems, altogether comprising 419 natural satellites with confirmed orbits. Seven objects commonly considered dwarf planets by astronomers are also known to have natural satellites: Orcus, Pluto, Haumea, Quaoar, Makemake, Gonggong, and Eris. As of January 2022, there are 447 other minor planets known to have natural satellites.\nA planet usually has at least around 10,000 times the mass of any natural satellites that orbit it, with a correspondingly much larger diameter. The Earth–Moon system is a unique exception in the Solar System; at 3,474 kilometres (2,158 miles) across, the Moon is 0.273 times the diameter of Earth and about 1⁄80 of i",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the name of Earth's natural satellite?",
+      "response": "=== Natural satellite ===\nA natural satellite is, in the most common usage, an astronomical body that orbits a planet, dwarf planet, or small Solar System body (or sometimes another natural satellite). Natural satellites...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the name of Earth's natural satellite?",
+      "response": "=== Natural satellite ===\nA natural satellite is, in the most common usage, an astronomical body that orbits a planet, dwarf planet, or small Solar System body (or sometimes another natural satellite). Natural satellites...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What is the name of Earth's natural satellite?'?",
+      "answer": "=== Natural satellite ===\nA natural satellite is, in the most common usage, an astronomical body that orbits a planet, dwarf planet, or small Solar System body (or sometimes...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

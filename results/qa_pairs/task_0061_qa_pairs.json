@@ -1,0 +1,28 @@
+{
+  "task_number": 61,
+  "task_name": "geography",
+  "instruction": "What is the capital of India?",
+  "retrieved_data": "=== Capital punishment in India ===\nCapital punishment in India is the highest legal penalty for crimes under the country's main substantive penal legislation, the Bharatiya Nyaya Sanhita (formerly Indian Penal Code), as well as other laws. Executions are carried out by hanging as the primary method of execution. The method of execution per Section 354(5) of the Code of Criminal Procedure, 1973 is \"Hanging by the neck until dead\", and the penalty is imposed only in the 'rarest of cases'.\nCurrently, there are around 539 prisoners on death row in India. The most recent executions in India took place on  20 March 2020, when four of the 2012 Delhi gang rape and murder case perpetrators were executed at the Tihar Jail in Delhi.\n\n\n== History ==\nIn the Code of Criminal Procedure (CrPC), 1898 death was the default punishment for murder and required the concerned judges to give reasons in their judgment if they wanted to give life imprisonment instead. By an amendment to the CrPC in 1955, the r",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the capital of India?",
+      "response": "=== Capital punishment in India ===\nCapital punishment in India is the highest legal penalty for crimes under the country's main substantive penal legislation, the Bharatiya Nyaya Sanhita (formerly Indian Penal Code), as...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the capital of India?",
+      "response": "=== Capital punishment in India ===\nCapital punishment in India is the highest legal penalty for crimes under the country's main substantive penal legislation, the Bharatiya Nyaya Sanhita (formerly Indian Penal Code), as...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the capital of Capital?",
+      "answer": "the",
+      "source": "extractive",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

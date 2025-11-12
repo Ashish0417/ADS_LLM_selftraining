@@ -1,0 +1,28 @@
+{
+  "task_number": 5,
+  "task_name": "literature",
+  "instruction": "Who wrote 'The Great Gatsby'?",
+  "retrieved_data": "=== The Great Gatsby ===\nThe Great Gatsby ( ) is a 1925 tragedy novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with Jay Gatsby, a mysterious millionaire obsessed with reuniting with his former lover, Daisy Buchanan.\nThe novel was inspired by a youthful romance Fitzgerald had with socialite Ginevra King and the riotous parties he attended on Long Island's North Shore in 1922. Following a move to the French Riviera, Fitzgerald completed a rough draft of the novel in 1924. He submitted it to editor Maxwell Perkins, who persuaded Fitzgerald to revise the work over the following winter. After making revisions, Fitzgerald was satisfied with the text but remained ambivalent about the book's title and considered several alternatives. Painter Francis Cugat's dust jacket art, named Celestial Eyes, greatly impressed Fitzgerald, and he incorporated its imagery into the novel.",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'The Great Gatsby'?",
+      "response": "=== The Great Gatsby ===\nThe Great Gatsby ( ) is a 1925 tragedy novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway'...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'The Great Gatsby'?",
+      "response": "=== The Great Gatsby ===\nThe Great Gatsby ( ) is a 1925 tragedy novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway'...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'The Great Gatsby'?'?",
+      "answer": "=== The Great Gatsby ===\nThe Great Gatsby ( ) is a 1925 tragedy novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

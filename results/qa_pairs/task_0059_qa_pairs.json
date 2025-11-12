@@ -1,0 +1,28 @@
+{
+  "task_number": 59,
+  "task_name": "geography",
+  "instruction": "What is the largest country by area?",
+  "retrieved_data": "=== List of largest cities ===\nThe United Nations uses three definitions for what constitutes a city, as not all cities in all jurisdictions are classified using the same criteria. Cities may be defined as the cities proper, their metropolitan regions, or the extent of their urban area. A complicating factor is that many large cities in the world have not only homeless or the unhoused, but also vast slum communities. This leads to official census data being less accurate in representing the actual number of residents in a given area.\n\n\n== Definitions ==\n\n\n=== City proper (administrative unit) ===\n\nA city can be defined by its administrative boundaries, otherwise known as city proper. UNICEF defines city proper as, \"the population living within the administrative boundaries of a city or controlled directly from the city by a single authority.\" A city proper is a locality defined according to legal or political boundaries and an administratively recognised urban status that is usually ch",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the largest country by area?",
+      "response": "=== List of largest cities ===\nThe United Nations uses three definitions for what constitutes a city, as not all cities in all jurisdictions are classified using the same criteria. Cities may be defined as the cities pro...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the largest country by area?",
+      "response": "=== List of largest cities ===\nThe United Nations uses three definitions for what constitutes a city, as not all cities in all jurisdictions are classified using the same criteria. Cities may be defined as the cities pro...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What is the largest country by area?'?",
+      "answer": "=== List of largest cities ===\nThe United Nations uses three definitions for what constitutes a city, as not all cities in all jurisdictions are classified using the same...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

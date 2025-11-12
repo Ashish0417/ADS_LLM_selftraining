@@ -1,0 +1,28 @@
+{
+  "task_number": 20,
+  "task_name": "literature",
+  "instruction": "Who wrote 'The Iliad'?",
+  "retrieved_data": "=== Iliad ===\nThe Iliad ( ; Ancient Greek: Ἰλιάς, romanized: Iliás, [iː.li.ás]; lit. '[a poem] about Ilion (Troy)') is one of two major ancient Greek epic poems attributed to Homer. It is one of the oldest extant works of literature still widely read by modern audiences. Like the Odyssey, the poem is divided into 24 books and was written in dactylic hexameter. It contains 15,693 lines in its most widely accepted version. The Iliad is often regarded as the first substantial piece of European literature and is a central part of the Epic Cycle.\nSet toward the end of the Trojan War, a 10-year siege of the city of Troy by a coalition of Mycenaean Greek states, the poem depicts significant events in the war's final weeks. In particular, it traces the anger (μῆνις) of Achilles, a celebrated warrior, from a fierce quarrel between him and King Agamemnon, to the death of the Trojan prince Hector. The narrative moves between wide battleground scenes and more personal interactions.\nThe Iliad and t",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'The Iliad'?",
+      "response": "=== Iliad ===\nThe Iliad ( ; Ancient Greek: Ἰλιάς, romanized: Iliás, [iː.li.ás]; lit. '[a poem] about Ilion (Troy)') is one of two major ancient Greek epic poems attributed to Homer. It is one of the oldest extant works o...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'The Iliad'?",
+      "response": "=== Iliad ===\nThe Iliad ( ; Ancient Greek: Ἰλιάς, romanized: Iliás, [iː.li.ás]; lit. '[a poem] about Ilion (Troy)') is one of two major ancient Greek epic poems attributed to Homer. It is one of the oldest extant works o...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'The Iliad'?'?",
+      "answer": "=== Iliad ===\nThe Iliad ( ; Ancient Greek: Ἰλιάς, romanized: Iliás, [iː.li.ás]; lit. '[a poem] about Ilion (Troy)') is one of two major ancient Greek epic poems attributed to...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

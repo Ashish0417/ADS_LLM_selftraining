@@ -1,0 +1,28 @@
+{
+  "task_number": 53,
+  "task_name": "geography",
+  "instruction": "Which city is known as the 'City of Canals'?",
+  "retrieved_data": "=== Canals of Amsterdam ===\nAmsterdam, capital of the Netherlands, has more than 100 kilometers (62 mi) of grachten (canals), about 90 islands and 1,500 bridges. The three main canals (Herengracht, Prinsengracht and Keizersgracht), dug in the 17th century during the Dutch Golden Age, form concentric belts around the city, known as the Grachtengordel. Alongside the main canals are 1,550 monumental buildings. The 17th-century canal ring area, including the Prinsengracht, Keizersgracht, Herengracht and Jordaan, were listed as UNESCO World Heritage Site in 2010, contributing to Amsterdam's fame as the \"Venice of the North\".\n\n\n== History ==\n\nMuch of the Amsterdam canal system is the successful outcome of city planning. In the early part of the 17th century, with immigration rising, a comprehensive plan was put together, calling for four main, concentric half-circles of canals with their ends resting on the IJ Bay. Known as the \"grachtengordel\", three of the canals are mostly for residential",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which city is known as the 'City of Canals'?",
+      "response": "=== Canals of Amsterdam ===\nAmsterdam, capital of the Netherlands, has more than 100 kilometers (62 mi) of grachten (canals), about 90 islands and 1,500 bridges. The three main canals (Herengracht, Prinsengracht and Keiz...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which city is known as the 'City of Canals'?",
+      "response": "=== Canals of Amsterdam ===\nAmsterdam, capital of the Netherlands, has more than 100 kilometers (62 mi) of grachten (canals), about 90 islands and 1,500 bridges. The three main canals (Herengracht, Prinsengracht and Keiz...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the capital of Canals?",
+      "answer": "the",
+      "source": "extractive",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

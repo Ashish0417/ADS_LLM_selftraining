@@ -1,0 +1,28 @@
+{
+  "task_number": 33,
+  "task_name": "literature",
+  "instruction": "Who wrote 'Anna Karenina'?",
+  "retrieved_data": "=== Anna Karenina ===\nAnna Karenina (Russian: Анна Каренина, IPA: [ˈanːə kɐˈrʲenʲɪnə]) is a novel, first published in book form in 1878, by the Russian author Leo Tolstoy. Tolstoy called it his first true novel. It was initially released in serial installments from 1875 to 1877, all but the last part appearing in the periodical The Russian Messenger. By the time he was finishing up the last installments, Tolstoy was in an anguished state of mind having come to hate it but finished it unwillingly.\nThe novel deals with themes of betrayal, faith, family, marriage, Imperial Russian society, desire, and the differences between rural and urban life. The story centres on an extramarital affair between Anna and  cavalry officer Count Alexei Kirillovich Vronsky that scandalises the social circles of Saint Petersburg and forces the young lovers to flee to Italy in pursuit of happiness, but after they return to Russia, their lives further unravel.\nTrains are a motif throughout the novel, with sev",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'Anna Karenina'?",
+      "response": "=== Anna Karenina ===\nAnna Karenina (Russian: Анна Каренина, IPA: [ˈanːə kɐˈrʲenʲɪnə]) is a novel, first published in book form in 1878, by the Russian author Leo Tolstoy. Tolstoy called it his first true novel. It was i...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'Anna Karenina'?",
+      "response": "=== Anna Karenina ===\nAnna Karenina (Russian: Анна Каренина, IPA: [ˈanːə kɐˈrʲenʲɪnə]) is a novel, first published in book form in 1878, by the Russian author Leo Tolstoy. Tolstoy called it his first true novel. It was i...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'Anna Karenina'?'?",
+      "answer": "=== Anna Karenina ===\nAnna Karenina (Russian: Анна Каренина, IPA: [ˈanːə kɐˈrʲenʲɪnə]) is a novel, first published in book form in 1878, by the Russian author Leo Tolstoy. Tolstoy...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

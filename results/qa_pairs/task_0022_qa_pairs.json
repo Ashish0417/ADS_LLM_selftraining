@@ -1,0 +1,28 @@
+{
+  "task_number": 22,
+  "task_name": "literature",
+  "instruction": "Who wrote 'Crime and Punishment'?",
+  "retrieved_data": "=== Crime and Punishment ===\nCrime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume. It is the second of Dostoevsky's full-length novels following his return from ten years of exile in Siberia. Crime and Punishment is considered the first great novel of his mature period of writing and is often cited as one of the greatest works of world literature.\nCrime and Punishment follows the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished former law student in Saint Petersburg who plans to kill an unscrupulous pawnbroker, an old woman who stores money and valuable objects in her flat. He theorises that with the money he could liberate himself from poverty and go on to perform great deeds, and seeks to convince himself that certain crimes are justifiable if they are committed in order to remove obstacl",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'Crime and Punishment'?",
+      "response": "=== Crime and Punishment ===\nCrime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It wa...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'Crime and Punishment'?",
+      "response": "=== Crime and Punishment ===\nCrime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It wa...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'Crime and Punishment'?'?",
+      "answer": "=== Crime and Punishment ===\nCrime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

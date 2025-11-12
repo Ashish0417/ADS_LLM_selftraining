@@ -1,0 +1,28 @@
+{
+  "task_number": 36,
+  "task_name": "literature",
+  "instruction": "Who wrote 'The Handmaid's Tale'?",
+  "retrieved_data": "=== The Handmaid's Tale ===\nThe Handmaid's Tale is a futuristic dystopian novel by Canadian author Margaret Atwood published in 1985. It is set in a near-future New England in a patriarchal, totalitarian theonomic state known as the Republic of Gilead, which has overthrown the United States government. Offred is the central character and narrator and one of the \"Handmaids\": women who are forcibly assigned to produce children for the \"Commanders\", who are the ruling class in Gilead.\nThe novel explores themes of powerless women in a patriarchal society, loss of female agency and individuality, suppression of reproductive rights, and the various means by which women resist and try to gain individuality and independence. The title echoes the component parts of Geoffrey Chaucer's The Canterbury Tales, which is a series of connected stories (such as \"The Merchant's Tale\" and \"The Parson's Tale\"). It also alludes to the tradition of fairy tales where the central character tells her story.\nThe",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'The Handmaid's Tale'?",
+      "response": "=== The Handmaid's Tale ===\nThe Handmaid's Tale is a futuristic dystopian novel by Canadian author Margaret Atwood published in 1985. It is set in a near-future New England in a patriarchal, totalitarian theonomic state ...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'The Handmaid's Tale'?",
+      "response": "=== The Handmaid's Tale ===\nThe Handmaid's Tale is a futuristic dystopian novel by Canadian author Margaret Atwood published in 1985. It is set in a near-future New England in a patriarchal, totalitarian theonomic state ...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'The Handmaid's Tale'?'?",
+      "answer": "=== The Handmaid's Tale ===\nThe Handmaid's Tale is a futuristic dystopian novel by Canadian author Margaret Atwood published in 1985. It is set in a near-future New England in a...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

@@ -1,0 +1,28 @@
+{
+  "task_number": 46,
+  "task_name": "geography",
+  "instruction": "Which is the smallest country in the world?",
+  "retrieved_data": "=== World War II by country ===\nAlmost every country in the world participated in World War II. Most were neutral at the beginning, but relatively few nations remained neutral to the end. World War II pitted two alliances against each other, the Allies and the Axis powers. It is estimated that 74 million people died, with estimates ranging from 40 million to 90 million dead (including all genocide casualties). The main Axis powers were Nazi Germany, the Empire of Japan, and the Kingdom of Italy; while the United Kingdom, the United States, the Soviet Union and China were the \"Big Four\" Allied powers.\nThe countries involved in or affected by World War II are listed alphabetically, with a description of their role in the conflict.\n\n\n== Participants and non-participants during World War II ==\n\n\n=== Neutral powers ===\n\n\n=== Axis powers ===\n\n\n=== Allied powers ===\n Soviet Union (from 1941)\n United States (from 1941)\n United Kingdom\n Republic of China\n France (until 1940)\n Poland\n Danzig (19",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which is the smallest country in the world?",
+      "response": "=== World War II by country ===\nAlmost every country in the world participated in World War II. Most were neutral at the beginning, but relatively few nations remained neutral to the end. World War II pitted two alliance...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which is the smallest country in the world?",
+      "response": "=== World War II by country ===\nAlmost every country in the world participated in World War II. Most were neutral at the beginning, but relatively few nations remained neutral to the end. World War II pitted two alliance...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which is the smallest country in the world?'?",
+      "answer": "=== World War II by country ===\nAlmost every country in the world participated in World War II. Most were neutral at the beginning, but relatively few nations remained neutral to...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

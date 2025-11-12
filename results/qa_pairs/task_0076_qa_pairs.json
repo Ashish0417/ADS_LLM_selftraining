@@ -1,0 +1,28 @@
+{
+  "task_number": 76,
+  "task_name": "astronomy",
+  "instruction": "What is the name of our galaxy?",
+  "retrieved_data": "=== Samsung Galaxy Z series ===\nThe Samsung Galaxy Z series (named as Samsung Galaxy Foldables in certain territories) is a line of foldable smartphones manufactured by Samsung Electronics since 2019, part of the wider range of Samsung Galaxy products. The Z series consists of smartphones running Android with flexible displays, namely the Z Fold line of book-style foldables and the Z Flip line of clamshell-style (\"flip phone\") foldables.\n\n\n== History ==\nIn 2018, Samsung announced the Galaxy X prototype before manufacture and release of the foldable under the new name Galaxy Fold in 2019. With the 2020 announcement of the Galaxy Z Flip, Samsung's future foldable smartphones are part of the Galaxy Z series. Unlike the Galaxy Fold, the Z Flip folds vertically and uses a hybrid glass coating branded as \"In“inity Flex Display”. The Galaxy Z Fold 2 5G is the second generation of Samsung's inward fold design introduced with the original Fold. It features a significantly larger front screen th",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the name of our galaxy?",
+      "response": "=== Samsung Galaxy Z series ===\nThe Samsung Galaxy Z series (named as Samsung Galaxy Foldables in certain territories) is a line of foldable smartphones manufactured by Samsung Electronics since 2019, part of the wider r...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the name of our galaxy?",
+      "response": "=== Samsung Galaxy Z series ===\nThe Samsung Galaxy Z series (named as Samsung Galaxy Foldables in certain territories) is a line of foldable smartphones manufactured by Samsung Electronics since 2019, part of the wider r...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What is the name of our galaxy?'?",
+      "answer": "=== Samsung Galaxy Z series ===\nThe Samsung Galaxy Z series (named as Samsung Galaxy Foldables in certain territories) is a line of foldable smartphones manufactured by Samsung...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

@@ -1,0 +1,28 @@
+{
+  "task_number": 28,
+  "task_name": "literature",
+  "instruction": "Who wrote 'The Count of Monte Cristo'?",
+  "retrieved_data": "=== The Count of Monte Cristo ===\nThe Count of Monte Cristo (French: Le Comte de Monte-Cristo) is an adventure novel by the French writer Alexandre Dumas. It was serialised from 1844 to 1846, then published in book form in 1846. It is one of his most popular works, along with The Three Musketeers (1844) and Man in the Iron Mask (1850). Like many of his novels, it was expanded from plot outlines suggested by his collaborating ghostwriter, Auguste Maquet. It is regarded as a classic of  French and world literature.\nThe novel is set in France, Italy, and islands in the Mediterranean Sea during the historical events of 1815–1839, the era of the Bourbon Restoration through the reign of Louis Philippe I. It begins on the day when Napoleon left his first island of exile, Elba, beginning the Hundred Days period of his return to power. The historical setting is fundamental to the narrative. The Count of Monte Cristo explores themes of hope, justice, vengeance, mercy and forgiveness.\nEdmond Dant",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'The Count of Monte Cristo'?",
+      "response": "=== The Count of Monte Cristo ===\nThe Count of Monte Cristo (French: Le Comte de Monte-Cristo) is an adventure novel by the French writer Alexandre Dumas. It was serialised from 1844 to 1846, then published in book form ...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'The Count of Monte Cristo'?",
+      "response": "=== The Count of Monte Cristo ===\nThe Count of Monte Cristo (French: Le Comte de Monte-Cristo) is an adventure novel by the French writer Alexandre Dumas. It was serialised from 1844 to 1846, then published in book form ...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'The Count of Monte Cristo'?'?",
+      "answer": "=== The Count of Monte Cristo ===\nThe Count of Monte Cristo (French: Le Comte de Monte-Cristo) is an adventure novel by the French writer Alexandre Dumas. It was serialised from...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

@@ -1,0 +1,28 @@
+{
+  "task_number": 99,
+  "task_name": "astronomy",
+  "instruction": "What is a pulsar?",
+  "retrieved_data": "=== Pulsar ===\nA pulsar (pulsating star, on the model of quasar) is a highly magnetized rotating neutron star that emits beams of electromagnetic radiation out of its magnetic poles. This radiation can be observed only when a beam of emission is pointing toward Earth (similar to the way a lighthouse can be seen only when the light is pointed in the direction of an observer), and is responsible for the pulsed appearance of emission. Neutron stars are very dense and have short, regular rotational periods. This produces a very precise interval between pulses that ranges from milliseconds to seconds for an individual pulsar. Pulsars are one of the candidates for the source of ultra-high-energy cosmic rays (see also centrifugal mechanism of acceleration).\nPulsars’ highly regular pulses make them very useful tools for astronomers. For example, observations of a pulsar in a binary neutron star system were used to indirectly confirm the existence of gravitational radiation. The first extrasola",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is a pulsar?",
+      "response": "=== Pulsar ===\nA pulsar (pulsating star, on the model of quasar) is a highly magnetized rotating neutron star that emits beams of electromagnetic radiation out of its magnetic poles. This radiation can be observed only w...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is a pulsar?",
+      "response": "=== Pulsar ===\nA pulsar (pulsating star, on the model of quasar) is a highly magnetized rotating neutron star that emits beams of electromagnetic radiation out of its magnetic poles. This radiation can be observed only w...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What is a pulsar?'?",
+      "answer": "=== Pulsar ===\nA pulsar (pulsating star, on the model of quasar) is a highly magnetized rotating neutron star that emits beams of electromagnetic radiation out of its magnetic...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

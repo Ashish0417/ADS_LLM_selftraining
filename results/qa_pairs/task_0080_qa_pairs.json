@@ -1,0 +1,28 @@
+{
+  "task_number": 80,
+  "task_name": "astronomy",
+  "instruction": "Which planet is known as the morning star or evening star?",
+  "retrieved_data": "=== Phosphorus (morning star) ===\nPhosphorus (Ancient Greek: Φωσφόρος, romanized: Phōsphoros) is the god of the planet Venus in its appearance as the Morning Star. Another Greek name for the Morning Star is \"Eosphorus\" (Ancient Greek: Ἑωσφόρος, romanized: Heōsphoros), which means \"dawn-bringer\". The term \"eosphorus\" is sometimes met in English. As an adjective, the word \"phosphorus\" is applied in the sense of \"light-bringing\" (for instance, the dawn, the god Dionysus, pine torches and the day) and \"torch-bearing\" as an epithet of several gods and goddesses, especially of Hecate but also of Artemis/Diana and Hephaestus. Seasonally, Venus is the \"light bringer\" in the northern hemisphere, appearing most brightly in December (an optical illusion due to shorter days), signalling the \"rebirth\" of longer days as winter wanes.\n\n\n== Venus ==\n\nThe morning star is an appearance of the planet Venus, an inferior planet, meaning that its orbit lies between the Earth and the Sun. Depending on the or",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which planet is known as the morning star or evening star?",
+      "response": "=== Phosphorus (morning star) ===\nPhosphorus (Ancient Greek: Φωσφόρος, romanized: Phōsphoros) is the god of the planet Venus in its appearance as the Morning Star. Another Greek name for the Morning Star is \"Eosphorus\" (...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which planet is known as the morning star or evening star?",
+      "response": "=== Phosphorus (morning star) ===\nPhosphorus (Ancient Greek: Φωσφόρος, romanized: Phōsphoros) is the god of the planet Venus in its appearance as the Morning Star. Another Greek name for the Morning Star is \"Eosphorus\" (...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which planet is known as the morning star or evening star?'?",
+      "answer": "=== Phosphorus (morning star) ===\nPhosphorus (Ancient Greek: Φωσφόρος, romanized: Phōsphoros) is the god of the planet Venus in its appearance as the Morning Star. Another Greek...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

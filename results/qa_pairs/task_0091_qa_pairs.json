@@ -1,0 +1,28 @@
+{
+  "task_number": 91,
+  "task_name": "astronomy",
+  "instruction": "What is the Kuiper Belt?",
+  "retrieved_data": "=== Kuiper belt ===\nThe Kuiper belt ( ) is a circumstellar disc in the outer Solar System, extending from the orbit of Neptune at 30 astronomical units (AU) to approximately 50 AU from the Sun. It is similar to the asteroid belt, but is far larger—20 times as wide and 20–200 times as massive. Like the asteroid belt, it consists mainly of small bodies or remnants from when the Solar System formed. While many asteroids are composed primarily of rock and metal, most Kuiper belt objects are composed largely of frozen volatiles (termed \"ices\"), such as methane, ammonia, and water. The Kuiper belt is home to most of the objects that astronomers generally accept as dwarf planets:  Orcus, Pluto, Haumea, Quaoar, and Makemake. Some of the Solar System's moons, such as Neptune's Triton and Saturn's Phoebe, may have originated in the region.\nThe Kuiper belt is named in honor of the Dutch astronomer Gerard Kuiper, who conjectured the existence of a version of the belt in 1951. There were researcher",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the Kuiper Belt?",
+      "response": "=== Kuiper belt ===\nThe Kuiper belt ( ) is a circumstellar disc in the outer Solar System, extending from the orbit of Neptune at 30 astronomical units (AU) to approximately 50 AU from the Sun. It is similar to the aster...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the Kuiper Belt?",
+      "response": "=== Kuiper belt ===\nThe Kuiper belt ( ) is a circumstellar disc in the outer Solar System, extending from the orbit of Neptune at 30 astronomical units (AU) to approximately 50 AU from the Sun. It is similar to the aster...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the chemical formula for water?",
+      "answer": "H2O",
+      "source": "extractive",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

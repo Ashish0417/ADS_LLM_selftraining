@@ -1,0 +1,28 @@
+{
+  "task_number": 15,
+  "task_name": "literature",
+  "instruction": "Who wrote 'Animal Farm'?",
+  "retrieved_data": "=== Animal Farm ===\nAnimal Farm (originally Animal Farm: A Fairy Story) is a satirical allegorical dystopian novella, in the form of a beast fable, by George Orwell, first published in England on 17 August 1945. It follows the anthropomorphic farm animals of the fictional Manor Farm as they rebel against their human farmer, hoping to create a society where all animals can be equal, free, and happy away from human interventions. However, by the end of the novella, the rebellion is betrayed, and under the dictatorship of a pig named Napoleon, the farm ends up in a far worse state than it was before.\nAccording to Orwell, Animal Farm reflects events leading up to the Russian Revolution of 1917 and then on into the Stalinist era of the Soviet Union, a period when Russia lived under the Marxist–Leninist ideology of Joseph Stalin. Orwell, a democratic socialist, was a critic of Stalin and hostile to Moscow-directed Stalinism, an attitude that was critically shaped by his experiences during th",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'Animal Farm'?",
+      "response": "=== Animal Farm ===\nAnimal Farm (originally Animal Farm: A Fairy Story) is a satirical allegorical dystopian novella, in the form of a beast fable, by George Orwell, first published in England on 17 August 1945. It follo...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'Animal Farm'?",
+      "response": "=== Animal Farm ===\nAnimal Farm (originally Animal Farm: A Fairy Story) is a satirical allegorical dystopian novella, in the form of a beast fable, by George Orwell, first published in England on 17 August 1945. It follo...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'Animal Farm'?'?",
+      "answer": "=== Animal Farm ===\nAnimal Farm (originally Animal Farm: A Fairy Story) is a satirical allegorical dystopian novella, in the form of a beast fable, by George Orwell, first...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

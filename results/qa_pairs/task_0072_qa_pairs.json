@@ -1,0 +1,28 @@
+{
+  "task_number": 72,
+  "task_name": "geography",
+  "instruction": "Which river flows through London?",
+  "retrieved_data": "=== River Roding ===\nThe River Roding () is a river that rises at Molehill Green, Essex, England, then flows south through Essex and London and forms Barking Creek as it reaches the River Thames.\n\n\n== Course ==\nThe river leaves Molehill Green and passes through or near a group of eight or nine villages in Essex known collectively as the Rodings, as their names are 'Roding' prefixed with various different specific names (High, Margaret, Aythorpe, etc.). After Chipping Ongar, the river flows under the M25 motorway by Passingford Bridge and Abridge.\n\n The river then runs between Loughton and Chigwell, where the Roding Valley Meadows make up the largest surviving area of traditionally managed river-valley habitat in Essex. This nature reserve consists of unimproved wet and dry hay meadows, rich with flora and fauna and bounded by thick hedgerows, scrubland, secondary woodland and tree plantation. The meadows stretch down to the M11 motorway and the Roding Valley tube station is situated cl",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which river flows through London?",
+      "response": "=== River Roding ===\nThe River Roding () is a river that rises at Molehill Green, Essex, England, then flows south through Essex and London and forms Barking Creek as it reaches the River Thames.\n\n\n== Course ==\nThe river...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which river flows through London?",
+      "response": "=== River Roding ===\nThe River Roding () is a river that rises at Molehill Green, Essex, England, then flows south through Essex and London and forms Barking Creek as it reaches the River Thames.\n\n\n== Course ==\nThe river...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which river flows through London?'?",
+      "answer": "=== River Roding ===\nThe River Roding () is a river that rises at Molehill Green, Essex, England, then flows south through Essex and London and forms Barking Creek as it reaches...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

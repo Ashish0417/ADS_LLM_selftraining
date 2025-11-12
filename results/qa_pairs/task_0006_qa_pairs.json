@@ -1,0 +1,28 @@
+{
+  "task_number": 6,
+  "task_name": "literature",
+  "instruction": "Who created the character Sherlock Holmes?",
+  "retrieved_data": "=== Minor Sherlock Holmes characters ===\nThis article describes minor characters from the Sherlock Holmes stories by Sir Arthur Conan Doyle, and from non-canonical derived works. The list excludes the titular character as well as Dr. Watson, Professor Moriarty, Inspector Lestrade, Mycroft Holmes, Mrs. Hudson, Irene Adler, Colonel Moran, the Baker Street Irregulars, and characters not significant enough to mention.\n\n\n== Inspectors ==\n\n\n=== Inspector Baynes ===\nInspector Baynes of the Surrey Constabulary appears in the two-part story \"The Adventure of Wisteria Lodge\", subtitled (i) \"The Singular Experience of Mr John Scott Eccles\", and (ii) \"The Tiger of San Pedro\". He is the only official policeman in the books to have ever matched Sherlock Holmes in his investigative skills. He is described as a very heavy man with a \"puffy\" face, but very intelligent eyes. In this story, the reader finds that, despite working along different lines, Holmes and Baynes both arrive at the correct conclusi",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who created the character Sherlock Holmes?",
+      "response": "=== Minor Sherlock Holmes characters ===\nThis article describes minor characters from the Sherlock Holmes stories by Sir Arthur Conan Doyle, and from non-canonical derived works. The list excludes the titular character a...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who created the character Sherlock Holmes?",
+      "response": "=== Minor Sherlock Holmes characters ===\nThis article describes minor characters from the Sherlock Holmes stories by Sir Arthur Conan Doyle, and from non-canonical derived works. The list excludes the titular character a...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who created the character Sherlock Holmes?'?",
+      "answer": "=== Minor Sherlock Holmes characters ===\nThis article describes minor characters from the Sherlock Holmes stories by Sir Arthur Conan Doyle, and from non-canonical derived works....",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

@@ -1,0 +1,28 @@
+{
+  "task_number": 96,
+  "task_name": "astronomy",
+  "instruction": "Which planet has the shortest day (fastest rotation)?",
+  "retrieved_data": "=== Earth's rotation ===\nEarth's rotation or Earth's spin is the rotation of planet Earth around its own axis, as well as changes in the orientation of the rotation axis in space. Earth rotates eastward, in prograde motion. As viewed from the northern polar star Polaris, Earth turns counterclockwise.\nThe North Pole, also known as the Geographic North Pole or Terrestrial North Pole, is the point in the Northern Hemisphere where Earth's axis of rotation meets its surface. This point is distinct from Earth's north magnetic pole. The South Pole is the other point where Earth's axis of rotation intersects its surface, in Antarctica.\nEarth rotates once in about 24 hours with respect to the Sun, but once every 23 hours, 56 minutes and 4 seconds with respect to other distant stars (see below). Earth's rotation is slowing slightly with time; thus, a day was shorter in the past. This is due to the tidal effects the Moon has on Earth's rotation. Atomic clocks show that the modern day is longer by",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which planet has the shortest day (fastest rotation)?",
+      "response": "=== Earth's rotation ===\nEarth's rotation or Earth's spin is the rotation of planet Earth around its own axis, as well as changes in the orientation of the rotation axis in space. Earth rotates eastward, in prograde moti...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which planet has the shortest day (fastest rotation)?",
+      "response": "=== Earth's rotation ===\nEarth's rotation or Earth's spin is the rotation of planet Earth around its own axis, as well as changes in the orientation of the rotation axis in space. Earth rotates eastward, in prograde moti...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which planet has the shortest day (fastest rotation)?'?",
+      "answer": "=== Earth's rotation ===\nEarth's rotation or Earth's spin is the rotation of planet Earth around its own axis, as well as changes in the orientation of the rotation axis in space....",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

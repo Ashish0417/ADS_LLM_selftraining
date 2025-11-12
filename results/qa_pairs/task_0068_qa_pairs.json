@@ -1,0 +1,28 @@
+{
+  "task_number": 68,
+  "task_name": "geography",
+  "instruction": "Which country is home to the city of Cape Town?",
+  "retrieved_data": "=== Atlantic Seaboard, Cape Town ===\nThe Atlantic Seaboard is a group of predominantly affluent, Anglophone seaside suburbs in Cape Town, Western Cape, South Africa. The region, situated along the coast, to the west of Cape Town CBD, is home to a mix of detached homes and apartment buildings. Due to its location and views, it features some of the most desirable property in South Africa.\n\n\n== Location ==\nThe Atlantic Seaboard region begins to the west of Cape Town CBD, in Green Point. The region wraps in a southwesterly direction around the coastline of the South Atlantic, ending in Llandudno, to the south of Oudekraal Nature Reserve.\nThe region is therefore located within close proximity to the CBD, Cape Town's main economic hub, but is detached from it, for a more peaceful living environment.\nCamps Bay, at roughly the center of the Atlantic Seaboard, is approximately 6 km from Cape Town CBD, 12 km from Hout Bay, and 24 km from Cape Town International Airport, and right below the weste",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which country is home to the city of Cape Town?",
+      "response": "=== Atlantic Seaboard, Cape Town ===\nThe Atlantic Seaboard is a group of predominantly affluent, Anglophone seaside suburbs in Cape Town, Western Cape, South Africa. The region, situated along the coast, to the west of C...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which country is home to the city of Cape Town?",
+      "response": "=== Atlantic Seaboard, Cape Town ===\nThe Atlantic Seaboard is a group of predominantly affluent, Anglophone seaside suburbs in Cape Town, Western Cape, South Africa. The region, situated along the coast, to the west of C...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which country is home to the city of Cape Town?'?",
+      "answer": "=== Atlantic Seaboard, Cape Town ===\nThe Atlantic Seaboard is a group of predominantly affluent, Anglophone seaside suburbs in Cape Town, Western Cape, South Africa. The region,...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

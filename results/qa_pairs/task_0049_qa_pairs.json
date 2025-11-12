@@ -1,0 +1,28 @@
+{
+  "task_number": 49,
+  "task_name": "geography",
+  "instruction": "Which ocean is the largest?",
+  "retrieved_data": "=== Ocean sunfish ===\nThe ocean sunfish (Mola mola), also known as the common mola, is one of the largest bony fish in the world. It is the type species of the genus Mola, and one of three extant species in the family Molidae. It was formerly misidentified as the heaviest bony fish, which is actually a different and closely related species of sunfish, Mola alexandrini. Adults typically weigh between 247 and 1,000 kg (545 and 2,205 lb). It is native to tropical and temperate waters around the world. It resembles a fish head without a tail, and its main body is flattened laterally. Sunfish can be as tall as they are long when their dorsal and ventral fins are extended.\nMany areas of sunfish biology remain poorly understood, and various research efforts are underway, including aerial surveys of populations, satellite surveillance using pop-off satellite tags, genetic analysis of tissue samples, and collection of amateur sighting data.\nAdult sunfish are vulnerable to few natural predators,",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which ocean is the largest?",
+      "response": "=== Ocean sunfish ===\nThe ocean sunfish (Mola mola), also known as the common mola, is one of the largest bony fish in the world. It is the type species of the genus Mola, and one of three extant species in the family Mo...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which ocean is the largest?",
+      "response": "=== Ocean sunfish ===\nThe ocean sunfish (Mola mola), also known as the common mola, is one of the largest bony fish in the world. It is the type species of the genus Mola, and one of three extant species in the family Mo...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which ocean is the largest?'?",
+      "answer": "=== Ocean sunfish ===\nThe ocean sunfish (Mola mola), also known as the common mola, is one of the largest bony fish in the world. It is the type species of the genus Mola, and one...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

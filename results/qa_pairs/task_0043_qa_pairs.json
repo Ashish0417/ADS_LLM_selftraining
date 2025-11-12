@@ -1,0 +1,28 @@
+{
+  "task_number": 43,
+  "task_name": "geography",
+  "instruction": "Which is the largest desert in the world?",
+  "retrieved_data": "=== Arabian Desert ===\nThe Arabian Desert (Arabic: ٱلصَّحْرَاء ٱلْعَرَبِيَّة) is a vast desert wilderness in West Asia that occupies almost the entire Arabian Peninsula with an area of 2,330,000 square kilometers (900,000 sq mi). It stretches from Yemen to the Persian Gulf and Oman to Jordan and Iraq. It is the fourth largest desert in the world and the largest in Asia. At its center is Ar-Rub' al-Khali (The Empty Quarter), one of the largest continuous bodies of sand in the world. It is an extension of the Sahara Desert.\nGazelles, oryx, sand cats, and spiny-tailed lizards are just some of the desert-adapted species that survive in this extreme environment, which features everything from red dunes to deadly quicksand. The climate is mostly dry (the major part receives around 100 mm (3.9 in) of rain per year, but some very rare places receive as little as 50 mm), and temperatures oscillate between very high heat and seasonal night time freezes. It is part of the deserts and xeric shrubl",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which is the largest desert in the world?",
+      "response": "=== Arabian Desert ===\nThe Arabian Desert (Arabic: ٱلصَّحْرَاء ٱلْعَرَبِيَّة) is a vast desert wilderness in West Asia that occupies almost the entire Arabian Peninsula with an area of 2,330,000 square kilometers (900,00...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which is the largest desert in the world?",
+      "response": "=== Arabian Desert ===\nThe Arabian Desert (Arabic: ٱلصَّحْرَاء ٱلْعَرَبِيَّة) is a vast desert wilderness in West Asia that occupies almost the entire Arabian Peninsula with an area of 2,330,000 square kilometers (900,00...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the capital of Arabian?",
+      "answer": "critical",
+      "source": "extractive",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

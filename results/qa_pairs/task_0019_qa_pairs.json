@@ -1,0 +1,28 @@
+{
+  "task_number": 19,
+  "task_name": "literature",
+  "instruction": "Who wrote 'One Hundred Years of Solitude'?",
+  "retrieved_data": "=== One Hundred Years of Solitude ===\nOne Hundred Years of Solitude (Spanish: Cien años de soledad, Latin American Spanish: [sjen ˈaɲos ðe soleˈðað]) is a 1967 novel by Colombian author Gabriel García Márquez that tells the multi-generational story of the Buendía family, whose patriarch, José Arcadio Buendía, founded the fictitious town of Macondo. The novel is often cited as one of the supreme achievements in world literature. It was recognized as one of the most important works of the Spanish language during the 4th International Conference of the Spanish Language held in Cartagena de Indias in March 2007.\nThe magical realist style and thematic substance of the book established it as an important representative novel of the literary Latin American Boom of the 1960s and 1970s, which was stylistically influenced by Modernism (European and North American) and the Cuban Vanguardia (Avant-Garde) literary movement.\nSince it was first published in May 1967 in Buenos Aires by Editorial Sudam",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'One Hundred Years of Solitude'?",
+      "response": "=== One Hundred Years of Solitude ===\nOne Hundred Years of Solitude (Spanish: Cien años de soledad, Latin American Spanish: [sjen ˈaɲos ðe soleˈðað]) is a 1967 novel by Colombian author Gabriel García Márquez that tells ...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'One Hundred Years of Solitude'?",
+      "response": "=== One Hundred Years of Solitude ===\nOne Hundred Years of Solitude (Spanish: Cien años de soledad, Latin American Spanish: [sjen ˈaɲos ðe soleˈðað]) is a 1967 novel by Colombian author Gabriel García Márquez that tells ...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'One Hundred Years of Solitude'?'?",
+      "answer": "=== One Hundred Years of Solitude ===\nOne Hundred Years of Solitude (Spanish: Cien años de soledad, Latin American Spanish: [sjen ˈaɲos ðe soleˈðað]) is a 1967 novel by Colombian...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

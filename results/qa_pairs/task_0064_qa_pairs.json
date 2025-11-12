@@ -1,0 +1,28 @@
+{
+  "task_number": 64,
+  "task_name": "geography",
+  "instruction": "Which country is known as the Land of the Rising Sun?",
+  "retrieved_data": "=== Rising Sun, Maryland ===\nRising Sun is a town in Cecil County, Maryland, United States. The population was 2,781 at the 2010 census.\n\n\n== History ==\n\nThe town which became known as Rising Sun was located in the disputed “Nottingham Lots” along the border between colonial Pennsylvania and Maryland. This area was claimed by William Penn and settled by Quakers in 1702 over the objection of Maryland. When Charles Mason and Jeremiah Dixon conducted a survey of the order in the 1760s, Rising Sun was found to be located in Maryland.\nAround 1720, Henry Reynolds established a stone tavern on Nottingham Lot No. 17 to serve as a stage coach stop. According to local lore, he erected a sign over the entrance of the tavern depicting the rays of the sun at dawn and the words \"The Rising Sun\". As the tavern was located along the route between Baltimore and Philadelphia, it became known as a meeting place for business, politics, elections, and other public activities. Local legend states that the t",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which country is known as the Land of the Rising Sun?",
+      "response": "=== Rising Sun, Maryland ===\nRising Sun is a town in Cecil County, Maryland, United States. The population was 2,781 at the 2010 census.\n\n\n== History ==\n\nThe town which became known as Rising Sun was located in the dispu...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which country is known as the Land of the Rising Sun?",
+      "response": "=== Rising Sun, Maryland ===\nRising Sun is a town in Cecil County, Maryland, United States. The population was 2,781 at the 2010 census.\n\n\n== History ==\n\nThe town which became known as Rising Sun was located in the dispu...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which country is known as the Land of the Rising Sun?'?",
+      "answer": "=== Rising Sun, Maryland ===\nRising Sun is a town in Cecil County, Maryland, United States. The population was 2,781 at the 2010 census.\n\n\n== History ==\n\nThe town which became...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

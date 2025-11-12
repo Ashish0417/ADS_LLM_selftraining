@@ -1,0 +1,28 @@
+{
+  "task_number": 58,
+  "task_name": "geography",
+  "instruction": "Which African country has the largest population?",
+  "retrieved_data": "=== List of largest cities in California by population ===\nThis is a list of the 100 largest cities in the U.S. state of California ranked by population, based on estimates for July 1, 2024, by the United States Census Bureau.\nNote: The population figures are for the incorporated areas of the listed cities, as opposed to metropolitan areas, urban areas, or counties. Also, the United States Census Bureau and the California Department of Finance use different methods for estimating population, so state estimates will differ from those given here.\n\n\n== Map ==\n\n\n== See also ==\n\nList of cities and towns in California\nList of cities and towns in the San Francisco Bay Area\nList of California urban areas\nList of United States cities by population\nList of largest U.S. municipalities by race/ethnicity in 2020\n\n\n== References ==",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which African country has the largest population?",
+      "response": "=== List of largest cities in California by population ===\nThis is a list of the 100 largest cities in the U.S. state of California ranked by population, based on estimates for July 1, 2024, by the United States Census B...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which African country has the largest population?",
+      "response": "=== List of largest cities in California by population ===\nThis is a list of the 100 largest cities in the U.S. state of California ranked by population, based on estimates for July 1, 2024, by the United States Census B...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which African country has the largest population?'?",
+      "answer": "=== List of largest cities in California by population ===\nThis is a list of the 100 largest cities in the U.S. state of California ranked by population, based on estimates for...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

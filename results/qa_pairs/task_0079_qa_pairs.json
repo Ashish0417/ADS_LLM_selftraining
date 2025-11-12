@@ -1,0 +1,28 @@
+{
+  "task_number": 79,
+  "task_name": "astronomy",
+  "instruction": "What is a supernova?",
+  "retrieved_data": "=== Supernova ===\nA supernova (pl.: supernovae) is a powerful and luminous explosion of a star. A supernova occurs during the last evolutionary stages of a massive star, or when a white dwarf is triggered into runaway nuclear fusion. The original object, called the progenitor, either collapses to a neutron star or black hole, or is completely destroyed to form a diffuse nebula. The peak optical luminosity of a supernova can be comparable to that of an entire galaxy before fading over several weeks or months.\nThe last supernova directly observed in the Milky Way was Kepler's Supernova in 1604, appearing not long after Tycho's Supernova in 1572, both of which were visible to the naked eye.  Observations of recent supernova remnants within the Milky Way, coupled with studies of supernovae in other galaxies, suggest that these powerful stellar explosions occur in our galaxy approximately three times per century on average.  A supernova in the Milky Way would almost certainly be observable ",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is a supernova?",
+      "response": "=== Supernova ===\nA supernova (pl.: supernovae) is a powerful and luminous explosion of a star. A supernova occurs during the last evolutionary stages of a massive star, or when a white dwarf is triggered into runaway nu...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is a supernova?",
+      "response": "=== Supernova ===\nA supernova (pl.: supernovae) is a powerful and luminous explosion of a star. A supernova occurs during the last evolutionary stages of a massive star, or when a white dwarf is triggered into runaway nu...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What is a supernova?'?",
+      "answer": "=== Supernova ===\nA supernova (pl.: supernovae) is a powerful and luminous explosion of a star. A supernova occurs during the last evolutionary stages of a massive star, or when a...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

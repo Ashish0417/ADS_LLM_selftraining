@@ -1,0 +1,28 @@
+{
+  "task_number": 31,
+  "task_name": "literature",
+  "instruction": "Who wrote 'A Tale of Two Cities'?",
+  "retrieved_data": "=== A Tale of Two Cities (speech) ===\nA Tale of Two Cities is a speech given by New York Governor Mario Cuomo on July 16, 1984, at the Democratic National Convention in San Francisco, California. The captured widespread attention and was viewed by nearly 80 million people on television. The speech boosted Cuomo's reputation and he became a national leader of the Democratic party.\n\n\n== Background ==\nMario Cuomo was elected Governor of New York on a Democratic Party ticket in 1982. In his inaugural address, he constructed Democratic values metaphorically as caring for a family. The speech was well received by members of both the Democratic and Republican parties, and displayed Cuomo's skill as an orator. Throughout his first year as Governor, Cuomo supported numerous liberal policies even as conservatism was growing in popularity, garnering him national attention. A presidential election was scheduled to take place in the United States in November 1984. President Ronald Reagan was a popu",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'A Tale of Two Cities'?",
+      "response": "=== A Tale of Two Cities (speech) ===\nA Tale of Two Cities is a speech given by New York Governor Mario Cuomo on July 16, 1984, at the Democratic National Convention in San Francisco, California. The captured widespread ...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'A Tale of Two Cities'?",
+      "response": "=== A Tale of Two Cities (speech) ===\nA Tale of Two Cities is a speech given by New York Governor Mario Cuomo on July 16, 1984, at the Democratic National Convention in San Francisco, California. The captured widespread ...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'A Tale of Two Cities'?'?",
+      "answer": "=== A Tale of Two Cities (speech) ===\nA Tale of Two Cities is a speech given by New York Governor Mario Cuomo on July 16, 1984, at the Democratic National Convention in San...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

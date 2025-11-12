@@ -1,0 +1,28 @@
+{
+  "task_number": 12,
+  "task_name": "literature",
+  "instruction": "Who is the author of 'Les Misérables'?",
+  "retrieved_data": "=== Les Misérables (musical) ===\nLes Misérables ( lay MIZ-ə-RAHB(-əl), -⁠RAH-blə, French: [le mizeʁabl]), colloquially known as Les Mis or Les Miz ( lay MIZ), is a sung-through musical with music by Claude-Michel Schönberg, lyrics by Alain Boublil and Jean-Marc Natel, and a book by Boublil and Schönberg, based on the 1862 novel of the same name by Victor Hugo. Set in early 19th-century France, Les Misérables is the story of Jean Valjean, a French convict, and his desire for redemption. After stealing a loaf of bread for his sister's starving child, Valjean is imprisoned for 19 years and released in 1815. When a bishop inspires him with a tremendous act of mercy, Valjean breaks his parole. He starts his life anew and in disguise. He becomes wealthy and adopts an orphan, Cosette. A police inspector named Javert pursues Valjean over the decades in a single-minded quest for \"justice\". The characters are swept into a revolutionary period in France, where a group of young idealists attempts ",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who is the author of 'Les Misérables'?",
+      "response": "=== Les Misérables (musical) ===\nLes Misérables ( lay MIZ-ə-RAHB(-əl), -⁠RAH-blə, French: [le mizeʁabl]), colloquially known as Les Mis or Les Miz ( lay MIZ), is a sung-through musical with music by Claude-Michel Schönbe...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who is the author of 'Les Misérables'?",
+      "response": "=== Les Misérables (musical) ===\nLes Misérables ( lay MIZ-ə-RAHB(-əl), -⁠RAH-blə, French: [le mizeʁabl]), colloquially known as Les Mis or Les Miz ( lay MIZ), is a sung-through musical with music by Claude-Michel Schönbe...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who is the author of 'Les Misérables'?'?",
+      "answer": "=== Les Misérables (musical) ===\nLes Misérables ( lay MIZ-ə-RAHB(-əl), -⁠RAH-blə, French: [le mizeʁabl]), colloquially known as Les Mis or Les Miz ( lay MIZ), is a sung-through...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

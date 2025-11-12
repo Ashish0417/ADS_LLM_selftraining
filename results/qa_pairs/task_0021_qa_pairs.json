@@ -1,0 +1,28 @@
+{
+  "task_number": 21,
+  "task_name": "literature",
+  "instruction": "Who wrote 'The Picture of Dorian Gray'?",
+  "retrieved_data": "=== The Picture of Dorian Gray ===\nThe Picture of Dorian Gray is an 1890 philosophical fiction and Gothic horror novel by Irish writer Oscar Wilde. A shorter novella-length version was published in the July 1890 issue of the American periodical Lippincott's Monthly Magazine, while the novel-length version was published in April 1891. Wilde's only novel, it is widely regarded as a classic of both Gothic and English literature, having been adapted many times for films, stage, plays, and other forms of art performances, in addition to inspiring the Dorian Awards since 2009.\nThe work was originally commissioned by J. M. Stoddart, the managing editor of Lippincott's Monthly Magazine, as a novella in 1889, but after facing public backlash for its perceived immorality, Wilde revised the story. He added a new preface which outlined his aesthetic philosophy and also expanded the initial narrative with six additional chapters. It was this expanded version which eventually became the novel. Criti",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'The Picture of Dorian Gray'?",
+      "response": "=== The Picture of Dorian Gray ===\nThe Picture of Dorian Gray is an 1890 philosophical fiction and Gothic horror novel by Irish writer Oscar Wilde. A shorter novella-length version was published in the July 1890 issue of...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'The Picture of Dorian Gray'?",
+      "response": "=== The Picture of Dorian Gray ===\nThe Picture of Dorian Gray is an 1890 philosophical fiction and Gothic horror novel by Irish writer Oscar Wilde. A shorter novella-length version was published in the July 1890 issue of...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the capital of The?",
+      "answer": "Dorian",
+      "source": "extractive",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

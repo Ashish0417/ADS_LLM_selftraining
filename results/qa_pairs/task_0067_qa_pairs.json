@@ -1,0 +1,28 @@
+{
+  "task_number": 67,
+  "task_name": "geography",
+  "instruction": "Which African desert covers much of northern Africa?",
+  "retrieved_data": "=== African humid period ===\nThe African humid period (AHP; also known by other names) was a climate period in Africa during the late Pleistocene and Holocene geologic epochs, when northern Africa was wetter than today. The covering of much of the Sahara desert by grasses, trees and lakes was caused by changes in the Earth's axial tilt, changes in vegetation and dust in the Sahara which strengthened the African monsoon, and increased greenhouse gases.\nDuring the preceding Last Glacial Maximum, the Sahara contained extensive dune fields and was mostly uninhabited. It was much larger than today, and its lakes and rivers such as Lake Victoria and the White Nile were either dry or at low levels. The humid period began about 14,600–14,500 years ago at the end of Heinrich event 1, simultaneously to the Bølling–Allerød warming. Rivers and lakes such as Lake Chad formed or expanded, glaciers grew on Mount Kilimanjaro and the Sahara retreated. Two major dry fluctuations occurred; during the You",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which African desert covers much of northern Africa?",
+      "response": "=== African humid period ===\nThe African humid period (AHP; also known by other names) was a climate period in Africa during the late Pleistocene and Holocene geologic epochs, when northern Africa was wetter than today. ...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which African desert covers much of northern Africa?",
+      "response": "=== African humid period ===\nThe African humid period (AHP; also known by other names) was a climate period in Africa during the late Pleistocene and Holocene geologic epochs, when northern Africa was wetter than today. ...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which African desert covers much of northern Africa?'?",
+      "answer": "=== African humid period ===\nThe African humid period (AHP; also known by other names) was a climate period in Africa during the late Pleistocene and Holocene geologic epochs,...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

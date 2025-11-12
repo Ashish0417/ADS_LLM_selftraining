@@ -1,0 +1,28 @@
+{
+  "task_number": 30,
+  "task_name": "literature",
+  "instruction": "Who wrote 'The Sun Also Rises'?",
+  "retrieved_data": "=== The Sun Also Rises ===\nThe Sun Also Rises is the first novel by the American writer Ernest Hemingway, following his experimental novel-in-fragments In Our Time (1925). It portrays American and British expatriates who travel from Paris to the Festival of San Fermín in Pamplona and watch the running of the bulls and the bullfights. An early modernist novel, it received mixed reviews upon publication. Hemingway biographer Jeffrey Meyers writes that it is now \"recognized as Hemingway's greatest work\", and Hemingway scholar Linda Wagner-Martin calls it his most important novel.  The novel was published in the United States in October 1926, by Scribner's. A year later, Jonathan Cape published the novel in London under the title Fiesta. It remains in print.\nThe novel is a roman à clef: the characters are based on people in Hemingway's circle and the action is based on events, particularly Hemingway's life in Paris in the 1920s and a trip to Spain in 1925 for the Pamplona festival and fish",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'The Sun Also Rises'?",
+      "response": "=== The Sun Also Rises ===\nThe Sun Also Rises is the first novel by the American writer Ernest Hemingway, following his experimental novel-in-fragments In Our Time (1925). It portrays American and British expatriates who...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'The Sun Also Rises'?",
+      "response": "=== The Sun Also Rises ===\nThe Sun Also Rises is the first novel by the American writer Ernest Hemingway, following his experimental novel-in-fragments In Our Time (1925). It portrays American and British expatriates who...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'The Sun Also Rises'?'?",
+      "answer": "=== The Sun Also Rises ===\nThe Sun Also Rises is the first novel by the American writer Ernest Hemingway, following his experimental novel-in-fragments In Our Time (1925). It...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

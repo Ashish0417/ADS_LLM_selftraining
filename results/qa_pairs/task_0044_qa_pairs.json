@@ -1,0 +1,28 @@
+{
+  "task_number": 44,
+  "task_name": "geography",
+  "instruction": "Which river flows through Egypt?",
+  "retrieved_data": "=== Wildlife of Egypt ===\nThe wildlife of Egypt is composed of the flora and fauna of this country in North Africa and West Asia, and is substantial and varied. Apart from the fertile Nile Valley, which bisects the country from south to north, the majority of Egypt's landscape is desert, with a few scattered oases. It has long coastlines on the Mediterranean Sea, the Gulf of Suez, the Gulf of Aqaba and the Red Sea. Each geographic region has a diversity of plants and animals each adapted to its own particular habitat.\n\n\n== Geography ==\n\nEgypt is bordered by the Mediterranean Sea to the north, Libya to the west and Sudan to the south. To the east lies the Red Sea, and the Sinai Peninsula, the Asian part of the country, which is bordered by the Gaza Strip and Israel. Egypt is a transcontinental nation, providing a land bridge between Africa and Asia. This is traversed by the Suez Canal which connects the Mediterranean Sea with the Indian Ocean by way of the Red Sea. This results in the f",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which river flows through Egypt?",
+      "response": "=== Wildlife of Egypt ===\nThe wildlife of Egypt is composed of the flora and fauna of this country in North Africa and West Asia, and is substantial and varied. Apart from the fertile Nile Valley, which bisects the count...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which river flows through Egypt?",
+      "response": "=== Wildlife of Egypt ===\nThe wildlife of Egypt is composed of the flora and fauna of this country in North Africa and West Asia, and is substantial and varied. Apart from the fertile Nile Valley, which bisects the count...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which river flows through Egypt?'?",
+      "answer": "=== Wildlife of Egypt ===\nThe wildlife of Egypt is composed of the flora and fauna of this country in North Africa and West Asia, and is substantial and varied. Apart from the...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

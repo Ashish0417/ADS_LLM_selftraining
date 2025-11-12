@@ -1,0 +1,28 @@
+{
+  "task_number": 75,
+  "task_name": "geography",
+  "instruction": "What is the capital of Spain?",
+  "retrieved_data": "=== Capital punishment in Spain ===\nThe 1978 Spanish Constitution bans capital punishment in Spain, except for wartime offences. Spain completely abolished capital punishment for all offenses, including in times of war, in October 1995.\nThe last executions were carried out on 27 September 1975 when five members of ETA and Revolutionary Antifascist Patriotic Front (FRAP) were executed by firing squad for murder following a much-publicised trial in which a number of the convicted (including a pregnant woman) were given clemency by General Francisco Franco, and the sentences of the remaining five, due to the unavailability of executioners versed in the use of the garrote, were carried out by shooting. Strangulation by garotte had been portrayed as a draconian act by the public after its last use in 1974, when Salvador Puig Antich was executed in Barcelona and Heinz Chez in Tarragona.\n\n\n== History ==\nCapital punishment was common in the Spanish kingdom, and methods used included decapitati",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the capital of Spain?",
+      "response": "=== Capital punishment in Spain ===\nThe 1978 Spanish Constitution bans capital punishment in Spain, except for wartime offences. Spain completely abolished capital punishment for all offenses, including in times of war, ...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the capital of Spain?",
+      "response": "=== Capital punishment in Spain ===\nThe 1978 Spanish Constitution bans capital punishment in Spain, except for wartime offences. Spain completely abolished capital punishment for all offenses, including in times of war, ...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the capital of Capital?",
+      "answer": "Companys",
+      "source": "extractive",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

@@ -1,0 +1,28 @@
+{
+  "task_number": 17,
+  "task_name": "literature",
+  "instruction": "Who is the author of 'Brave New World'?",
+  "retrieved_data": "=== Brave New World (role-playing game) ===\nBrave New World is a role-playing game originally released by Pinnacle Entertainment Group in 1999. The game was sold to Alderac Entertainment Group in 2000. The game is an alternate history superhero game set in a neo-fascist United States living in a perpetual state of martial law since 1963. Inspired by the Kingdom Come and Batman: The Dark Knight Returns comic storylines, X-Men, Nineteen Eighty-Four, and the political and social upheavals of the 1990s, the game depicts renegade superheroes fighting a corrupt and evil government.\nThe game debuted at the 1999 Gen Con Game Fair in Milwaukee.\n\n\n== Development ==\nMatt Forbeck left Pinnacle Entertainment Group to move to Alderac Entertainment Group just before the two companies ended their relationship, and sold his Brave New World role-playing game to AEG.\n\n\n== Alternate history ==\n\n\n=== Deltas ===\nWhile the history of the Brave New World setting actually diverged from real history in antiquit",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who is the author of 'Brave New World'?",
+      "response": "=== Brave New World (role-playing game) ===\nBrave New World is a role-playing game originally released by Pinnacle Entertainment Group in 1999. The game was sold to Alderac Entertainment Group in 2000. The game is an alt...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who is the author of 'Brave New World'?",
+      "response": "=== Brave New World (role-playing game) ===\nBrave New World is a role-playing game originally released by Pinnacle Entertainment Group in 1999. The game was sold to Alderac Entertainment Group in 2000. The game is an alt...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who is the author of 'Brave New World'?'?",
+      "answer": "=== Brave New World (role-playing game) ===\nBrave New World is a role-playing game originally released by Pinnacle Entertainment Group in 1999. The game was sold to Alderac...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

@@ -1,0 +1,28 @@
+{
+  "task_number": 24,
+  "task_name": "literature",
+  "instruction": "Who wrote 'The Old Man and the Sea'?",
+  "retrieved_data": "=== The Old Man and the Old Moon ===\nThe Old Man and the Old Moon is an American \"play with music\" written by PigPen Theatre Company. The play follows the Old Man, who is in charge of filling the Moon with light. After his wife is drawn away by a mysterious melody, he goes out on a sea faring adventure looking for her. The play first premiered Off-Broadway in 2012 and a revised version in 2014 at the New Victory Theater.\n\n\n== Plot ==\nThe company of storytellers perform \"Song from the Stone\" to greet the audience. Matheson, the play's narrator, offers to the audience the tale of why the Moon changes shape: there once was an Old Man whose job it was to fill the moon with liquid light. He lived a peaceful life with his wife, but they had lived so long they forgot why they needed to fill the moon, and even how they met. One day, the Old Woman hears a mysterious melody she associates with their past, and runs away to find its source. The Old Man elects to follow her (\"The Rain Will Fall\"). ",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'The Old Man and the Sea'?",
+      "response": "=== The Old Man and the Old Moon ===\nThe Old Man and the Old Moon is an American \"play with music\" written by PigPen Theatre Company. The play follows the Old Man, who is in charge of filling the Moon with light. After h...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'The Old Man and the Sea'?",
+      "response": "=== The Old Man and the Old Moon ===\nThe Old Man and the Old Moon is an American \"play with music\" written by PigPen Theatre Company. The play follows the Old Man, who is in charge of filling the Moon with light. After h...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'The Old Man and the Sea'?'?",
+      "answer": "=== The Old Man and the Old Moon ===\nThe Old Man and the Old Moon is an American \"play with music\" written by PigPen Theatre Company. The play follows the Old Man, who is in...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

@@ -1,0 +1,28 @@
+{
+  "task_number": 8,
+  "task_name": "literature",
+  "instruction": "Who is the author of 'The Hobbit'?",
+  "retrieved_data": "=== The Hobbit ===\nThe Hobbit, or There and Back Again is a children's fantasy novel by the English author J. R. R. Tolkien. It was published in 1937 to wide critical acclaim, being nominated for the Carnegie Medal and awarded a prize from the New York Herald Tribune for best juvenile fiction. It is recognized as a classic in children's literature and is one of the best-selling books of all time, with over 100 million copies sold.\nThe Hobbit is set in Middle-earth and follows home-loving Bilbo Baggins, the titular hobbit who joins the wizard Gandalf and the thirteen dwarves of Thorin's Company on a quest to reclaim the dwarves' home and treasure from the dragon Smaug. Bilbo's journey takes him from his peaceful rural surroundings into more sinister territory.\nThe story is told in the form of a picaresque or episodic quest; several chapters introduce a new type of monster or threat as Bilbo progresses through the landscape. Bilbo gains a new level of maturity, competence, and wisdom by ",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who is the author of 'The Hobbit'?",
+      "response": "=== The Hobbit ===\nThe Hobbit, or There and Back Again is a children's fantasy novel by the English author J. R. R. Tolkien. It was published in 1937 to wide critical acclaim, being nominated for the Carnegie Medal and a...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who is the author of 'The Hobbit'?",
+      "response": "=== The Hobbit ===\nThe Hobbit, or There and Back Again is a children's fantasy novel by the English author J. R. R. Tolkien. It was published in 1937 to wide critical acclaim, being nominated for the Carnegie Medal and a...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who is the author of 'The Hobbit'?'?",
+      "answer": "=== The Hobbit ===\nThe Hobbit, or There and Back Again is a children's fantasy novel by the English author J. R. R. Tolkien. It was published in 1937 to wide critical acclaim,...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

@@ -1,0 +1,28 @@
+{
+  "task_number": 54,
+  "task_name": "geography",
+  "instruction": "Which is the largest island in the world?",
+  "retrieved_data": "=== Severny Island ===\nSeverny Island (Russian: Се́верный о́стров, romanized: Severnyy ostrov, lit. 'Northern Island') is a Russian Arctic island. It is the northern island of the Novaya Zemlya archipelago.\nIt was historically called Lütke Land after Friedrich Benjamin von Lütke, who explored it. It lies approximately 400 km north of the Russian mainland. It has an area of 48,904 square kilometres (18,882 sq mi), making it the 30th-largest island in the world and the 3rd-largest uninhabited island in the world, although there was formerly a settlement at Lagerni on the northern shore of the narrow Matochkin Strait. It is part of the Russian Arctic National Park (along with Franz Josef Land which lies to the north).\n\n\n== Geography ==\nSeverny Island is separated from Yuzhny Island (Southern) by the narrow Matochkin Strait. Forty percent of the island is covered by the Severny Island ice cap, which is the largest glacier by area and by volume in Europe (if counted as part of it). Severny ",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which is the largest island in the world?",
+      "response": "=== Severny Island ===\nSeverny Island (Russian: Се́верный о́стров, romanized: Severnyy ostrov, lit. 'Northern Island') is a Russian Arctic island. It is the northern island of the Novaya Zemlya archipelago.\nIt was histor...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which is the largest island in the world?",
+      "response": "=== Severny Island ===\nSeverny Island (Russian: Се́верный о́стров, romanized: Severnyy ostrov, lit. 'Northern Island') is a Russian Arctic island. It is the northern island of the Novaya Zemlya archipelago.\nIt was histor...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which is the largest island in the world?'?",
+      "answer": "=== Severny Island ===\nSeverny Island (Russian: Се́верный о́стров, romanized: Severnyy ostrov, lit. 'Northern Island') is a Russian Arctic island. It is the northern island of the...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

@@ -1,0 +1,28 @@
+{
+  "task_number": 55,
+  "task_name": "geography",
+  "instruction": "What is the currency of the United Kingdom?",
+  "retrieved_data": "=== Potential re-accession of the United Kingdom to the European Union ===\nFollowing a 2016 referendum, the United Kingdom exited from the European Union at the end of January 2020. Since leaving the EU, numerous polling organisations have conducted surveys to gauge public opinion on rejoining the organisation. The trend of the poll data shows that, over time, support for Brexit has waned, while public opinion in the UK has gradually moved in favour of rejoining the EU (totally or partially, such as joining the European single market). \n\n\n== History ==\nA referendum on the United Kingdom's membership of the European Union took place in 2016, following the European Union Referendum Act being approved by parliament the previous year. Most political parties, including Labour and the Liberal Democrats, supported remaining in the European Union while the governing Conservative Party remained neutral, with the prime minister, David Cameron, supporting the UK remaining in the European Union. A",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the currency of the United Kingdom?",
+      "response": "=== Potential re-accession of the United Kingdom to the European Union ===\nFollowing a 2016 referendum, the United Kingdom exited from the European Union at the end of January 2020. Since leaving the EU, numerous polling...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the currency of the United Kingdom?",
+      "response": "=== Potential re-accession of the United Kingdom to the European Union ===\nFollowing a 2016 referendum, the United Kingdom exited from the European Union at the end of January 2020. Since leaving the EU, numerous polling...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What is the currency of the United Kingdom?'?",
+      "answer": "=== Potential re-accession of the United Kingdom to the European Union ===\nFollowing a 2016 referendum, the United Kingdom exited from the European Union at the end of January...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

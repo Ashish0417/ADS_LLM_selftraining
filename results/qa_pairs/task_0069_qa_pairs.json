@@ -1,0 +1,28 @@
+{
+  "task_number": 69,
+  "task_name": "geography",
+  "instruction": "Which island nation is located southeast of India?",
+  "retrieved_data": "=== Nicobar Islands ===\nThe Nicobar Islands  are an archipelagic island chain in the eastern Indian Ocean. They are located in Southeast Asia, 150 kilometres (93 mi) northwest of Aceh on Sumatra, and separated from Thailand to the east by the Andaman Sea. Located 1,300 kilometres (810 mi) southeast of the Indian subcontinent, across the Bay of Bengal, they are part of India, as the Nicobar district within the union territory of the Andaman and Nicobar Islands. Together with the Andaman Islands to their north, the Nicobar Islands serve as a maritime boundary between the Bay of Bengal to the west and the Andaman Sea to the east.\nIn 2013, UNESCO added the Great Nicobar Island to its World Network of Biosphere Reserves, a list of internationally designated protected areas.\n\n\n== Geography ==\nThe Nicobar Islands cover a land area of 1,841 square kilometres (711 sq mi) and a population of 36,844 inhabitants, according to the 2011 census of India. They comprise three distinct groups:\nNorthern ",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which island nation is located southeast of India?",
+      "response": "=== Nicobar Islands ===\nThe Nicobar Islands  are an archipelagic island chain in the eastern Indian Ocean. They are located in Southeast Asia, 150 kilometres (93 mi) northwest of Aceh on Sumatra, and separated from Thail...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which island nation is located southeast of India?",
+      "response": "=== Nicobar Islands ===\nThe Nicobar Islands  are an archipelagic island chain in the eastern Indian Ocean. They are located in Southeast Asia, 150 kilometres (93 mi) northwest of Aceh on Sumatra, and separated from Thail...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Which island nation is located southeast of India?'?",
+      "answer": "=== Nicobar Islands ===\nThe Nicobar Islands  are an archipelagic island chain in the eastern Indian Ocean. They are located in Southeast Asia, 150 kilometres (93 mi) northwest of...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

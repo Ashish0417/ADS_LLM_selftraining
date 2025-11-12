@@ -1,0 +1,28 @@
+{
+  "task_number": 34,
+  "task_name": "literature",
+  "instruction": "Who wrote 'The Metamorphosis'?",
+  "retrieved_data": "=== The Metamorphosis ===\nThe Metamorphosis (German: Die Verwandlung), also translated as The Transformation, is a novella by Franz Kafka published in 1915. One of Kafka's best-known works, The Metamorphosis tells the story of salesman Gregor Samsa, who wakes to find himself inexplicably transformed into a huge insect (German: ungeheueres Ungeziefer, lit. \"monstrous vermin\") and struggles to adjust to this condition, as does his family. The novella has been widely discussed among literary critics, who have offered varied interpretations. In popular culture and adaptations of the novella, the insect is commonly depicted as a cockroach.\nAbout 70 printed pages, it is the longest of the stories Kafka considered complete and published during his lifetime. It was first published in 1915 in the October issue of the journal Die weißen Blätter under the editorship of René Schickele. The first edition in book form appeared in December 1915 in the series Der jüngste Tag, edited by Kurt Wolff.\n\n\n=",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'The Metamorphosis'?",
+      "response": "=== The Metamorphosis ===\nThe Metamorphosis (German: Die Verwandlung), also translated as The Transformation, is a novella by Franz Kafka published in 1915. One of Kafka's best-known works, The Metamorphosis tells the st...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'The Metamorphosis'?",
+      "response": "=== The Metamorphosis ===\nThe Metamorphosis (German: Die Verwandlung), also translated as The Transformation, is a novella by Franz Kafka published in 1915. One of Kafka's best-known works, The Metamorphosis tells the st...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'The Metamorphosis'?'?",
+      "answer": "=== The Metamorphosis ===\nThe Metamorphosis (German: Die Verwandlung), also translated as The Transformation, is a novella by Franz Kafka published in 1915. One of Kafka's...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

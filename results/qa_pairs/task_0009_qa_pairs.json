@@ -1,0 +1,28 @@
+{
+  "task_number": 9,
+  "task_name": "literature",
+  "instruction": "Who wrote 'To Kill a Mockingbird'?",
+  "retrieved_data": "=== To Kill a Mockingbird (2018 play) ===\nTo Kill a Mockingbird is a 2018 play based on the 1960 novel of the same name by Harper Lee, adapted for the stage by Aaron Sorkin. It opened on Broadway at the Shubert Theatre on December 13, 2018. The play opened in London's West End at the Gielgud Theatre in March 2022. The show follows the story of Atticus Finch, a lawyer in 1930s Alabama, as he defends Tom Robinson, a black man falsely accused of rape. Varying from the book, the play has Atticus as the protagonist, not his daughter Scout, allowing his character to change throughout the show. During development the show was involved in two legal disputes, the first with the Lee estate over the faithfulness of the play to the original book, and the second was due to exclusivity to the rights with productions using an earlier script by Christopher Sergel. During opening week, the production garnered more than $1.5 million in box office sales and reviews by publications such as the New York Ti",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'To Kill a Mockingbird'?",
+      "response": "=== To Kill a Mockingbird (2018 play) ===\nTo Kill a Mockingbird is a 2018 play based on the 1960 novel of the same name by Harper Lee, adapted for the stage by Aaron Sorkin. It opened on Broadway at the Shubert Theatre o...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'To Kill a Mockingbird'?",
+      "response": "=== To Kill a Mockingbird (2018 play) ===\nTo Kill a Mockingbird is a 2018 play based on the 1960 novel of the same name by Harper Lee, adapted for the stage by Aaron Sorkin. It opened on Broadway at the Shubert Theatre o...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'To Kill a Mockingbird'?'?",
+      "answer": "=== To Kill a Mockingbird (2018 play) ===\nTo Kill a Mockingbird is a 2018 play based on the 1960 novel of the same name by Harper Lee, adapted for the stage by Aaron Sorkin. It...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

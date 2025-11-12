@@ -1,0 +1,28 @@
+{
+  "task_number": 10,
+  "task_name": "literature",
+  "instruction": "Who wrote 'The Divine Comedy'?",
+  "retrieved_data": "=== The Divine Comedy (band) ===\nThe Divine Comedy are a pop band from Northern Ireland, formed in 1989 and fronted by Neil Hannon. Hannon has been the only constant member of the group, playing, in some instances, all of the non-orchestral instrumentation except drums. The band has released 13 studio albums. Between 1996 and 1999, nine singles released by the band made the top 40 of the UK Singles Chart, including the 1999 top ten hit \"National Express\".\n\n\n== History ==\n\n\n=== The beginning and early success (Fanfare to Promenade) ===\nThe Divine Comedy were founded in 1989, by Neil Hannon who had been the only member of the band until he was joined by John McCullagh and Kevin Traynor. Their first album, Fanfare for the Comic Muse, enjoyed a minor success and was later deleted. A couple of equally unsuccessful EPs – Timewatch (1991) and Europop (1992) – followed, with newly recruited member John Allen handling lead vocals on some tracks. After the commercial failure of the Europop EP, t",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Who wrote 'The Divine Comedy'?",
+      "response": "=== The Divine Comedy (band) ===\nThe Divine Comedy are a pop band from Northern Ireland, formed in 1989 and fronted by Neil Hannon. Hannon has been the only constant member of the group, playing, in some instances, all o...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Who wrote 'The Divine Comedy'?",
+      "response": "=== The Divine Comedy (band) ===\nThe Divine Comedy are a pop band from Northern Ireland, formed in 1989 and fronted by Neil Hannon. Hannon has been the only constant member of the group, playing, in some instances, all o...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'Who wrote 'The Divine Comedy'?'?",
+      "answer": "=== The Divine Comedy (band) ===\nThe Divine Comedy are a pop band from Northern Ireland, formed in 1989 and fronted by Neil Hannon. Hannon has been the only constant member of the...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

@@ -1,0 +1,28 @@
+{
+  "task_number": 42,
+  "task_name": "geography",
+  "instruction": "What is the capital of Japan?",
+  "retrieved_data": "=== Capital punishment in Japan ===\nCapital punishment is a legal penalty in Japan. The Penal Code of Japan and several laws list 14 capital crimes. In practice, though, it is applied only for aggravated murder. Executions are carried out by long drop hanging, and take place at one of the seven execution chambers located in major cities across the country. The only crime punishable by a mandatory death sentence is instigation of foreign aggression.\nDeath sentences are usually passed in cases of multiple murders, although there have been some extremely grave cases where individuals who committed a single murder have been sentenced to death and executed, such as those involving torture, extreme brutality or kidnapping with a demand for ransom.\nBetween January 2000 and July 2022, 98 inmates have been executed in Japan. As of 28 June 2025, 105 death row inmates were awaiting execution. The most recent execution was that of Takahiro Shiraishi on 27 June 2025. Japan is one of four developed ",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the capital of Japan?",
+      "response": "=== Capital punishment in Japan ===\nCapital punishment is a legal penalty in Japan. The Penal Code of Japan and several laws list 14 capital crimes. In practice, though, it is applied only for aggravated murder. Executio...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the capital of Japan?",
+      "response": "=== Capital punishment in Japan ===\nCapital punishment is a legal penalty in Japan. The Penal Code of Japan and several laws list 14 capital crimes. In practice, though, it is applied only for aggravated murder. Executio...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What is the capital of Capital?",
+      "answer": "legal",
+      "source": "extractive",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

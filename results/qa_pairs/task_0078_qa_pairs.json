@@ -1,0 +1,28 @@
+{
+  "task_number": 78,
+  "task_name": "astronomy",
+  "instruction": "Which planet is known for its prominent rings?",
+  "retrieved_data": "=== Mercury (planet) ===\nMercury is the first planet from the Sun and the smallest in the Solar System. It is a rocky planet with a trace atmosphere and a surface gravity slightly higher than that of Mars. The surface of Mercury is similar to Earth's Moon, being heavily cratered, with an expansive rupes system generated from thrust faults, and bright ray systems, formed by ejecta. Its largest crater, Caloris Planitia, has a diameter of 1,550 km (960 mi), which is about one-third the diameter of the planet (4,880 km or 3,030 mi). \nBeing the most inferior orbiting planet, it always appears close to the sun in Earth's sky, either as a \"morning star\" or an \"evening star\". It is the planet with the highest delta-v required for travel from Earth, as well as to and from the other planets in the Solar System.\nMercury's sidereal year (88.0 Earth days) and sidereal day (58.65 Earth days) are in a 3:2 ratio, in a spin–orbit resonance. Consequently, one solar day (sunrise to sunrise) on Mercury la",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: Which planet is known for its prominent rings?",
+      "response": "=== Mercury (planet) ===\nMercury is the first planet from the Sun and the smallest in the Solar System. It is a rocky planet with a trace atmosphere and a surface gravity slightly higher than that of Mars. The surface of...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: Which planet is known for its prominent rings?",
+      "response": "=== Mercury (planet) ===\nMercury is the first planet from the Sun and the smallest in the Solar System. It is a rocky planet with a trace atmosphere and a surface gravity slightly higher than that of Mars. The surface of...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "answer": "Mars",
+      "source": "extractive",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

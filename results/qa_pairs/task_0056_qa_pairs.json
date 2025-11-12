@@ -1,0 +1,28 @@
+{
+  "task_number": 56,
+  "task_name": "geography",
+  "instruction": "What is the official language of Brazil?",
+  "retrieved_data": "=== Languages of Brazil ===\nPortuguese is the official and national language of Brazil, being widely spoken by nearly all of its population. Brazil is the most populous Portuguese-speaking country in the world, with its lands comprising the majority of Portugal's former colonial holdings in the Americas.\nAside from Portuguese, the country also has numerous minority languages, including over 200 different indigenous languages, such as Nheengatu (a descendant of Tupi), and languages of more recent European and Asian immigrants, such as Italian, German and Japanese. In some municipalities, those minor languages have official status: Nheengatu, for example, is an official language in São Gabriel da Cachoeira, while a number of German dialects are official in nine southern municipalities.\nHunsrik (also known as Riograndenser Hunsrückisch) is a Germanic language also spoken in Argentina, Paraguay and Venezuela, which derived from the Hunsrückisch dialect. Hunsrik has official status in Antôn",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the official language of Brazil?",
+      "response": "=== Languages of Brazil ===\nPortuguese is the official and national language of Brazil, being widely spoken by nearly all of its population. Brazil is the most populous Portuguese-speaking country in the world, with its ...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the official language of Brazil?",
+      "response": "=== Languages of Brazil ===\nPortuguese is the official and national language of Brazil, being widely spoken by nearly all of its population. Brazil is the most populous Portuguese-speaking country in the world, with its ...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What is the official language of Brazil?'?",
+      "answer": "=== Languages of Brazil ===\nPortuguese is the official and national language of Brazil, being widely spoken by nearly all of its population. Brazil is the most populous...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}

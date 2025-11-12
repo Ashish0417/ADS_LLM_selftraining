@@ -1,0 +1,28 @@
+{
+  "task_number": 77,
+  "task_name": "astronomy",
+  "instruction": "What is the closest star to Earth?",
+  "retrieved_data": "=== Super-Earth ===\nA super-Earth is a type of exoplanet with a mass higher than Earth's, but substantially below those of the Solar System's ice giants, Uranus and Neptune, which are 14.5 and 17.1 times Earth's, respectively. The term \"super-Earth\" refers only to the mass of the planet, and so does not imply anything about the surface conditions or habitability. The alternative term \"gas dwarfs\" may be more accurate for those at the higher end of the mass scale, although \"mini-Neptunes\" is a more common term.\n\n\n== Definition ==\n\nIn general, super-Earths are defined by their masses. The term does not imply temperatures, compositions, orbital properties, habitability, or environments. While sources generally agree on an upper bound of 10 Earth masses (~69% of the mass of Uranus, which is the Solar System's giant planet with the least mass), the lower bound varies from 1 or 1.9 to 5, with various other definitions appearing in the popular media. The term \"super-Earth\" is also used by ast",
+  "demonstrations": [
+    {
+      "instruction": "Explain key point 1 of: What is the closest star to Earth?",
+      "response": "=== Super-Earth ===\nA super-Earth is a type of exoplanet with a mass higher than Earth's, but substantially below those of the Solar System's ice giants, Uranus and Neptune, which are 14.5 and 17.1 times Earth's, respect...",
+      "type": "demonstration"
+    },
+    {
+      "instruction": "Explain key point 2 of: What is the closest star to Earth?",
+      "response": "=== Super-Earth ===\nA super-Earth is a type of exoplanet with a mass higher than Earth's, but substantially below those of the Solar System's ice giants, Uranus and Neptune, which are 14.5 and 17.1 times Earth's, respect...",
+      "type": "demonstration"
+    }
+  ],
+  "qa_pairs": [
+    {
+      "question": "What key fact is stated in the context about 'What is the closest star to Earth?'?",
+      "answer": "=== Super-Earth ===\nA super-Earth is a type of exoplanet with a mass higher than Earth's, but substantially below those of the Solar System's ice giants, Uranus and Neptune, which...",
+      "source": "fallback",
+      "valid": true
+    }
+  ],
+  "num_demonstrations": 2,
+  "num_qa_pairs": 1
+}
